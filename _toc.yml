@@ -35,7 +35,7 @@ parts:
     - file: part6/key elements of a map
     - file: part6/makin gthe
     - file: part6/general requirements
-  - caption: Identifying requirements
+  - caption: Collaboration
     chapters:
     - file: part7/context
     - file: part7/stakeholders
