@@ -1,9 +1,42 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+format: jb-book
+parts:
+  - caption: Identifying requirements
+    chapters:
+    - file: part1/context
+    - file: part1/stakeholders
+    - file: part1/general requirements
+  - caption: Choosing an approach
+    chapters:
+    - file: part2/conflict sensitivity and protection concerns
+    - file: part2/regulatory environment
+    - file: part2/community acceptance
+    - file: part2/data security and responsibility
+    - file: part2/agency requirements
+    - file: part2/requirements
+  - caption: Using existing imagery
+    chapters:
+    - file: part3/remote sensing overview
+    - file: part3/imagery sources
+    - file: part3/requesting imagery
+  - caption: Using UAVs
+    chapters:
+    - file: part4/pre-flight
+    - file: part4/flight
+    - file: part4/post-flight processing
+  - caption: Tracing and labeling infrastructure
+    chapters:
+    - file: part5/manual tracing
+    - file: part5/automated tracing
+  - caption: Composing maps
+    chapters:
+    - file: part6/key elements of a map
+    - file: part6/makin gthe
+    - file: part6/general requirements
+  - caption: Identifying requirements
+    chapters:
+    - file: part7/context
+    - file: part7/stakeholders
+    - file: part7/general requirements
