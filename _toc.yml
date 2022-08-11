@@ -40,3 +40,4 @@ parts:
     - file: part7/context
     - file: part7/stakeholders
     - file: part7/general requirements
+  file: glossary
