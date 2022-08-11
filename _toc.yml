@@ -25,3 +25,5 @@ parts:
   - file: acknowledgements
   - file: glossary
   - file: secondary-data  
+  html:
+    use_multitoc_numbering: true
