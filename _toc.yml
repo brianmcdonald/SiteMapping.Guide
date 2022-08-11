@@ -1,6 +1,6 @@
 # Table of contents
 
-root: intro
+root: introduction
 format: jb-book
 parts:
   - caption: Identifying requirements
