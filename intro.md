@@ -1,5 +1,5 @@
 # Introduction
-:::{warning} This guidance is in draft-stage, much of the content is missing and its structure may be subject to change. :::
+```{warning} This guidance is in draft-stage, much of the content is missing and its structure may be subject to change.```
 
 - Purpose
 - Who developed it - IOM with support from PRM
