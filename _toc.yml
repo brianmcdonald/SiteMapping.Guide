@@ -2,19 +2,18 @@
 
 root: introduction
 format: jb-book
+options:
+  numbered: true
 parts:
 - caption: Preparation
-  numbered: true
   chapters:
   - file: identify-requirements
   - file: deciding-an-approach
 - caption: Getting imagery
-  numbered: true
   chapters:
   - file: existing-imagery
   - file: UAV
 - caption: Developing maps
-  numbered: true
   chapters:
   - file: tracing
   - file: composing-maps
@@ -25,5 +24,3 @@ parts:
   - file: acknowledgements
   - file: glossary
   - file: secondary-data  
-  html:
-    use_multitoc_numbering: true
