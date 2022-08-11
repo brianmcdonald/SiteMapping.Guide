@@ -2,9 +2,6 @@
 
 root: introduction
 format: jb-book
-options:
-  numbered: true
-
 parts:
 - caption: Preparation
   numbered: true
