@@ -2,6 +2,13 @@
 
 root: introduction
 format: jb-book
+options:
+  numbered: true
 chapters:
 - file: identify-requirements
 - file: deciding-an-approach
+- file: existing-imagery
+- file: UAV
+- file: tracing
+- file: composing-maps
+- file: collaboration
