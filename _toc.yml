@@ -1,11 +1,10 @@
 # Table of contents
 
-root: introduction
+root: intro
 format: jb-book
-options:
-  numbered: true
 parts:
 - caption: Preparation
+  numbered: true
   chapters:
   - file: identify-requirements
   - file: deciding-an-approach
