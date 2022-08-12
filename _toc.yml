@@ -9,10 +9,12 @@ parts:
   - file: identify-requirements
   - file: deciding-an-approach
 - caption: Getting imagery
+  numbered: true
   chapters:
   - file: existing-imagery
   - file: UAV
 - caption: Developing maps
+  numbered: true
   chapters:
   - file: tracing
   - file: composing-maps
