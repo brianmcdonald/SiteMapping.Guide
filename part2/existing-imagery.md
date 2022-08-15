@@ -1,4 +1,6 @@
 # Existing imagery
-test
-
-# test header
+...
+## Introduction to satellite imagey
+- types
+- resolution
+- could cover
