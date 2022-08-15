@@ -15,7 +15,7 @@ Uses and challenges of drone use *Source: ICRC*
 Each of these approaches have pros and cons and it is important to evaluate each approach on the following criteria before deciding which approach to take in your context:
 
 ### Conflict and data sensitivity concerns
-....
+.... [^footnote1]
 ### Regulatory environment
 ...
 ### Data security/responsibility
@@ -25,5 +25,4 @@ Each of these approaches have pros and cons and it is important to evaluate each
 ### Other requirements
 ...
 
-
-
+[^footnote1]: [Chapter 7](https://www.icrc.org/en/data-protection-humanitarian-action-handbook) of ICRCs Handbook on data protection in humanitarian action examines the use of drones and remote sensing.
