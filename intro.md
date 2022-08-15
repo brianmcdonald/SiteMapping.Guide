@@ -10,6 +10,14 @@ Welcome to *SiteMapping.Guide*, an online guidance for the production of site ma
 - Scaling the availability of site maps, to bring their benefits to a wider number of site in responses as well as a wider number of countries.
 - Encouraging the creation of consistent site map products, in terms of visuals, quality and process that are affected population-centric and that adhere to data responsibility and safeguarding standards.
 
+```{figure} ./images/placeholder.png
+---
+width: 500px
+name: droneuses
+---
+Todo - add an illustration of a site map  *Source: N/A*
+```
+
 ## What is a Site Map?
 While no strict definition of a site map exist, this guidance considers site maps to be physical or electronic maps of IDP displacement sites that uses imagery (aerial or satellite), along with the tracing and labelling of infrastructure (current or planned) as a tool for planning, coordination and risk analysis.
 
