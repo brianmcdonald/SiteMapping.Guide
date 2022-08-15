@@ -5,17 +5,17 @@ format: jb-book
 parts:
 - caption: Preparation
   chapters:
-  - file: identify-requirements
-  - file: deciding-an-approach
+  - file: part1/identify-requirements
+  - file: part1/deciding-an-approach
 - caption: Getting imagery
   chapters:
-  - file: existing-imagery
-  - file: UAV
+  - file: part2/existing-imagery
+  - file: part2/UAV
 - caption: Developing maps
   chapters:
-  - file: tracing
-  - file: composing-maps
-  - file: collaboration
+  - file: part3/tracing
+  - file: part3/composing-maps
+  - file: part3/collaboration
 - caption: Annexes
   chapters:
   - file: acknowledgements

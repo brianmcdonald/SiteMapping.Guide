@@ -1,2 +1,0 @@
-# Deciding an approach
-
