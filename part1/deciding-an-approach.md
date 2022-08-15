@@ -23,6 +23,6 @@ Each of these approaches have pros and cons and it is important to evaluate each
 ## Organizational requirements
 ...
 ## Other requirements
-...
+... DEM, #D modelling
 
 [^footnote1]: [Chapter 7](https://www.icrc.org/en/data-protection-humanitarian-action-handbook) of ICRCs Handbook on data protection in humanitarian action examines the use of drones and remote sensing.
