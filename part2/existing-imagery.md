@@ -1,6 +1,6 @@
 # Existing imagery
 ...
-## Introduction to satellite imagey
+## Introduction to satellite imagery
 - types
 - resolution
-- could cover
+- cloud cover
