@@ -28,7 +28,7 @@ Drone captured images then need to be stitched together into one image or _ortho
 Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic. 
 
 ### Orthomosaics with WebODM
-To install WedODM manyally, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). 
+To install WedODM manually, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). 
 
 Create a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available 
 
