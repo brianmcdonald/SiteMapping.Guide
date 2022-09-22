@@ -6,7 +6,7 @@ parts:
 - caption: Preparation
   chapters:
   - file: part1/identify-requirements
-  - file: part1/deciding-an-approach
+  - file: part1/deciding-on-an-approach
 - caption: Getting imagery
   chapters:
   - file: part2/existing-imagery
