@@ -5,7 +5,8 @@
 width: 500px
 name: droneuses
 ---
-Uses and challenges of drone use <br><br> *Source: ICRC*```
+Uses and challenges of drone use <br><br> *Source: ICRC*
+```
 
 The two most common approaches to obtaining imagery for use in site maps are:
 1. Using high-resolution satellite imagery.
