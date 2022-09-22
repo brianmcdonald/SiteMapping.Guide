@@ -7,7 +7,7 @@ Before jumping into to flying drones and developing site maps, it's important to
 
 ## Stakeholders
 While it is somewhat approach-dependent, typically will involve the following stakeholders:
-- Affected population is sites, who need to be consulted before imagery collection, to make sure they are informed, consent to the activity and to avoid any risks or misunderstandings.
+- Affected population in sites, who need to be consulted before imagery collection, to make sure they are informed, consent to the activity and to avoid any risks or misunderstandings.
 - Humanitarian actors, who can feed into the design process and the process of prioritization of which and how many sites to visit.
 - Authorities, who are an important interlocutor for approvals as well as the use of the maps and handover of expertise and equipment in the case of capacity development for future scenarios
 
@@ -21,6 +21,5 @@ Producing site maps can be a time-consuming process, requiring many prior consul
 While connectivity requirements will vary, based on the chosen approach, some degree of connectivity should be assumed as needed. In situations of sudden onset disasters, connectivity can be very challenging and quite often can lead to bottlenecks and delays.
 ### Cost
 Annex 4 provides a table that can providing indicative figures for the purpose of costing a site mapping exercise. 
-
 ## Context
 The security, political and regulatory environment play a large role in determining the approach to site mapping in a country but also whether or not the process is feasible at all. Identification of these challenges and risks is best done as early as possible to avoid wasting resources or to allow sufficient time to mitigate them.
