@@ -24,13 +24,12 @@ name: droneuses
 Todo - add an illustration of a site map  *Source: N/A*
 ```
 
-
 ```{figure} ./images/workflow.png
 ---
 width: 500px
 name: Site Mapping Workflow
 ---
-*Source: Manon Jones*
+Diagram of the workflow presented in this Site Mapping Guide <br><br> *Source: ICRC*
 ```
 
 ## What is a Site Map?
