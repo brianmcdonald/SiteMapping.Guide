@@ -8,7 +8,7 @@ name: droneuses
 Uses and challenges of drone use <br><br> *Source: ICRC*
 ```
 
-There are two approaches to making sites maps presented in this guide. These main differerence between the two is in how the base imagery is obtained:
+There are two approaches to making sites maps presented in this guide. The main differerence between the two is in how aerial imagery is obtained:
 1. Using high-resolution satellite imagery.
 2. Using drones to capture aerial images of the site.
 
@@ -38,25 +38,27 @@ In many contexts, permissions to fly Drones is required. In some cases, a remote
 
 It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, #D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc. You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
 
-### Organizational requirements
+### Organizational requirements and final checklist
 ...
 
-Once you have completed your risk-benefit assessment, identified your flight area, sought permission from local authorites and the affected communities have been informed, the below checklist should be completed and sent to [leg@iom.int](leg@iom.int) for final approval.
+Once you have completed a risk-benefit assessment, identified your flight area, sought permission from local authorites and the affected communities have been informed, the below checklist should be completed and sent to [leg@iom.int](leg@iom.int) for final approval.
 
 The following checklist aims to ensure that all ethical and data protection considerations have been addressed. Note that this is not an exhaustive list and more considerations might be needed for your specific context or organization. For IOM users, please send any questions on data protection and any data sensitivity concerns to leg@iom.int. 
 
-#### Checklist
+Trainings:
+Ensure that the IOM drone operator(s) have received sufficient training to be able to fly a drone in a secure way ensuring appropriate data collection and data protee. 
 
-| Consideration            | Status |
-| ------------------------ | ------ |
-| **Risk-Benefit Assessment** <br><br> Have you conducted a risk-benefit assessment to determine whether flying a drone to collect aerial imagery data is the best approach for your context? Is the use of drones necessary and justified? Have you considered whether there are any associated risks for in-country IOM staff or employees of the local authorities?|        |
-| **Data Collected** <br><br> Are you clear about the specific purpose of the image collection? Is the imagery data relevant and not excessive in relation to the purpose? <br><br> Have you taken necessary precautions and measures to ensure you are not collecting personal data? Are any individuals identifiable from the captured images?|        |
-| **Flight Area** <br><br> Your flight area must be specified prior to commencing the use of the drones. Furthermore, As per the guidance from IOM's DOE, drones should not be flown in conflict areas. If ensure about your area of interest, please contact DOE for further guidance.|        |
-| **Technology** <br><br> Check that the technology used in the worlflow is of high standards. This includes the UAV equipment, the image data storage system used, laptop, tablets etc. The equipment should be safe, secure and appropriate to acheive the specific purpose of the data collection.| |
-| **Data Transfer, Sharing and Access controls** <br><br> If you plan to transfer the data to a third party outside IOM (e.g. for the third party to provide assistance or to do further analysis on the data) or share drone captured imagery, location data or GIS files, the final site maps, please contact LEG for further advice. Additionally, please ensure appropriate access controls: i.e. not all IOM staff should have access to the UAV's imagery and not all should have the right to edit or delete it. You may also contact ICT to coordinate, as needed, to ensure appropriate data security. 
+
+| Consideration            |
+| ------------------------ |
+| **Risk-Benefit Assessment** <br><br> Have you conducted a risk-benefit assessment to determine whether flying a drone to collect aerial imagery data is the best approach for your context? Is the use of drones necessary and justified? Have you considered whether there are any associated risks for in-country IOM staff or employees of the local authorities?|
+| **Data Collected** <br><br> Are you clear about the specific purpose of the image collection? Is the imagery data relevant and not excessive in relation to the purpose? <br><br> Have you taken necessary precautions and measures to ensure you are not collecting personal data? Are any individuals identifiable from the captured images?|
+| **Flight Area** <br><br> Have you clearly identified your flight area?|
+| **Technology** <br><br> Is the technology that will be used of high standards? (UAV equipment, the image data storage system used, laptop, tablets etc.) Is the equipment safe, secure and appropriate to acheive the specific purpose.|
+| **Data Transfer, Sharing and Access controls** <br><br> Do you plan to transfer any of the data to a third party outside IOM (e.g. for the third party to provide assistance or to do further analysis on the data) or share the drone captured imagery, location data, GIS files, final site maps? If so, have you contacted LEG for further advice. Additionally, have appropriate access controls been ensured? i.e. not all IOM staff should have access to the UAV's imagery and not all should have the right to edit or delete it. You may also contact ICT to coordinate, as needed, to ensure appropriate data security. 
 | **Trainings** <br><br> 
 | **Logos/ Branding** <br><br> The mission, in coordination with state authorities and HQ, should decide how the UAVs should be marked (e.g. IOM logo? No logo because of security considerations? Something else?)
-| **Approvals/ Permissions** <br><br> Firstly, familiarise yourself with national legislation on required permissions and approvals needed to fly drones in your area of interest. Make sure you are not in breach of that legislation. In most contexts, an approval/ permission is needed by state or provincial authorities. <br><br> Secondly, the specific communities above which the UAVs will be flyinf should be informed. This is to avoid annoyance, complaints, and mitigate any concerns or fears that may be associated with an unexpected drone presence. The people living in these communities should have information on who is flying is flying the drone and why. Ideally, they should also have IOM (or your respective organisation)'s contact details in case they have questions or wish to raise a concern. The authorities might also inform them on your behalf. <br><br> Thirdly, additional approvals might be needed from the UN or by ICAO depending on your context.|  |
+| **Approvals/ Permissions** <br><br> Firstly, familiarise yourself with national legislation on required permissions and approvals needed to fly drones in your area of interest. Make sure you are not in breach of that legislation. In most contexts, an approval/ permission is needed by state or provincial authorities. <br><br> Secondly, the specific communities above which the UAVs will be flyinf should be informed. This is to avoid annoyance, complaints, and mitigate any concerns or fears that may be associated with an unexpected drone presence. The people living in these communities should have information on who is flying is flying the drone and why. Ideally, they should also have IOM (or your respective organisation)'s contact details in case they have questions or wish to raise a concern. The authorities might also inform them on your behalf. <br><br> Thirdly, additional approvals might be needed from the UN or by ICAO depending on your context.|
 
 
 ... [^footnote1]

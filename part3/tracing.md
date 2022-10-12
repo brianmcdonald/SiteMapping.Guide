@@ -9,7 +9,7 @@ Once the site mapper has the aerial imagery, a series of options exist to proces
 Note: If there is high cloud or tree coverage, some features may not be visible in the aerial imagery and thus will not be detected by the site mapper or the machine learning model. Therefore, it is crucial to validate the generated outlines and labels with inputs from colleaugues in the field. 
 
 ## Manual tracing
-Manual tracing can be done in GIS or AutoDesk software. Quantum GIS can be downloaded for free [here](https://www.qgis.org/en/site/forusers/download.html). Once the software download is complete, import the aerial imagery. Create a new shapefile layer and toggle edit to trace the features required. Untoggle edit to save your edits. 
+Manual tracing can be done in GIS or AutoDesk software. Quantum GIS can be downloaded for free [here](https://www.qgis.org/en/site/forusers/download.html). Once the software download is complete, import and georeference the aerial imagery in QGIS. Create a new shapefile layer and toggle edit to trace the features required. Untoggle edit to save your edits. 
 
 ## Automatic tracing
 Here are some open source tools which can assist you in creating a workflow for automatic shelter detection:
