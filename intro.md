@@ -24,6 +24,15 @@ name: droneuses
 Todo - add an illustration of a site map  *Source: N/A*
 ```
 
+
+```{figure} ./images/workflow.png
+---
+width: 500px
+name: Site Mapping Workflow
+---
+*Source: Manon Jones*
+```
+
 ## What is a Site Map?
 While no strict definition of a site map exists, this guidance considers site maps to be physical or electronic maps of IDP displacement sites that use imagery (aerial or satellite), along with the tracing and labelling of infrastructure (current or planned) as a tool for planning, coordination and risk analysis.
 
