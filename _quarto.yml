@@ -1,0 +1,52 @@
+project:
+  type: book
+  output-dir: docs
+  
+comments:
+  hypothesis: true
+
+book:
+  title: "Site Mapping Guide"
+  author: "International Organisation for Migration (IOM)"
+  logo: logo.png
+  date: "11/1/2022"
+  date-modified: today
+  #repo-url: https://github.com/brianmcdonald/SiteMapping.Guide
+  repo-actions: []
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - part: "Preparation"
+      chapters: 
+        - part1/identify-requirements.qmd
+        - part1/deciding-on-an-approach.qmd
+    - part: "Getting Imagery"
+      chapters: 
+        - part2/existing-imagery.md
+        - part2/UAV.md
+    - part: "Developing Maps"
+      chapters: 
+        - part3/tracing.md
+        - part3/composing-maps.md
+        - part3/collaboration.md
+    - part: "Annexes"
+      chapters: 
+        - annexes/acknowledgements.qmd
+        - annexes/glossary.qmd
+        - annexes/secondary-data.qmd
+        - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+    theme: cosmo
+
+  pdf:
+    documentclass: scrreprt
+    papersize: A4
+
+
+
