@@ -8,12 +8,11 @@ comments:
 book:
   title: "Site Mapping Guide"
   author: "International Organisation for Migration (IOM)"
-  logo: logo.png
-  date: "11/1/2022"
-  date-modified: today
-  #repo-url: https://github.com/brianmcdonald/SiteMapping.Guide
+  cover-image: Cover.png
+  image: logo.png
+  page-navigation: true
   repo-actions: []
-  downloads: [pdf]
+  downloads: [pdf, epub]
   chapters:
     - index.qmd
     - part: "Preparation"
@@ -42,11 +41,22 @@ format:
   html:
     link-external-icon: true
     link-external-newwindow: true
-    theme: cosmo
+    cover-image: Cover.png
+    logo: logo.png
+    theme:
+      light: cosmo
+      dark: darkly
+    status: "draft"
+    date-modified: today
 
   pdf:
     documentclass: scrreprt
     papersize: A4
+    fontfamily: roboto
+
+  epub:
+    cover-image: Cover.png
+    toc: true
 
 
 

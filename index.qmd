@@ -1,14 +1,15 @@
 # Introduction {.unnumbered}
 
+
+**Last updated:** 1st November 2022
+
+Welcome to *SiteMapping.Guide*, an online guidance for the production of site maps in humanitarian response. Site maps are a key resource at all stages of a camp lifecycle; from the site planning of empty or partially settled land; the coordination and management of services on a site; the development and improvement of a sites' infrastructure; to the site closure/handover/decommissioning stage. 
+
 :::{.callout-warning}
 ## Warning
 
 This guidance is in draft-stage, much of the content is missing and its structure may be subject to change.
 :::
-
-**Last updated:** 11th September 2022
-
-Welcome to *SiteMapping.Guide*, an online guidance for the production of site maps in humanitarian response. Site maps are a key resource at all stages of a camp lifecycle; from the site planning of empty or partially settled land; the coordination and management of services on a site; the development and improvement of a sites' infrastructure; to the site closure/handover/decommissioning stage. 
 
 The aim of this guidance is fourfold:
 
