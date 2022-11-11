@@ -5,10 +5,13 @@ project:
 comments:
   hypothesis: true
 
+execute:
+  freeze: auto
+  
 book:
   title: "Site Mapping Guide"
   author: "International Organisation for Migration (IOM)"
-  cover-image: Cover.png
+  cover-image: cover.png
   image: logo.png
   page-navigation: true
   repo-actions: []
@@ -41,7 +44,7 @@ format:
   html:
     link-external-icon: true
     link-external-newwindow: true
-    cover-image: Cover.png
+    cover-image: cover.png
     logo: logo.png
     theme:
       light: cosmo
@@ -55,7 +58,7 @@ format:
     fontfamily: roboto
 
   epub:
-    cover-image: Cover.png
+    cover-image: cover.png
     toc: true
 
 

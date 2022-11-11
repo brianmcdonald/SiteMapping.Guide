@@ -24,12 +24,14 @@ Whilst the development of site maps is somewhat approach and context-dependent, 
 
 ## General Requirements
 Developing site maps typically requires the following:
+
 ### Personnel
 Staff with relevant skills and expertise, as well as support staff such as drivers and procurement support will be needed. Depending on the number of sites and how quickly the site maps are needed, the site mapping team may need to be scaled up. 
+
 ### Time
 Developing site maps can be a time-intensive process, requiring prior consultations with various stakeholders, lead-time for procurement of equipment, travel time for site visits, time for collecting and processing the imagery, composing the site maps and collaboratively iterating or updating their content. These are important factors to consider when looking at the time frame of their intended use.
 ### Hardware and Software
-Depending on the chosen approach, not all items in the below table will be required. Highlighted are items which are required regardless of the chosen approach. 
+Depending on the chosen approach, not all items in the below table will be required. Highlighted are items which are required regardless of the chosen approach:
 
 |Hardware|Software|
 | ---- | ------- |
