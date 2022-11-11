@@ -25,7 +25,7 @@ The Site Mapping Guide provides a full step-by-step workflow to develop site map
 
 This guide presents two different approaches to developing site maps. The first approach uses existing satellite imagery and the second uses drones to capture aerial imagery of sites when and where satellite imagery is not available or not suitable. 
 
-![Diagram of the workflow presented in this Site Mapping Guide <br> *Source: ICRC*](images/workflow.png){#fig-workflow width=70% fig-align="center"}
+![Diagram of the workflow presented in this Site Mapping Guide <br> *Source: IOM*](images/workflow.png){#fig-workflow width=70% fig-align="center"}
 
 
 ## What is a Site Map?
