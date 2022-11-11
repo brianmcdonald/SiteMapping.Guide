@@ -5,8 +5,6 @@ project:
 comments:
   hypothesis: true
 
-execute:
-  freeze: auto
 
 book:
   title: "Site Mapping Guide"
