@@ -9,9 +9,9 @@ Passive satellites are not able to capture through clouds and therefore can be l
 
 ## Understanding spatial resolution
 Resolution of an image is categorized as follows:
-High resolution: 30cm-5m/pixel
-Medium resolution: 10-30m/pixel
-Low resolution: over 60m/pixel
+- High resolution: 30cm-5m/pixel
+- Medium resolution: 10-30m/pixel
+- Low resolution: over 60m/pixel
 
 10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail. 
 
