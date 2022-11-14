@@ -1,17 +1,11 @@
 # Deciding on an approach
 
-```{figure} ./images/droneuseschallenges.png
----
-width: 500px
-name: droneuses
----
-Uses and challenges of drone use <br><br> *Source: ICRC*
-```
-
 ![Uses and challenges of drone use <br> *Source: ICRC*](images/droneuseschallenges.png){#fig-droneuseschallenges width=70% fig-align="center"}
 
 There are two approaches to making sites maps presented in this guide. The main differerence between the two is in how aerial imagery is obtained:
+
 1. Using high-resolution satellite imagery.
+
 2. Using drones to capture aerial images of the site.
 
 Each of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:
