@@ -31,7 +31,7 @@ While no strict definition of a site map exists, this guidance considers site ma
 :::{.callout-note}
 ## Note
 
-Infographics or maps, which focus on needs or activity/output-level indicators are, for the purpose of this document, considered as Site Profiles rather than Site Maps and lie beyond the current scope of this guide.
+Infographics or maps, which focus on needs or activity/output-level indicators are, for the purpose of this document, considered as Site Profiles rather than Site Maps and are beyond the scope of this guide.
 :::
 
 ## Audience
@@ -40,21 +40,19 @@ This guide is for any Camp Coordination Camp Management, Shelter, or assessment 
 ## When and how can site maps be used
 Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities: 
 
-- Site planning during suddent onset emergencies.
+- Site planning during sudden-onset emergencies or protracted crises.
 
-- Site planning for site improvements.
+- Site improvements - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.
 
-- Assessmets for site improvements for disability and inclusion, GBV and fire hazard risk mitigation.
+- Camp coordination at the site-level amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.
 
-- Camp coordination at the site level amongst service providers and setting up of essential site 
-infrastructure and camp services.
-
-- CCCM coordination at the cluster level.
+- CCCM coordination at the Cluster-level.
 
 - GBV/ Protection Safety Audits conducted through direct observation, key informant interviews, focus group discussions.
 
 ## Acknowledgments
-This guide was developed by IOM, with considerable, inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the acknowledgements annex.
+This guide was developed by IOM, with considerable, inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the [acknowledgements annex](/annexes/acknowledgements.html).
+
 
 ## Feedback
 Many of the approaches and software/hardware tools are quickly evolving and improving. As such, we consider this guide to be a living document. If you have any suggestions on how we can improve this guide, please reach out to majones@iom.int and bmcdonald@iom.int.

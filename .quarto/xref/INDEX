@@ -40,5 +40,8 @@
   },
   "annexes/secondary-data.qmd": {
     "secondary-data.html": "60efa8ce"
+  },
+  "annexes/references.qmd": {
+    "references.html": "c0f7af0c"
   }
 }

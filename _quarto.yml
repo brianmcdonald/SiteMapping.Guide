@@ -16,17 +16,18 @@ book:
   page-navigation: true
   repo-actions: []
   downloads: [pdf, epub]
+  license: "CC BY-NC"
   chapters:
     - index.qmd
-    - part: "Preparation"
+    - part: "Part 1 - Preparation"
       chapters: 
         - part1/identify-requirements.qmd
         - part1/deciding-on-an-approach.qmd
-    - part: "Getting Imagery"
+    - part: "Part 2 - Getting Imagery"
       chapters: 
         - part2/existing-imagery.md
         - part2/UAV.md
-    - part: "Developing Maps"
+    - part: "Part 3 - Developing Maps"
       chapters: 
         - part3/tracing.md
         - part3/composing-maps.md
@@ -36,7 +37,7 @@ book:
         - annexes/acknowledgements.qmd
         - annexes/glossary.qmd
         - annexes/secondary-data.qmd
-        - references.qmd
+        - annexes/references.qmd
 
 bibliography: references.bib
 
