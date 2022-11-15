@@ -25,7 +25,7 @@
     "href": "index.html#when-and-how-can-site-maps-be-used",
     "title": "Site Mapping Guide",
     "section": "When and how can site maps be used",
-    "text": "When and how can site maps be used\nSite maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities:\n\nSite planning during sudden-onset emergencies or protracted crises.\nSite improvements - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.\nCamp coordination at the site-level amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.\nCCCM coordination at the Cluster-level.\nGBV/ Protection Safety Audits conducted through direct observation, key informant interviews, focus group discussions.\n\n\n\n\n\nRehabilation of Wau PoC site Source: IOM"
+    "text": "When and how can site maps be used\nSite maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities:\n\nSite planning during sudden-onset emergencies or protracted crises.\nSite improvements - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.\nCamp coordination at the site-level amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.\nCCCM coordination at the Cluster-level.\nGBV/ Protection Safety Audits conducted through direct observation, key informant interviews, focus group discussions.\n\n\n\n\nRehabilation of Wau PoC site Source: IOM"
   },
   {
     "objectID": "index.html#acknowledgments",
@@ -102,14 +102,28 @@
     "href": "part2/UAV.html#pre-flight",
     "title": "4  Using UAV imagery",
     "section": "4.2 Pre-flight",
-    "text": "4.2 Pre-flight\nGo through the Humanitarian UAV Network | Operational Check List.\n\n4.2.1 Flight plan, nadir vs oblique images\n\n\n4.2.2 Ground control points\n\n\n4.2.3 Community engagement\n\n\n4.2.4 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.5 Altitude Ground sampling distance"
+    "text": "4.2 Pre-flight\nGo through the Humanitarian UAV Network | Operational Check List.\n\n4.2.1 Flight plan, nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Community engagement\n\n\n4.2.4 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.5 Altitude Ground sampling distance"
   },
   {
     "objectID": "part2/UAV.html#flight",
     "href": "part2/UAV.html#flight",
     "title": "4  Using UAV imagery",
     "section": "4.3 Flight",
-    "text": "4.3 Flight\n… ## Post-Flight … ## Post-Flight processing\nDrone captured images then need to be stitched together into one image or orthomosaic. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.\n\n4.3.1 Orthomosaics with WebODM\nTo install WedODM manually, follow the steps outlined here.\nCreate a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available"
+    "text": "4.3 Flight\n…"
+  },
+  {
+    "objectID": "part2/UAV.html#post-flight",
+    "href": "part2/UAV.html#post-flight",
+    "title": "4  Using UAV imagery",
+    "section": "4.4 Post-Flight",
+    "text": "4.4 Post-Flight\n…"
+  },
+  {
+    "objectID": "part2/UAV.html#post-flight-processing",
+    "href": "part2/UAV.html#post-flight-processing",
+    "title": "4  Using UAV imagery",
+    "section": "4.5 Post-Flight processing",
+    "text": "4.5 Post-Flight processing\nDrone captured images then need to be stitched together into one image or orthomosaic. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.\n\n4.5.1 Orthomosaics with WebODM\nTo install WedODM manually, follow the steps outlined here.\nCreate a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available"
   },
   {
     "objectID": "part3/tracing.html#manual-tracing",
