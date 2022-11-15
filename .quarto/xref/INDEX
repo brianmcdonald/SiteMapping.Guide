@@ -43,5 +43,8 @@
   },
   "annexes/references.qmd": {
     "references.html": "c0f7af0c"
+  },
+  "part2/UAV.qmd": {
+    "UAV.html": "9fdc65a3"
   }
 }

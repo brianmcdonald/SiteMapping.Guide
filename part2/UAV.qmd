@@ -10,11 +10,11 @@ Go through the [Humanitarian UAV Network | Operational Check List](https://docs.
 
 ![An example of an *oblique* angle image of Bakassi Camp, northeastern Nigeria<br> *Source: IOM*](/part2/images/bakassi.jpg){.column-page-right width=70% }
 
-![An example of a *nadir* angle image of Wau PoC, in South Sudan<br> *Source: IOM*](/part2/images/wau2.jpg){.column-page-right width=70% }
+![An example of a *nadir* angle image of Wau PoC, in South Sudan<br> *Source: IOM*](/part2/images/wau2.jpg){.column-body-outset width=70% }
 
 ### Ground control points
 
-![An example Ground Control Point<br> *Source: Pix4d*](/part2/images/gcp.jpg){.column-page-right width=50% }
+![An example Ground Control Point<br> *Source: Pix4d*](/part2/images/gcp.jpg){.column-body-outset width=50% }
 
 ### Community engagement
 ### Path and image overlap
