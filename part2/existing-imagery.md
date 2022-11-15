@@ -1,4 +1,4 @@
-# Introduction to satellite imagery
+# Using satellite imagery
 
 ## Types of satellite imagery
 There are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth's surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors, SAR emitting electromagnetic pulses and Lidar emitting light pulses towards the Earth surface and measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth's surface and is dependent on the day-night cycle. 

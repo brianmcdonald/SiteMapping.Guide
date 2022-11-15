@@ -23,7 +23,7 @@ book:
       chapters: 
         - part1/identify-requirements.qmd
         - part1/deciding-on-an-approach.qmd
-    - part: "Part 2 - Getting Imagery"
+    - part: "Part 2 - Obtaining imagery"
       chapters: 
         - part2/existing-imagery.md
         - part2/UAV.md
@@ -36,7 +36,6 @@ book:
       chapters: 
         - annexes/acknowledgements.qmd
         - annexes/glossary.qmd
-        - annexes/secondary-data.qmd
         - annexes/references.qmd
 
 bibliography: references.bib
@@ -52,6 +51,7 @@ format:
       dark: darkly
     status: "draft"
     date-modified: today
+    cap-location: margin
 
   pdf:
     documentclass: scrreprt
