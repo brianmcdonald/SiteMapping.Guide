@@ -52,14 +52,12 @@ format:
     status: "draft"
     date-modified: today
 
-  pdf:
-    documentclass: scrreprt
-    papersize: A4
-    fontfamily: roboto
-
   epub:
     cover-image: cover.png
     toc: true
 
-
-
+  pdf:
+    documentclass: scrreprt
+    papersize: A4
+    number-sections: true
+    toc: true
