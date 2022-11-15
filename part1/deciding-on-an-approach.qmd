@@ -19,7 +19,7 @@ There are key considerations to take into account when collecting, processing an
 
 - the potential to harm IOM staff and individuals representing authorized third parties. 
 
-In addition to the data risks and concerns outlined in the [IOM Data Protection Manual](https://publications.iom.int/books/iom-data-protection-manual), there are additional specific concerns and risks associated with the use of drones. 
+In addition to the data risks and concerns outlined in the [IOM Data Protection Manual](https://publications.iom.int/books/iom-data-protection-manual), there are additional specific concerns and risks associated with the use of drones.[^footnote2]
 
 Due to protection risks, humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This may mean that importation of equipment or flight approvals are not likely to be granted, or that their use in a site risk being perceived as a security threat. Your flight area must be specified prior to commencing the use of the drones. If unsure about your area of interest, please contact DOE for further guidance.
 
@@ -38,6 +38,12 @@ In many contexts, permissions to fly Drones is required. In some cases, a remote
 It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, #D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc. You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
 
 ### Organizational requirements and final checklist
+
+::: {.callout-note}
+## Note for IOM staff
+
+TODO - put IOM specifc guidance here
+:::
 
 Once you have completed a risk-benefit assessment, identified your flight area, sought permission from local authorites and the affected communities have been informed, the below checklist should be completed and sent to [leg@iom.int](leg@iom.int) for final approval.
 
@@ -60,5 +66,8 @@ Ensure that the IOM drone operator(s) have received sufficient training to be ab
 
 
 ... [^footnote1]
+[^footnote2]
 
-[^footnote1]: [Chapter 7](https://www.icrc.org/en/data-protection-humanitarian-action-handbook) of ICRCs Handbook on data protection in humanitarian action examines the use of drones and remote sensing. 
+[^footnote1]: Chapter 7 of [ICRCs Handbook on data protection in humanitarian action](https://www.icrc.org/en/data-protection-humanitarian-action-handbook)  examines the use of drones and remote sensing. 
+
+[^footnote2]: [IOM Data Protection Manual](https://publications.iom.int/books/iom-data-protection-manual)

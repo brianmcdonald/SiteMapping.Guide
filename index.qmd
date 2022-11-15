@@ -4,13 +4,13 @@ Welcome to *SiteMapping.Guide*, an online guidance for the production of site ma
 
 The aim of this guidance is fourfold:
 
-1. Open up the process of developing site maps to more humanitarian actors and profiles as well as mainstream site mapping skills and reduce reliance on a limited pool of specialized profiles. 
+1. **Broaden the development of site maps to more humanitarian actors** and profiles, mainstreaming the skills required and reducing reliance on a limited pool of specialized profiles. 
 
-2. Increase the speed at which site maps are developed. The shorter the lead time for creating site maps, the more useful they are for planning activities and coordinating partners in site, especially in sudden onset contexts. 
+2. **Increase the speed at which site maps are developed.** The shorter the lead time for creating site maps, the more useful they are for planning activities and coordinating partners in site, especially in sudden onset contexts. 
 
-3. Scale the availability of site maps to increase their benefit to reponses in a wider number of sites as well as in a wider number of countries.
+3. **Scale the availability of site maps** to increase their benefit to reponses in a wider number of sites as well as in a wider number of countries.
 
-4. Encourage the creation of consistent site map products, in terms of visuals, quality and process that are affected population-centric and that adhere to data responsibility and safeguarding standards.
+4. Encourage the creation of **consistent site map products**, in terms of visuals, quality and process that are affected population-centric and that adhere to data responsibility and safeguarding standards.
 
 :::{.callout-warning}
 ## Warning
@@ -35,20 +35,22 @@ Infographics or maps, which focus on needs or activity/output-level indicators a
 :::
 
 ## Audience
-This guide is for any Camp Coordination Camp Management, Shelter, or assessment actor, working in humanitarian contexts, requiring site maps to do site planning, camp coordination or risk analysis and working at either agency or inter-agency level. While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. 
+This guide is for any Camp Coordination Camp Management, Shelter, or assessment actor, working in humanitarian contexts, requiring site maps to do site planning, camp coordination or risk analysis and working at either agency or inter-agency level. 
+
+While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. 
 
 ## When and how can site maps be used
 Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities: 
 
-- Site planning during sudden-onset emergencies or protracted crises.
+- **Site planning** during sudden-onset emergencies or protracted crises.
 
-- Site improvements - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.
+- **Site improvements** - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.
 
-- Camp coordination at the site-level amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.
+- **Site-level camp coordination** amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.
 
 - CCCM coordination at the Cluster-level.
 
-- GBV/ Protection Safety Audits conducted through direct observation, key informant interviews, focus group discussions.
+- GBV/ Protection **Safety Audits** conducted through direct observation, key informant interviews, focus group discussions.
 
 ![Rehabilation of Wau PoC site<br> *Source: IOM*](images/wau1.jpg)
 
