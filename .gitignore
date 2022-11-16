@@ -2,3 +2,4 @@
 /_site/
 /docs/
 .DS_Store
+/.luarc.json
