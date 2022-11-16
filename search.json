@@ -63,32 +63,39 @@
     "text": "Figure 2.1: Uses and challenges of drone use  Source: ICRC\n\n\nThere are two approaches to making sites maps presented in this guide. The main differerence between the two is in how aerial imagery is obtained:\n\nUsing high-resolution satellite imagery.\nUsing drones to capture aerial images of the site.\n\nEach of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:\n\n\n2.0.1 Information needs\nIt is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, 3D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc.\nYou should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected).\n\n\n2.0.2 Conflict and Data Sensitivity\nDue to protection risks, humanitarian use of drones in conflict settings is strongly discouraged. The term “dual-use technology” is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This may mean that importation of equipment or flight approvals are not likely to be granted, or that their use in a site risk being perceived as a security threat. 1\nThere are key considerations to take into account when collecting, processing and sharing any type of data. These considerations determine the degree of sensitivity applied throughout the data life cycle and include:\n\nThe potential to harm data subjects and others;\nThe potential to discriminate;\nThe potential to harm IOM staff and individuals representing authorized third parties.\n\nIn addition to the data risks and concerns outlined in the IOM Data Protection Manual, there are additional specific concerns and risks associated with the use of drones.2\nOnce your flight area is identified, a risk-benefit assessment should be conducted prior to using drones. The risk-benefit assessment will evaluate the risks and benefits associated with collecting and processing drone captured imagery and determine whether flying a drone to collect aerial imagery data is the best approach for your context.\n\n\n2.0.3 Data security/responsibility\nThe use of drones to capture aerial image for site mapping does not require the collection of personal data. Individuals must not be identifiable from captured images. Ensure that the flight (altitude, angle etc.) eliminates or reduces as much as possible the likelihood that imagery captured may directly or indirectly identify an individual. If, by mistake, you collect images in which people can be identified, you should immidiately delete them. However, if the image taken must really be used, you can either crop the image or blur the faces of people who could be identified. While collecting the data or shortly thereafter, you should check whether some of the data collected is particularly sensitive and should be deleted or otherwise made unrecognizable in the image (e.g. a group of individuals that could be identified as part of a specific group, image of illegal crops or settlement).\n\n\n2.0.4 Regulatory environment\nIt is important to fully understand the national and local-level laws, procedures and norms related to the use of UAVs as it can vary significantly between contexts. The regulatory enviroonment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and geographic limitations for UAV flight.\nThe Global Drone Regulations Database keeps an updated collection of country-specifc relations, and can be used to understand the sources of legal information, relevant contact information and regulations on operating rules, licensing and approval procedures. 3\n\n\n2.0.5 Organizational requirements\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nDuring the planning phase, it is important that IOM stuff reach out to IOM’s Office of Legal Affairs (LEG) leg@iom.int They provide legal an compliance guidance as well as the latest version of the Drone usage checklist and Risk-benefit analysis template.\n\n\nMany organization have internal rules and guidance governing the use of technologies such as Drones. Donors may also have their own rules around their uses and the use of data resulting from the exercise. During the planning stage its important to contact the relevant organisation focal-point to ensure compliance with these rules.\n\n\n\n\n\n\nChapter 7 of ICRCs Handbook on data protection in humanitarian action examines the use of drones and remote sensing.↩︎\nIOM Data Protection Manual↩︎\nDroneRegulations.info launched by the UAVatiors network in 2014, is a database of national-level UAV regulations.↩︎"
   },
   {
-    "objectID": "part2/existing-imagery.html",
-    "href": "part2/existing-imagery.html",
-    "title": "3  Using satellite imagery",
-    "section": "",
-    "text": "4 Colour Bands\nSome free data sources for low to medium resolution imagery include USGS/NASA’s Landsat and ESA’s Sentinel series.\nHigh resolution Satellite imagery can be requested from IOM DTM.\nAlternatively, OpenAerialMap provides access to openly licensed aerial imagery. Imagery can be downloaded as a .tiff image file for free. However, in some cases, imagery for your area of interest may not be available. In this case, you may need to capture your own imagery."
-  },
-  {
-    "objectID": "part2/existing-imagery.html#types-of-satellite-imagery",
-    "href": "part2/existing-imagery.html#types-of-satellite-imagery",
+    "objectID": "part2/satellite-imagery.html#types-of-satellite-imagery",
+    "href": "part2/satellite-imagery.html#types-of-satellite-imagery",
     "title": "3  Using satellite imagery",
     "section": "3.1 Types of satellite imagery",
-    "text": "3.1 Types of satellite imagery\nThere are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth’s surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors, SAR emitting electromagnetic pulses and Lidar emitting light pulses towards the Earth surface and measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth’s surface and is dependent on the day-night cycle. For the purpose of site mapping optical sources, which typically produce imagery with colour reprduction similar to the human eye, are most prevalent and useful."
+    "text": "3.1 Types of satellite imagery\nThere are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth’s surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors, SAR emitting electromagnetic pulses and Lidar emitting light pulses towards the Earth surface and measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth’s surface and is dependent on the day-night cycle.\nFor the purpose of site mapping optical sources, which typically produce imagery with colour reprduction similar to the human eye, are most prevalent and useful."
   },
   {
-    "objectID": "part2/existing-imagery.html#cloud-cover",
-    "href": "part2/existing-imagery.html#cloud-cover",
+    "objectID": "part2/satellite-imagery.html#cloud-cover",
+    "href": "part2/satellite-imagery.html#cloud-cover",
     "title": "3  Using satellite imagery",
     "section": "3.2 Cloud cover",
     "text": "3.2 Cloud cover\nPassive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage."
   },
   {
-    "objectID": "part2/existing-imagery.html#understanding-spatial-resolution",
-    "href": "part2/existing-imagery.html#understanding-spatial-resolution",
+    "objectID": "part2/satellite-imagery.html#understanding-spatial-resolution",
+    "href": "part2/satellite-imagery.html#understanding-spatial-resolution",
     "title": "3  Using satellite imagery",
     "section": "3.3 Understanding spatial resolution",
     "text": "3.3 Understanding spatial resolution\nResolution of an image is categorized as follows: - High resolution: 30cm-5m/pixel - Medium resolution: 10-30m/pixel - Low resolution: over 60m/pixel\n10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail.\nDepending on the users needs, different image resolutions are used.\nLow to Medium resolution images are good for understanding the bigger picture, whether that is looking at historical trends or deriving insights from spectral analysis. For example, ESA’s Sentinel and NASA/USGS Landsat data provide historical data at this resolution.\nHigh resolution images are ideal for small scale analysis or monitoring since often a smaller area if covered. The level of detail at such spatial resolution allows from small and individual objects to be identified which makes it ideal for humanitarian aid applications, detailed mapping, urban planning, as well as infrastructure, forestry and agriculture monitoring. However, high-resolution imagery is expensive and as a result less of it is openly accessible.For the purposes of creating site maps, high resolution imagery is preferable."
+  },
+  {
+    "objectID": "part2/satellite-imagery.html#colour-bands",
+    "href": "part2/satellite-imagery.html#colour-bands",
+    "title": "3  Using satellite imagery",
+    "section": "3.4 Colour bands",
+    "text": "3.4 Colour bands"
+  },
+  {
+    "objectID": "part2/satellite-imagery.html#imagery-sources",
+    "href": "part2/satellite-imagery.html#imagery-sources",
+    "title": "3  Using satellite imagery",
+    "section": "3.5 Imagery sources",
+    "text": "3.5 Imagery sources\nSome free data sources for low to medium resolution imagery include USGS/NASA’s Landsat and ESA’s Sentinel series.\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nHigh-resolution Satellite imagery can be requested from IOM DTM GIS unit dtmgis@iom.int.\n\n\nAlternatively, OpenAerialMap provides access to openly licensed aerial imagery. Imagery can be downloaded as a .tiff image file for free. However, in some cases, imagery for your area of interest may not be available. In this case, you may need to capture your own imagery."
   },
   {
     "objectID": "part2/UAV.html#obtaining-a-drone-kit",
@@ -140,25 +147,39 @@
     "text": "5.2 Automatic tracing\nHere are some open source tools which can assist you in creating a workflow for automatic shelter detection: - Create a training data set from aerial imagery with Groundwork.azavea. Upload orthophoto to Groundwork, label features and export training data in .json format. - Extract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from here. Further guidance on how to install the Mapflow QGIS plugin is available here. - Analyse and conduct image segmentation on aerial or satellite imagery using the UP42 platform."
   },
   {
+    "objectID": "part3/composing-maps.html#key-elements-of-a-site-map",
+    "href": "part3/composing-maps.html#key-elements-of-a-site-map",
+    "title": "6  Composing site maps",
+    "section": "6.1 Key elements of a site map",
+    "text": "6.1 Key elements of a site map\nThe following list of element should be included in the final output:\n\nTitle and Subtitle\n\nCountry\nState\nSite Name\nThematic Title\nDate\n\nSite map audience/ permission/ sharing restrictions\nProduction date of site map\nSite map version\nInset maps:\n\nAt Country/ Regional level\nAr Regional/ Area level\n\nSource notes:\n\nData sources\nSatellite Imagery source\nCoordinate system\nSite GPS coordinate points\nIOM CCCM Logo (or other)\nContact\nDisclose limitations regarding accuracy of site map\n\nMap:\n\nBase Map (satellite/ aerial imagery)\nScale bar\nOrientation indicators\nLegend\nCamp Infrastructure:\n\nShelters\nShelter blocks\nZones\nWASH facilities\nWater points\nEducation facilities\nHealth Facilities\nDistribution points (Food/ NFI)\nMarkets(s)\nInformation desks\nCFM desks\nOther camp facilities\nMovement network (Roads, pathways)\nCommunity areas/ centre\nReligious buildings/ spaces\nSite Entrance(s)\nSite boundary\nSecurity facilities or guard points\nFences/ Camp Boundaries\n\n\nEnvironment\n\nHost community\nGreen belt\nTrees/ Vegetation\nAgricultural land\n\nOther optional labelling and infrastructure:\n\nFunctioning/ non-functioning\nMale/ female latrines\nUnusable area\nSummary information/ figures\n\nSite population (households and individuals)\nSite area\nTotal no. of shelters\nShelter type and size\nQuantity of sanitation blocks/ latrines/ showers\nType of water supply\nTotal no. of water points\n\n\n\n\n6.1.1 Examples"
+  },
+  {
     "objectID": "part3/composing-maps.html#gis",
     "href": "part3/composing-maps.html#gis",
     "title": "6  Composing site maps",
-    "section": "6.1 GIS",
-    "text": "6.1 GIS\n\n6.1.1 Creating a Geodatabase\n… ### Creating/ Importing Templates …"
+    "section": "6.2 GIS",
+    "text": "6.2 GIS\n\n6.2.1 Creating a Geodatabase\n…\n\n\n6.2.2 Creating/ Importing Templates\n…"
   },
   {
     "objectID": "part3/collaboration.html#generating-geopdfs",
     "href": "part3/collaboration.html#generating-geopdfs",
     "title": "7  Collaboration",
     "section": "7.1 Generating geoPDFs",
-    "text": "7.1 Generating geoPDFs\n… ## Reading and annotating geoPDFs GeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
+    "text": "7.1 Generating geoPDFs\n…"
+  },
+  {
+    "objectID": "part3/collaboration.html#reading-and-annotating-geopdfs",
+    "href": "part3/collaboration.html#reading-and-annotating-geopdfs",
+    "title": "7  Collaboration",
+    "section": "7.2 Reading and annotating geoPDFs",
+    "text": "7.2 Reading and annotating geoPDFs\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
   },
   {
     "objectID": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "href": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "title": "7  Collaboration",
-    "section": "7.2 Gathering feedback and map iteration.",
-    "text": "7.2 Gathering feedback and map iteration.\n…"
+    "section": "7.3 Gathering feedback and map iteration.",
+    "text": "7.3 Gathering feedback and map iteration.\n…"
   },
   {
     "objectID": "annexes/acknowledgements.html",
