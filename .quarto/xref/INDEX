@@ -58,5 +58,8 @@
   },
   "part3/collaboration.qmd": {
     "collaboration.html": "0c7cc8af"
+  },
+  "part2/satellite-imagery.qmd": {
+    "satellite-imagery.html": "2839b37d"
   }
 }

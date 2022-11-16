@@ -25,7 +25,7 @@ book:
         - part1/deciding-on-an-approach.qmd
     - part: "Part 2 - Obtaining imagery"
       chapters: 
-        - part2/existing-imagery.qmd
+        - part2/satellite-imagery.qmd
         - part2/UAV.qmd
     - part: "Part 3 - Developing Maps"
       chapters: 
@@ -46,9 +46,7 @@ format:
     link-external-newwindow: true
     cover-image: cover.png
     logo: logo.png
-    theme:
-      light: cosmo
-      dark: darkly
+    theme: cosmo
     status: "draft"
     date-modified: today
 
