@@ -1,6 +1,5 @@
 # Composing site maps
 ...
-
 ## Key elements of a site map
 
 The following list of element should be included in the final output:
@@ -74,7 +73,6 @@ The following list of element should be included in the final output:
 
 ### Creating a Geodatabase
 ...
-
 ### Creating/ Importing Templates
 ...
 

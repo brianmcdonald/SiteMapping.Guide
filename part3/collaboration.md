@@ -18,7 +18,6 @@ Therefore, the manner in which this data is stores, presented and shared is cruc
 
 ## Generating geoPDFs
 ...
-
 ## Reading and annotating geoPDFs
 GeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
 
