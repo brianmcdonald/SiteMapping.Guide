@@ -48,6 +48,3 @@ There are a series of finanical costs involved in the development of site maps t
 
 ### Context
 The security, political and regulatory environment play a large role in determining the approach to site mapping in a country but also whether or not the process is feasible at all. Identification of these challenges and risks is best done as early as possible to avoid wasting resources or to allow sufficient time to mitigate them.
-
-[ ] - test one
-[ ] test two
