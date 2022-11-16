@@ -25,6 +25,19 @@ This guide presents two different approaches to developing site maps. The first 
 
 ![The Site Mapping Workflow<br> *Source: IOM*](images/workflow.png){#fig-workflow width=100% fig-align="center"}
 
+```{mermaid}
+%%| fig-width: 7.5
+graph LR
+    A[fa:fa-list Identify Requirements] 
+    A --> B{fa:fa-arrows Decide on an approach}
+    B -.-> C[fa:fa-globe Obtain Satellite Imagery]
+    B -.-> D[fa:fa-map-pin Use UAV]
+    C -.-> E[fa:fa-pencil Tracing & Labelling]
+    D -.-> E
+    E ---> F[fa:fa-map Compose Maps]
+    F ---> G[fa:fa-users Collaboration]
+```
+
 ## What is a Site Map?
 While no strict definition of a site map exists, this guidance considers site maps to be physical or electronic maps of IDP displacement sites that use imagery (aerial or satellite), along with the tracing and labelling of infrastructure (current or planned) as a tool for planning, coordination and risk analysis.
 

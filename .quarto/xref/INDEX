@@ -43,5 +43,20 @@
   },
   "annexes/references.qmd": {
     "references.html": "c0f7af0c"
+  },
+  "part2/UAV.qmd": {
+    "UAV.html": "42633a7e"
+  },
+  "part2/existing-imagery.qmd": {
+    "existing-imagery.html": "19abb743"
+  },
+  "part3/tracing.qmd": {
+    "tracing.html": "37c78e94"
+  },
+  "part3/composing-maps.qmd": {
+    "composing-maps.html": "fe04c336"
+  },
+  "part3/collaboration.qmd": {
+    "collaboration.html": "34acfe6c"
   }
 }
