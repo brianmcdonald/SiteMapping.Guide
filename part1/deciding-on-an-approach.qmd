@@ -16,15 +16,15 @@ It is important to be clear on what images you want to collect and for which spe
 You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
 
 ### Conflict and Data Sensitivity
-Due to protection risks, humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This may mean that importation of equipment or flight approvals are not likely to be granted, or that their use in a site risk being perceived as a security threat. Your flight area must be specified prior to commencing the use of the drones. If unsure about your area of interest, please contact DOE for further guidance.
+Due to protection risks, humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This may mean that importation of equipment or flight approvals are not likely to be granted, or that their use in a site risk being perceived as a security threat. [^footnote1]
 
 There are key considerations to take into account when collecting, processing and sharing any type of data. These considerations determine the degree of sensitivity applied throughout the data life cycle and include:
 
-- the potential to harm data subjects and others;
+- The potential to harm data subjects and others;
 
-- the potential to discriminate;
+- The potential to discriminate;
 
-- the potential to harm IOM staff and individuals representing authorized third parties. 
+- The potential to harm IOM staff and individuals representing authorized third parties. 
 
 In addition to the data risks and concerns outlined in the [IOM Data Protection Manual](https://publications.iom.int/books/iom-data-protection-manual), there are additional specific concerns and risks associated with the use of drones.[^footnote2]
 
