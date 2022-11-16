@@ -25,13 +25,13 @@ book:
         - part1/deciding-on-an-approach.qmd
     - part: "Part 2 - Obtaining imagery"
       chapters: 
-        - part2/existing-imagery.md
-        - part2/UAV.md
+        - part2/existing-imagery.qmd
+        - part2/UAV.qmd
     - part: "Part 3 - Developing Maps"
       chapters: 
-        - part3/tracing.md
-        - part3/composing-maps.md
-        - part3/collaboration.md
+        - part3/tracing.qmd
+        - part3/composing-maps.qmd
+        - part3/collaboration.qmd
     - part: "Annexes"
       chapters: 
         - annexes/acknowledgements.qmd
