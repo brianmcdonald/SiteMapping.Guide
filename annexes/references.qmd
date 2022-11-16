@@ -1,0 +1,14 @@
+# Further reading {.unnumbered}
+
+::: {#refs}
+:::
+[DRONES AND AERIAL OBSERVATION: New Technologies for Property Rights, Human Rights, and Global Development](http://drones.newamerica.org/primer/)
+
+[UNICEF Drones for Sustainable Development Goals Toolkit](https://unicef.github.io/drone-4sdgtoolkit/)
+
+[HOT OSM UAV Mapping Guidelines](https://uav-guidelines.openaerialmap.org/)
+
+[IASC Operational Guidance on Data Responsibility in Humanitarian Guidance](https://interagencystandingcommittee.org/operational-response/iasc-operational-guidance-data-responsibility-humanitarian-action#:~:text=Data%20responsibility%20in%20humanitarian%20action%20is%20the%20safe%2C%20ethical%20and,and%20the%20stakes%20are%20high.)
+
+[ICRC Handbook on Data Protection in Humanitarian Action](https://www.icrc.org/en/data-protection-humanitarian-action-handbook)
+

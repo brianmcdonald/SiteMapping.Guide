@@ -1,4 +1,4 @@
-# UAV
+# Using UAV imagery
 
 ## Obtaining a drone kit 
 
@@ -7,7 +7,15 @@
 Go through the [Humanitarian UAV Network | Operational Check List](https://docs.google.com/document/d/1av3GvsAQOxttCXKAgYCBf8tpv8lU72P1u4voAQrhTNw/edit).
 
 ### Flight plan, nadir vs oblique images
+
+![An example of an *oblique* angle image of Bakassi Camp, northeastern Nigeria<br> *Source: IOM*](/part2/images/bakassi.jpg){.column-page-right width=70% }
+
+![An example of a *nadir* angle image of Wau PoC, in South Sudan<br> *Source: IOM*](/part2/images/wau2.jpg){.column-page-right width=70% }
+
 ### Ground control points
+
+![An example Ground Control Point<br> *Source: Pix4d*](/part2/images/gcp.jpg){.column-page-right width=50% }
+
 ### Community engagement
 ### Path and image overlap
 A minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%. 
@@ -20,8 +28,10 @@ A minimum of 16-31 images are needed to create an orthophoto from drone captured
 
 ## Flight
 ...
+
 ## Post-Flight
 ... 
+
 ## Post-Flight processing
 
 Drone captured images then need to be stitched together into one image or _orthomosaic_. 

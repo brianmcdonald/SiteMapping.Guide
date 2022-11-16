@@ -106,7 +106,6 @@ Any saved changes made to a data layer in QGIS will also change the source file.
 :::
 
 ### Print Layouts and Using Templates
-
 With QGIS's layout composer, you can [create layouts](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager) or use existing layout templates. The template file can be downloaded [here](add link). One the layout is complete, [save and export the print layout](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html) as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select [export as vectors](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings)), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting 'Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to *Section 7: Collaboration* for more on GeoPDFs)
 
 ### Saving the data layers and styles into a Geopackage

@@ -40,5 +40,26 @@
   },
   "annexes/secondary-data.qmd": {
     "secondary-data.html": "60efa8ce"
+  },
+  "annexes/references.qmd": {
+    "references.html": "c0f7af0c"
+  },
+  "part2/existing-imagery.qmd": {
+    "existing-imagery.html": "d6bce4da"
+  },
+  "part2/UAV.qmd": {
+    "UAV.html": "b6ec04e4"
+  },
+  "part3/tracing.qmd": {
+    "tracing.html": "c76904d1"
+  },
+  "part3/composing-maps.qmd": {
+    "composing-maps.html": "11f2d694"
+  },
+  "part3/collaboration.qmd": {
+    "collaboration.html": "0c7cc8af"
+  },
+  "part2/satellite-imagery.qmd": {
+    "satellite-imagery.html": "2839b37d"
   }
 }

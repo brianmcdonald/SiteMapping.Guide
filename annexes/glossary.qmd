@@ -1,10 +1,36 @@
 # Glossary {.unnumbered}
 
-A glossary of common terms used throughout this guide.
+A glossary of terms used throughout this guide:
 
 ```{glossary}
-[UAV](https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle)
-    Unmanned Aerial Vehicle, commonly known as a drone. Radio controlled fixed-wing or rotorcraft.
 
-[IOM](https://www.iom.int)
-     International Organization for Migration.
+Drone
+: Common term for unmanned or remotely-piloted aircraft.
+
+Georeferencing
+: The act of aligning geographic data (such as a map) to a known coordinate system. 
+
+GIS
+: Geographic information system. In general terms, a system that is designed to manipulate, store, analyze, and manage spatial and geographic data. 
+
+GSD
+: Ground sample distance. The resolution of an aerial image
+
+IOM
+: International Organization for Migration.
+
+Nadir
+: In aerial photography, the point on the ground that lies directly below the perspective center of the camera lens; also, images taken from this perspective (i.e., straight down).
+
+Orthomosaic
+: A two-part process in which a number of images are combined together or “stitched” into a single image and also corrected for distortion. 
+
+Orthorectification
+: A process of removing the efects of image perspective and relief efects by using camera model information and elevation data, creating a fnal image that has a constant scale. 
+
+RTK
+: Real time kinematic. A technique used to extract more-precise-than-normal position data from global satellite navigation timing signals.
+
+UAV
+: Unmanned Aerial Vehicle, commonly known as a drone. Radio controlled fixed-wing or rotorcraft.
+

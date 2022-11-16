@@ -16,27 +16,27 @@ book:
   page-navigation: true
   repo-actions: []
   downloads: [pdf, epub]
+  license: "CC BY-NC"
   chapters:
     - index.qmd
-    - part: "Preparation"
+    - part: "Part 1 - Preparation"
       chapters: 
         - part1/identify-requirements.qmd
         - part1/deciding-on-an-approach.qmd
-    - part: "Getting Imagery"
+    - part: "Part 2 - Obtaining imagery"
       chapters: 
-        - part2/existing-imagery.md
-        - part2/UAV.md
-    - part: "Developing Maps"
+        - part2/satellite-imagery.qmd
+        - part2/UAV.qmd
+    - part: "Part 3 - Developing Maps"
       chapters: 
-        - part3/tracing.md
-        - part3/composing-maps.md
-        - part3/collaboration.md
+        - part3/tracing.qmd
+        - part3/composing-maps.qmd
+        - part3/collaboration.qmd
     - part: "Annexes"
       chapters: 
         - annexes/acknowledgements.qmd
         - annexes/glossary.qmd
-        - annexes/secondary-data.qmd
-        - references.qmd
+        - annexes/references.qmd
 
 bibliography: references.bib
 
@@ -46,20 +46,16 @@ format:
     link-external-newwindow: true
     cover-image: cover.png
     logo: logo.png
-    theme:
-      light: cosmo
-      dark: darkly
+    theme: cosmo
     status: "draft"
     date-modified: today
-
-  pdf:
-    documentclass: scrreprt
-    papersize: A4
-    fontfamily: roboto
 
   epub:
     cover-image: cover.png
     toc: true
 
-
-
+  pdf:
+    documentclass: scrreprt
+    papersize: A4
+    number-sections: true
+    toc: true
