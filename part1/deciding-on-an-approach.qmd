@@ -10,10 +10,6 @@ There are two approaches to making sites maps presented in this guide. The main 
 
 Each of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:
 
-### Information needs
-
-It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, #D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc. You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
-
 ### Conflict and Data Sensitivity concerns
 There are key considerations to take into account when collecting, processing and sharing any type of data. These considerations determine the degree of sensitivity applied throughout the data life cycle and include:
 
@@ -33,11 +29,15 @@ Once your flight area is identified, a risk-benefit assessment should be conduct
 The use of drones to capture aerial image for site mapping does not require the collection of personal data. Individuals must not be identifiable from captured images. Ensure that the flight (altitude, angle etc.) eliminates or reduces as much as possible the likelihood that imagery captured may directly or indirectly identify an individual. If, by mistake, you collect images in which people can be identified, you should immidiately delete them. However, if the image taken must really be used, you can either crop the image or blur the faces of people who could be identified. While collecting the data or shortly thereafter, you should check whether some of the data collected is particularly sensitive and should be deleted or otherwise made unrecognizable in the image (e.g. a group of individuals that could be identified as part of a specific group, image of illegal crops or settlement).
 
 ### Regulatory environment
-It is important to fully understand the national and local-level laws, procedures and norms related to the use of UAVs as it can vary significantly between contexts. The regulatory enviroonment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and  geographic limitations for UAV flight.
+In many contexts, permissions to fly Drones is required. In some cases, a remote pilot license many also be needed. 
 
-The [Global Drone Regulations Database](https://droneregulations.info/) keeps an updated collection of country-specifc relations, and can be used to understand the sources of legal information, relevant contact information and regulations on operating rules, licensing and approval procedures.
+- Add [Global Drone Regulations Database](https://droneregulations.info/)
 
-### Organizational requirements
+### Information needs
+
+It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, #D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc. You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
+
+### Organizational requirements and final checklist
 
 ::: {.callout-note}
 ## Note for IOM staff
