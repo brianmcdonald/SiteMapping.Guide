@@ -1,30 +1,59 @@
 # Composing site maps
-...
-## Key elements of a site map
+Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout  is composed (either from scratch or from an existing site map template) with the elements listed below such as the site map, legends, scale bars, text. The layout is then exported to PDF or geoPDF. The layout can be save
 
-The following list of element should be included in the final output:
+## Examples 
+A number of site map examples are available [here](add link).
 
-- Title and Subtitle
+##  Working in GIS
+
+### Loading data layers and veryfying projections
+To prepare the site map, [load the data layers](https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer) into a GIS workspace. QGIS can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:
+
+|Data Layer Example|File Type|
+| ----- | ----- |
+|Aerial Imagery|Raster file|
+|Location of healthcare facilities or service providers|Vector file|
+|Population per block|Delimited Text file|
+
+Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Therefore, all layers need to be checked and [projected](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems) where needed, according to the [Project  CRS](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems) set to the area of your site location. You can use the [epsg.io](https://epsg.io/) database of coordinate systems to know the coordinate system you should be using for you context. 
+
+### Layers and elements of a site map
+This guide is accompanied by a site map template which can be loaded into QGIS's Print Composer. Below is a dummy example of a site map produced using this template.
+
+:::{.callout-note}
+## Note
+
+For the purposes of supporting a **standardized approach to the production of static site maps**, and ensuring new **site maps can be compared and used alongside existing maps**, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it's audience.
+:::
+
+
+The following list of layers and elements can be included in the final output:
+
+- **Title and Subtitle**
   - Country 
   - State
   - Site Name
   - Thematic Title
-  - Date
+  - Date site map was last updated
 - Site map audience/ permission/ sharing restrictions 
-- Production date of site map
-- Site map version 
-- Inset maps:
+
+- Production date and version number of site map
+- Agency/ NGO Logos
+
+- **Inset maps**
   - At Country/ Regional level
-  - Ar Regional/ Area level
-- Source notes:
+  - At Regional/ Area level
+- **Notes**
   - Data sources
   - Satellite Imagery source
+  - Imagery Resolution
   - Coordinate system
   - Site GPS coordinate points
   - IOM CCCM Logo (or other)
   - Contact
+  - Link to Geodatabase/ corresponding data layers
   - Disclose limitations regarding accuracy of site map
-- Map:
+- **Map**
   - Base Map (satellite/ aerial imagery)
   - Scale bar
   - Orientation indicators
@@ -49,13 +78,13 @@ The following list of element should be included in the final output:
     - Site boundary 
     - Security facilities or guard points
     - Fences/ Camp Boundaries
- - Environment
+ - **Environment**
     - Host community
     - Green belt
     - Trees/ Vegetation
     - Agricultural land
- - Other optional labelling and infrastructure:
-    - Functioning/ non-functioning
+ - **Optional additional labels**:
+    - Functioning/ non-functioning facilities
     - Male/ female latrines
     - Unusable area
     - Summary information/ figures
@@ -66,13 +95,19 @@ The following list of element should be included in the final output:
       - Quantity of sanitation blocks/ latrines/ showers
       - Type of water supply
       - Total no. of water points
+      
+### Visualizing data layers
+Once the files are opened in QGIS, they will appear as layers. These layers can be duplicated in order to [show different visualisations](https://docs.qgis.org/3.22/en/docs/user_manual/style_library/symbol_selector.html#the-symbol-selector) of the same file. 
 
-### Examples 
+:::{.callout-warning}
+## Warning
 
-##  GIS
+Any saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features to a layer but do not want to edit the original source file, [save the layer as a separate file](https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer) **before** making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder. 
+:::
 
-### Creating a Geodatabase
-...
-### Creating/ Importing Templates
-...
+### Print Layouts and Using Templates
 
+With QGIS's layout composer, you can [create layouts](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager) or use existing layout templates. The template file can be downloaded [here](add link). One the layout is complete, [save and export the print layout](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html) as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select [export as vectors](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings)), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting 'Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to *Section 7: Collaboration* for more on GeoPDFs)
+
+### Saving the data layers and styles into a Geopackage
+Data layers are saved on your local computer. However, to share all data files, it is recommended to compress these into a Geopackage. The QGIS project and all the data used in the project can be saved using the [Package Layers tool](https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers) and easily shared and stored as such for future use. 
