@@ -246,7 +246,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Once the site mapper has the aerial imagery, a series of options exist to process that imagery according to your needs. One of these needs may include generating labelled shelter and/ or building outlines. The site mapper may chose to either manually or automatically trace and label these features. In order to determine which option to use, let’s look at the advantages and disadvantages of both.</p>
+<p>Once the aerial imagery has been obtained, a series of post-processing options are involved to extract geographic information from the imagery. The site features to be extracted from the aerial imagery will depend on the needs, audience and objective of the site map. For instance, the site mapper may look to map the location and configuration of shelters . Post-processing of the image therefore will include generating a new data layer of shelter outlines.</p>
+<p>The site mapper can either <strong>manually</strong> or <strong>automatically</strong> trace and label these features. In order to determine which options to use, let’s look at the advantages and disadvantages of both.</p>
 <table class="table">
 <colgroup>
 <col style="width: 36%">
@@ -261,18 +262,18 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td><strong>Advantages</strong> <br><br> Tracing and labeling manually requires only basic GIS skills. <br><br> Can be done offline in contexts with limited connectivity. <br><br> Allows for medium to high accuracy tracing of shelters and buildings with irregular or non-rectangular geometry.</td>
-<td><strong>Advantages</strong> <br><br> High number of shelters and buildings can be traced and labelled in a small amount of time, relative to manual tracing.</td>
+<td><br><br> High number of shelters and buildings can be traced and labelled in a small amount of time, relative to manual tracing.</td>
 </tr>
 <tr class="even">
 <td><strong>Disadvantages</strong> <br><br> Time intensive, relative to automatic tracing.</td>
-<td><strong>Disadvantages</strong> <br><br> Some tools may require basic to advanced understanding of machine learning principle. This is required with most open-source tools. <br><br> Most low-code tools are not open source or free and may incur additional costs <br><br> Depending on how much training data is available, the type and accuracy of the tool used,(amongst other factors), there may be errors or inaccuracies in the outlines and labels generated.</td>
+<td><br><br> Some tools may require basic to advanced understanding of machine learning principle. This is required with most open-source tools. <br><br> Most low-code tools are not open source or free and may incur additional costs <br><br> Depending on how much training data is available, the type and accuracy of the tool used,(amongst other factors), there may be errors or inaccuracies in the outlines and labels generated.</td>
 </tr>
 </tbody>
 </table>
-<p>Note: If there is high cloud or tree coverage, some features may not be visible in the aerial imagery and thus will not be detected by the site mapper or the machine learning model. Therefore, it is crucial to validate the generated outlines and labels with inputs from colleaugues in the field.</p>
+<p>Note: If there is high cloud or tree coverage, some features may not be visible in the aerial imagery and thus will not be detected by the site mapper or the machine learning model. Therefore, it is crucial to validate the generated outlines and labels with inputs from colleagues in the field.</p>
 <section id="manual-tracing" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="manual-tracing"><span class="header-section-number">5.1</span> Manual tracing</h2>
-<p>Manual tracing can be done in GIS or AutoDesk software. Quantum GIS can be downloaded for free <a href="https://www.qgis.org/en/site/forusers/download.html">here</a>. Once the software download is complete, import and georeference the aerial imagery in QGIS. Create a new shapefile layer and toggle edit to trace the features required. Untoggle edit to save your edits.</p>
+<p>Manual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free <a href="https://www.qgis.org/en/site/forusers/download.html">here</a>. Once the software download is complete, <a href="https://www.qgistutorials.com/en/docs/3/advanced_georeferencing.html">georeference</a> the aerial imagery into a new workspace. Create a <a href="https://docs.qgis.org/3.22/en/docs/training_manual/create_vector_data/create_new_vector.html#:~:text=Open%20QGIS%20and%20create%20a,to%20define%20a%20new%20layer.">new vector layer</a> and <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">toggle edit</a> to trace the required features. Untoggle edit to save your edits.</p>
 </section>
 <section id="automatic-tracing" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="automatic-tracing"><span class="header-section-number">5.2</span> Automatic tracing</h2>

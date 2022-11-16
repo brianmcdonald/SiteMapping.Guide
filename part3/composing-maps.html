@@ -215,14 +215,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#key-elements-of-a-site-map" id="toc-key-elements-of-a-site-map" class="nav-link active" data-scroll-target="#key-elements-of-a-site-map"><span class="toc-section-number">6.1</span>  Key elements of a site map</a>
+  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples"><span class="toc-section-number">6.1</span>  Examples</a></li>
+  <li><a href="#working-in-gis" id="toc-working-in-gis" class="nav-link" data-scroll-target="#working-in-gis"><span class="toc-section-number">6.2</span>  Working in GIS</a>
   <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="toc-section-number">6.1.1</span>  Examples</a></li>
-  </ul></li>
-  <li><a href="#gis" id="toc-gis" class="nav-link" data-scroll-target="#gis"><span class="toc-section-number">6.2</span>  GIS</a>
-  <ul class="collapse">
-  <li><a href="#creating-a-geodatabase" id="toc-creating-a-geodatabase" class="nav-link" data-scroll-target="#creating-a-geodatabase"><span class="toc-section-number">6.2.1</span>  Creating a Geodatabase</a></li>
-  <li><a href="#creating-importing-templates" id="toc-creating-importing-templates" class="nav-link" data-scroll-target="#creating-importing-templates"><span class="toc-section-number">6.2.2</span>  Creating/ Importing Templates</a></li>
+  <li><a href="#loading-data-layers-and-veryfying-projections" id="toc-loading-data-layers-and-veryfying-projections" class="nav-link" data-scroll-target="#loading-data-layers-and-veryfying-projections"><span class="toc-section-number">6.2.1</span>  Loading data layers and veryfying projections</a></li>
+  <li><a href="#layers-and-elements-of-a-site-map" id="toc-layers-and-elements-of-a-site-map" class="nav-link" data-scroll-target="#layers-and-elements-of-a-site-map"><span class="toc-section-number">6.2.2</span>  Layers and elements of a site map</a></li>
+  <li><a href="#visualizing-data-layers" id="toc-visualizing-data-layers" class="nav-link" data-scroll-target="#visualizing-data-layers"><span class="toc-section-number">6.2.3</span>  Visualizing data layers</a></li>
+  <li><a href="#print-layouts-and-using-templates" id="toc-print-layouts-and-using-templates" class="nav-link" data-scroll-target="#print-layouts-and-using-templates"><span class="toc-section-number">6.2.4</span>  Print Layouts and Using Templates</a></li>
+  <li><a href="#saving-the-data-layers-and-styles-into-a-geopackage" id="toc-saving-the-data-layers-and-styles-into-a-geopackage" class="nav-link" data-scroll-target="#saving-the-data-layers-and-styles-into-a-geopackage"><span class="toc-section-number">6.2.5</span>  Saving the data layers and styles into a Geopackage</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -253,37 +253,87 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="key-elements-of-a-site-map" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="key-elements-of-a-site-map"><span class="header-section-number">6.1</span> Key elements of a site map</h2>
-<p>The following list of element should be included in the final output:</p>
+<p>Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template) with the elements listed below such as the site map, legends, scale bars, text. The layout is then exported to PDF or geoPDF. The layout can be save</p>
+<section id="examples" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="examples"><span class="header-section-number">6.1</span> Examples</h2>
+<p>A number of site map examples are available <a href="add link">here</a>.</p>
+</section>
+<section id="working-in-gis" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="working-in-gis"><span class="header-section-number">6.2</span> Working in GIS</h2>
+<section id="loading-data-layers-and-veryfying-projections" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="loading-data-layers-and-veryfying-projections"><span class="header-section-number">6.2.1</span> Loading data layers and veryfying projections</h3>
+<p>To prepare the site map, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">load the data layers</a> into a GIS workspace. QGIS can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Data Layer Example</th>
+<th>File Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aerial Imagery</td>
+<td>Raster file</td>
+</tr>
+<tr class="even">
+<td>Location of healthcare facilities or service providers</td>
+<td>Vector file</td>
+</tr>
+<tr class="odd">
+<td>Population per block</td>
+<td>Delimited Text file</td>
+</tr>
+</tbody>
+</table>
+<p>Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Therefore, all layers need to be checked and <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems">projected</a> where needed, according to the <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems">Project CRS</a> set to the area of your site location. You can use the <a href="https://epsg.io/">epsg.io</a> database of coordinate systems to know the coordinate system you should be using for you context.</p>
+</section>
+<section id="layers-and-elements-of-a-site-map" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="layers-and-elements-of-a-site-map"><span class="header-section-number">6.2.2</span> Layers and elements of a site map</h3>
+<p>This guide is accompanied by a site map template which can be loaded into QGIS’s Print Composer. Below is a dummy example of a site map produced using this template.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For the purposes of supporting a <strong>standardized approach to the production of static site maps</strong>, and ensuring new <strong>site maps can be compared and used alongside existing maps</strong>, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it’s audience.</p>
+</div>
+</div>
+<p>The following list of layers and elements can be included in the final output:</p>
 <ul>
-<li>Title and Subtitle
+<li><p><strong>Title and Subtitle</strong></p>
 <ul>
 <li>Country</li>
 <li>State</li>
 <li>Site Name</li>
 <li>Thematic Title</li>
-<li>Date</li>
+<li>Date site map was last updated</li>
 </ul></li>
-<li>Site map audience/ permission/ sharing restrictions</li>
-<li>Production date of site map</li>
-<li>Site map version</li>
-<li>Inset maps:
+<li><p>Site map audience/ permission/ sharing restrictions</p></li>
+<li><p>Production date and version number of site map</p></li>
+<li><p>Agency/ NGO Logos</p></li>
+<li><p><strong>Inset maps</strong></p>
 <ul>
 <li>At Country/ Regional level</li>
-<li>Ar Regional/ Area level</li>
+<li>At Regional/ Area level</li>
 </ul></li>
-<li>Source notes:
+<li><p><strong>Notes</strong></p>
 <ul>
 <li>Data sources</li>
 <li>Satellite Imagery source</li>
+<li>Imagery Resolution</li>
 <li>Coordinate system</li>
 <li>Site GPS coordinate points</li>
 <li>IOM CCCM Logo (or other)</li>
 <li>Contact</li>
+<li>Link to Geodatabase/ corresponding data layers</li>
 <li>Disclose limitations regarding accuracy of site map</li>
 </ul></li>
-<li>Map:
+<li><p><strong>Map</strong></p>
 <ul>
 <li>Base Map (satellite/ aerial imagery)</li>
 <li>Scale bar</li>
@@ -312,16 +362,16 @@ ul.task-list li input[type="checkbox"] {
 <li>Fences/ Camp Boundaries</li>
 </ul></li>
 </ul></li>
-<li>Environment
+<li><p><strong>Environment</strong></p>
 <ul>
 <li>Host community</li>
 <li>Green belt</li>
 <li>Trees/ Vegetation</li>
 <li>Agricultural land</li>
 </ul></li>
-<li>Other optional labelling and infrastructure:
+<li><p><strong>Optional additional labels</strong>:</p>
 <ul>
-<li>Functioning/ non-functioning</li>
+<li>Functioning/ non-functioning facilities</li>
 <li>Male/ female latrines</li>
 <li>Unusable area</li>
 <li>Summary information/ figures
@@ -336,19 +386,31 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul></li>
 </ul>
-<section id="examples" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="examples"><span class="header-section-number">6.1.1</span> Examples</h3>
 </section>
+<section id="visualizing-data-layers" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="visualizing-data-layers"><span class="header-section-number">6.2.3</span> Visualizing data layers</h3>
+<p>Once the files are opened in QGIS, they will appear as layers. These layers can be duplicated in order to <a href="https://docs.qgis.org/3.22/en/docs/user_manual/style_library/symbol_selector.html#the-symbol-selector">show different visualisations</a> of the same file.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Any saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features to a layer but do not want to edit the original source file, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">save the layer as a separate file</a> <strong>before</strong> making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder.</p>
+</div>
+</div>
 </section>
-<section id="gis" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="gis"><span class="header-section-number">6.2</span> GIS</h2>
-<section id="creating-a-geodatabase" class="level3" data-number="6.2.1">
-<h3 data-number="6.2.1" class="anchored" data-anchor-id="creating-a-geodatabase"><span class="header-section-number">6.2.1</span> Creating a Geodatabase</h3>
-<p>…</p>
+<section id="print-layouts-and-using-templates" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="print-layouts-and-using-templates"><span class="header-section-number">6.2.4</span> Print Layouts and Using Templates</h3>
+<p>With QGIS’s layout composer, you can <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager">create layouts</a> or use existing layout templates. The template file can be downloaded <a href="add link">here</a>. One the layout is complete, <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html">save and export the print layout</a> as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings">export as vectors</a>), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting ’Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to <em>Section 7: Collaboration</em> for more on GeoPDFs)</p>
 </section>
-<section id="creating-importing-templates" class="level3" data-number="6.2.2">
-<h3 data-number="6.2.2" class="anchored" data-anchor-id="creating-importing-templates"><span class="header-section-number">6.2.2</span> Creating/ Importing Templates</h3>
-<p>…</p>
+<section id="saving-the-data-layers-and-styles-into-a-geopackage" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="saving-the-data-layers-and-styles-into-a-geopackage"><span class="header-section-number">6.2.5</span> Saving the data layers and styles into a Geopackage</h3>
+<p>Data layers are saved on your local computer. However, to share all data files, it is recommended to compress these into a Geopackage. The QGIS project and all the data used in the project can be saved using the <a href="https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers">Package Layers tool</a> and easily shared and stored as such for future use.</p>
 
 
 </section>

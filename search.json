@@ -137,7 +137,7 @@
     "href": "part3/tracing.html#manual-tracing",
     "title": "5  Tracing and labelling",
     "section": "5.1 Manual tracing",
-    "text": "5.1 Manual tracing\nManual tracing can be done in GIS or AutoDesk software. Quantum GIS can be downloaded for free here. Once the software download is complete, import and georeference the aerial imagery in QGIS. Create a new shapefile layer and toggle edit to trace the features required. Untoggle edit to save your edits."
+    "text": "5.1 Manual tracing\nManual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free here. Once the software download is complete, georeference the aerial imagery into a new workspace. Create a new vector layer and toggle edit to trace the required features. Untoggle edit to save your edits."
   },
   {
     "objectID": "part3/tracing.html#automatic-tracing",
@@ -147,39 +147,46 @@
     "text": "5.2 Automatic tracing\nHere are some open source tools which can assist you in creating a workflow for automatic shelter detection: - Create a training data set from aerial imagery with Groundwork.azavea. Upload orthophoto to Groundwork, label features and export training data in .json format. - Extract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from here. Further guidance on how to install the Mapflow QGIS plugin is available here. - Analyse and conduct image segmentation on aerial or satellite imagery using the UP42 platform."
   },
   {
-    "objectID": "part3/composing-maps.html#key-elements-of-a-site-map",
-    "href": "part3/composing-maps.html#key-elements-of-a-site-map",
+    "objectID": "part3/composing-maps.html#examples",
+    "href": "part3/composing-maps.html#examples",
     "title": "6  Composing site maps",
-    "section": "6.1 Key elements of a site map",
-    "text": "6.1 Key elements of a site map\nThe following list of element should be included in the final output:\n\nTitle and Subtitle\n\nCountry\nState\nSite Name\nThematic Title\nDate\n\nSite map audience/ permission/ sharing restrictions\nProduction date of site map\nSite map version\nInset maps:\n\nAt Country/ Regional level\nAr Regional/ Area level\n\nSource notes:\n\nData sources\nSatellite Imagery source\nCoordinate system\nSite GPS coordinate points\nIOM CCCM Logo (or other)\nContact\nDisclose limitations regarding accuracy of site map\n\nMap:\n\nBase Map (satellite/ aerial imagery)\nScale bar\nOrientation indicators\nLegend\nCamp Infrastructure:\n\nShelters\nShelter blocks\nZones\nWASH facilities\nWater points\nEducation facilities\nHealth Facilities\nDistribution points (Food/ NFI)\nMarkets(s)\nInformation desks\nCFM desks\nOther camp facilities\nMovement network (Roads, pathways)\nCommunity areas/ centre\nReligious buildings/ spaces\nSite Entrance(s)\nSite boundary\nSecurity facilities or guard points\nFences/ Camp Boundaries\n\n\nEnvironment\n\nHost community\nGreen belt\nTrees/ Vegetation\nAgricultural land\n\nOther optional labelling and infrastructure:\n\nFunctioning/ non-functioning\nMale/ female latrines\nUnusable area\nSummary information/ figures\n\nSite population (households and individuals)\nSite area\nTotal no. of shelters\nShelter type and size\nQuantity of sanitation blocks/ latrines/ showers\nType of water supply\nTotal no. of water points\n\n\n\n\n6.1.1 Examples"
+    "section": "6.1 Examples",
+    "text": "6.1 Examples\nA number of site map examples are available here."
   },
   {
-    "objectID": "part3/composing-maps.html#gis",
-    "href": "part3/composing-maps.html#gis",
+    "objectID": "part3/composing-maps.html#working-in-gis",
+    "href": "part3/composing-maps.html#working-in-gis",
     "title": "6  Composing site maps",
-    "section": "6.2 GIS",
-    "text": "6.2 GIS\n\n6.2.1 Creating a Geodatabase\n…\n\n\n6.2.2 Creating/ Importing Templates\n…"
+    "section": "6.2 Working in GIS",
+    "text": "6.2 Working in GIS\n\n6.2.1 Loading data layers and veryfying projections\nTo prepare the site map, load the data layers into a GIS workspace. QGIS can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:\n\n\n\nData Layer Example\nFile Type\n\n\n\n\nAerial Imagery\nRaster file\n\n\nLocation of healthcare facilities or service providers\nVector file\n\n\nPopulation per block\nDelimited Text file\n\n\n\nMost publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Therefore, all layers need to be checked and projected where needed, according to the Project CRS set to the area of your site location. You can use the epsg.io database of coordinate systems to know the coordinate system you should be using for you context.\n\n\n6.2.2 Layers and elements of a site map\nThis guide is accompanied by a site map template which can be loaded into QGIS’s Print Composer. Below is a dummy example of a site map produced using this template.\n\n\n\n\n\n\nNote\n\n\n\nFor the purposes of supporting a standardized approach to the production of static site maps, and ensuring new site maps can be compared and used alongside existing maps, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it’s audience.\n\n\nThe following list of layers and elements can be included in the final output:\n\nTitle and Subtitle\n\nCountry\nState\nSite Name\nThematic Title\nDate site map was last updated\n\nSite map audience/ permission/ sharing restrictions\nProduction date and version number of site map\nAgency/ NGO Logos\nInset maps\n\nAt Country/ Regional level\nAt Regional/ Area level\n\nNotes\n\nData sources\nSatellite Imagery source\nImagery Resolution\nCoordinate system\nSite GPS coordinate points\nIOM CCCM Logo (or other)\nContact\nLink to Geodatabase/ corresponding data layers\nDisclose limitations regarding accuracy of site map\n\nMap\n\nBase Map (satellite/ aerial imagery)\nScale bar\nOrientation indicators\nLegend\nCamp Infrastructure:\n\nShelters\nShelter blocks\nZones\nWASH facilities\nWater points\nEducation facilities\nHealth Facilities\nDistribution points (Food/ NFI)\nMarkets(s)\nInformation desks\nCFM desks\nOther camp facilities\nMovement network (Roads, pathways)\nCommunity areas/ centre\nReligious buildings/ spaces\nSite Entrance(s)\nSite boundary\nSecurity facilities or guard points\nFences/ Camp Boundaries\n\n\nEnvironment\n\nHost community\nGreen belt\nTrees/ Vegetation\nAgricultural land\n\nOptional additional labels:\n\nFunctioning/ non-functioning facilities\nMale/ female latrines\nUnusable area\nSummary information/ figures\n\nSite population (households and individuals)\nSite area\nTotal no. of shelters\nShelter type and size\nQuantity of sanitation blocks/ latrines/ showers\nType of water supply\nTotal no. of water points\n\n\n\n\n\n6.2.3 Visualizing data layers\nOnce the files are opened in QGIS, they will appear as layers. These layers can be duplicated in order to show different visualisations of the same file.\n\n\n\n\n\n\nWarning\n\n\n\nAny saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features to a layer but do not want to edit the original source file, save the layer as a separate file before making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder.\n\n\n\n\n6.2.4 Print Layouts and Using Templates\nWith QGIS’s layout composer, you can create layouts or use existing layout templates. The template file can be downloaded here. One the layout is complete, save and export the print layout as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select export as vectors), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting ’Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to Section 7: Collaboration for more on GeoPDFs)\n\n\n6.2.5 Saving the data layers and styles into a Geopackage\nData layers are saved on your local computer. However, to share all data files, it is recommended to compress these into a Geopackage. The QGIS project and all the data used in the project can be saved using the Package Layers tool and easily shared and stored as such for future use."
+  },
+  {
+    "objectID": "part3/collaboration.html#information-and-knowledge-management",
+    "href": "part3/collaboration.html#information-and-knowledge-management",
+    "title": "7  Collaboration",
+    "section": "7.1 Information and knowledge management",
+    "text": "7.1 Information and knowledge management\nStrategy of site information management - save and share data with the CCCM cluster so their is longer term management of site data the CCCM cluster can play a role in facilitating this"
   },
   {
     "objectID": "part3/collaboration.html#generating-geopdfs",
     "href": "part3/collaboration.html#generating-geopdfs",
     "title": "7  Collaboration",
-    "section": "7.1 Generating geoPDFs",
-    "text": "7.1 Generating geoPDFs\n…"
+    "section": "7.2 Generating geoPDFs",
+    "text": "7.2 Generating geoPDFs\nIn the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information."
   },
   {
     "objectID": "part3/collaboration.html#reading-and-annotating-geopdfs",
     "href": "part3/collaboration.html#reading-and-annotating-geopdfs",
     "title": "7  Collaboration",
-    "section": "7.2 Reading and annotating geoPDFs",
-    "text": "7.2 Reading and annotating geoPDFs\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
+    "section": "7.3 Reading and annotating geoPDFs",
+    "text": "7.3 Reading and annotating geoPDFs\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
   },
   {
     "objectID": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "href": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "title": "7  Collaboration",
-    "section": "7.3 Gathering feedback and map iteration.",
-    "text": "7.3 Gathering feedback and map iteration.\n…"
+    "section": "7.4 Gathering feedback and map iteration.",
+    "text": "7.4 Gathering feedback and map iteration.\n… - site walks - annotate maps"
   },
   {
     "objectID": "annexes/acknowledgements.html",
