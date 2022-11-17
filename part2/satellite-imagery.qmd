@@ -6,9 +6,14 @@ This section introduces the different types of satellite imagery, what to consid
 ## Types of satellite imagery
 There are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth's surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors. SAR emits electromagnetic pulses whereas Lidar emits light pulses towards the Earth surface, both measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth's surface and are dependent on the day-night cycle. 
 
-For the purpose of site mapping optical sources, which typically produce imagery with colour reprduction similar to the human eye, are most prevalent and useful.
+For the purpose of site mapping, **satellite imagery sourced using Optical satellites is most prevalent and useful** (as these typically produce imagery with colour similar to how the human eye preceives color).
 
 ![Synthetic Aperature Radar(active) vs Optical(passive) sensors<br> *Source: ESMA Lisbon*](/part2/images/sar-optical.png){.column-page-right width=70% }
+
+::: {.callout-note}
+## Note on Colour bands
+Satellites produce a range of different visual outputs. These visual outputs differ in their color combinations. Wavelengths detected by the satellites are translated into color bands then can combined to form an Index. This allows further analysis to be conducted. *True-color* images, as produced by Optical satellites and often used for mapping purposes, are a combination of the red, green and blue bands which results in an visual output similar to how we see color with our eyes. Other types of outputs include the Normalized Difference Vegetation Index (NVDI), which can be used to monitor changes in vegetation, or the False Color Infrared combination, which can be used in water detection during the heavy rain seasons or in the event of flooding. 
+:::
 
 ## Cloud cover
 
@@ -17,29 +22,28 @@ Passive satellites are not able to capture through clouds and therefore can be l
 ![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png){.column-page-right width=70% }
 
 ## Spatial resolution
-Resolution of an image is categorized as follows:
+The resolution of a satellite image is categorized as follows:
+
 - High resolution: 30cm-5m/pixel
 - Medium resolution: 10-30m/pixel
 - Low resolution: over 60m/pixel
 
 ![Comparison of different spatial resolutions<br> *Source: X. Yao*](/part2/images/spatial-resolution.jpg){.column-page-right width=70% }
 
-10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail. 
+A 10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail. 
 
-Depending on the users needs, different image resolutions are used.
+Depending on the user's needs, different image resolutions can be used:
 
-Low to Medium resolution images are good for understanding the bigger picture, whether that is looking at historical trends or deriving insights from spectral analysis. For example, ESA's Sentinel and NASA/USGS Landsat data provide historical data at this resolution. 
+- High resolution images are used in scale analysis or monitoring since a smaller area is often covered. The level of detail at such spatial resolution allows for small and individual objects to be identified. High resolution images are ideal for humanitarian aid applications, detailed mapping, urban planning, as well as infrastructure, forestry and agriculture monitoring. However, high-resolution imagery is expensive and as a result, less of it is openly accessible. **For the purposes of creating site maps, high resolution imagery is preferable**. 
 
-High resolution images are ideal for small scale analysis or monitoring since often a smaller area if covered. The level of detail at such spatial resolution allows from small and individual objects to be identified which makes it ideal for humanitarian aid applications, detailed mapping, urban planning, as well as infrastructure, forestry and agriculture monitoring. However, high-resolution imagery is expensive and as a result less of it is openly accessible.For the purposes of creating site maps, high resolution imagery is preferable. 
+- Low to Medium resolution images are useful for understanding the bigger picture, whether that is looking at historical trends or deriving insights from spectral analysis. For example, ESA's Sentinel and NASA/USGS Landsat data provide historical data at this resolution. 
 
-## Colour bands
-...
 
 ## Imagery sources
 
 Some free data sources for low to medium resolution imagery include USGS/NASA's [Landsat](https://earthexplorer.usgs.gov/) and [ESA's Sentinel series](https://apps.sentinel-hub.com/eo-browser/). 
 
-High-resolution imagery can be sourced from [UNOSAT](https://smcs.unosat.org/home) Some satellite image providers also provide imagery for certain select disasters. An example of this is [Maxar's Opend Data Program](https://www.maxar.com/open-data). [OpenAerialMap](https://openaerialmap.org/) can also be a useful source, where open licenced aerial imagery is made available for download.
+High-resolution imagery can be sourced from [UNOSAT](https://smcs.unosat.org/home). Some satellite image providers also provide imagery for certain select disasters. An example of this is [Maxar's Opend Data Program](https://www.maxar.com/open-data). [OpenAerialMap](https://openaerialmap.org/) can also be a useful source, where open licenced aerial imagery is made available for download.
 
 ::: {.callout-note}
 ## Note for IOM staff
