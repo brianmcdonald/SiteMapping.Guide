@@ -1,4 +1,5 @@
 # Using UAV imagery
+After conducting a risk-benefit assessment and consing collect aerial imagery using drones, the following section outlines the steps for engaging with the community, obtaining a drone kit, planning and carrying out the flight and processing the capture images. 
 
 ## Obtaining a drone kit 
 
