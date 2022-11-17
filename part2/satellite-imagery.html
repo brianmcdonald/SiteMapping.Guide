@@ -217,14 +217,14 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#types-of-satellite-imagery" id="toc-types-of-satellite-imagery" class="nav-link active" data-scroll-target="#types-of-satellite-imagery"><span class="toc-section-number">3.1</span>  Types of satellite imagery</a></li>
   <li><a href="#cloud-cover" id="toc-cloud-cover" class="nav-link" data-scroll-target="#cloud-cover"><span class="toc-section-number">3.2</span>  Cloud cover</a></li>
-  <li><a href="#understanding-spatial-resolution" id="toc-understanding-spatial-resolution" class="nav-link" data-scroll-target="#understanding-spatial-resolution"><span class="toc-section-number">3.3</span>  Understanding spatial resolution</a></li>
+  <li><a href="#spatial-resolution" id="toc-spatial-resolution" class="nav-link" data-scroll-target="#spatial-resolution"><span class="toc-section-number">3.3</span>  Spatial resolution</a></li>
   <li><a href="#colour-bands" id="toc-colour-bands" class="nav-link" data-scroll-target="#colour-bands"><span class="toc-section-number">3.4</span>  Colour bands</a></li>
   <li><a href="#imagery-sources" id="toc-imagery-sources" class="nav-link" data-scroll-target="#imagery-sources"><span class="toc-section-number">3.5</span>  Imagery sources</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -240,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 16, 2022</p>
+      <p class="date-modified">November 17, 2022</p>
     </div>
   </div>
     
@@ -249,18 +249,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="types-of-satellite-imagery" class="level2" data-number="3.1">
+<p>The choice of using satellite imagery may due to a need for rapid map turnaround time, lack of direct access to the area of interest or limitations to flying a drone listed in the previous chapter.</p>
+<p>The purpose of this section is to explain what the different types of satellite imagery are, what to consider when choosing imagery most appropriate for your use case and where to source the imagery.</p>
+<section id="types-of-satellite-imagery" class="level2 page-columns page-full" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="types-of-satellite-imagery"><span class="header-section-number">3.1</span> Types of satellite imagery</h2>
 <p>There are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth’s surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors, SAR emitting electromagnetic pulses and Lidar emitting light pulses towards the Earth surface and measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth’s surface and is dependent on the day-night cycle.</p>
 <p>For the purpose of site mapping optical sources, which typically produce imagery with colour reprduction similar to the human eye, are most prevalent and useful.</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="../part2/images/sar-optical.png" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Synthetic Aperature Radar(active) vs Optical(passive) sensors<br> <em>Source: ESMA Lisbon</em></figcaption><p></p>
+</figure>
+</div>
 </section>
-<section id="cloud-cover" class="level2" data-number="3.2">
+<section id="cloud-cover" class="level2 page-columns page-full" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="cloud-cover"><span class="header-section-number">3.2</span> Cloud cover</h2>
 <p>Passive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage.</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="../part2/images/cloud.png" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Optical imagery sources are affected by cloud cover<br> <em>Source: Harris Geospatial</em></figcaption><p></p>
+</figure>
+</div>
 </section>
-<section id="understanding-spatial-resolution" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="understanding-spatial-resolution"><span class="header-section-number">3.3</span> Understanding spatial resolution</h2>
+<section id="spatial-resolution" class="level2 page-columns page-full" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="spatial-resolution"><span class="header-section-number">3.3</span> Spatial resolution</h2>
 <p>Resolution of an image is categorized as follows: - High resolution: 30cm-5m/pixel - Medium resolution: 10-30m/pixel - Low resolution: over 60m/pixel</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="../part2/images/spatial-resolution.jpg" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">Comparison of different spatial resolutions<br> <em>Source: X. Yao</em></figcaption><p></p>
+</figure>
+</div>
 <p>10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail.</p>
 <p>Depending on the users needs, different image resolutions are used.</p>
 <p>Low to Medium resolution images are good for understanding the bigger picture, whether that is looking at historical trends or deriving insights from spectral analysis. For example, ESA’s Sentinel and NASA/USGS Landsat data provide historical data at this resolution.</p>
@@ -268,10 +288,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="colour-bands" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="colour-bands"><span class="header-section-number">3.4</span> Colour bands</h2>
+<p>…</p>
 </section>
 <section id="imagery-sources" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="imagery-sources"><span class="header-section-number">3.5</span> Imagery sources</h2>
 <p>Some free data sources for low to medium resolution imagery include USGS/NASA’s <a href="https://earthexplorer.usgs.gov/">Landsat</a> and <a href="https://apps.sentinel-hub.com/eo-browser/">ESA’s Sentinel series</a>.</p>
+<p>High-resolution imagery can be sourced from <a href="https://smcs.unosat.org/home">UNOSAT</a> Some satellite image providers also provide imagery for certain select disasters. An example of this is <a href="https://www.maxar.com/open-data">Maxar’s Opend Data Program</a>. <a href="https://openaerialmap.org/">OpenAerialMap</a> can also be a useful source, where open licenced aerial imagery is made available for download.</p>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -282,10 +304,9 @@ Note for IOM staff
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>High-resolution Satellite imagery can be requested from IOM DTM GIS unit <a href="dtmgis@iom.int">dtmgis@iom.int</a>.</p>
+<p>High-resolution Satellite imagery can be requested from IOM DTM GIS unit <a href="dtmgis@iom.int">dtmgis@iom.int</a></p>
 </div>
 </div>
-<p>Alternatively, <a href="https://openaerialmap.org/">OpenAerialMap</a> provides access to openly licensed aerial imagery. Imagery can be downloaded as a .tiff image file for free. However, in some cases, imagery for your area of interest may not be available. In this case, you may need to capture your own imagery.</p>
 
 
 </section>
