@@ -1,7 +1,7 @@
 /.quarto/
 /_site/
 /docs/
-.DS_Store
+**/.DS_Store
 /.luarc.json
 /.quarto/*
 .quarto
@@ -9,3 +9,5 @@
 .quarto\
 .luarcjson
 QTDublinIrish.otf
+docs\
+/docs
