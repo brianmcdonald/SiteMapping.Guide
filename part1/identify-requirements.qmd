@@ -7,18 +7,18 @@ Before jumping into **how** to develop site maps, it is important to first asses
 
 2. What stakeholders need to be involved, both in the development of the site maps (affected population, local and national authorities, staff, etc) and in their use (CCCM actors, local authorities, etc)? *How will buy in from these stakeholders be ensured?*
 
-4. What will be required to develop site maps in your context? Regardless of the chosen approach, the development of site maps requires personnel, time, hardware, software, connectivity and funding. A shortcoming on any of these may affect the feasibility or timeline of the development of site maps.
+4. What is required to develop site maps in your context? Regardless of the chosen approach, the development of site maps requires funding, personnel, time, hardware, software, and connectivity. A shortcoming on any of these may affect the feasibility or timeline of the development of site maps.
 
-5. What red-line contextual challenges, risks and sensitivities exist or may arise during the development of the site maps that may affect the overall feasibility or appropriateness their development?
+5. What red-line contextual challenges, risks and sensitivities exist or may arise during the development of the site maps that could affect the overall feasibility or appropriateness of their development?
 
 ## Stakeholders
-Whilst the development of site maps is somewhat approach and context-dependent, typically the following stakeholders will be involved:
+Whilst the development of site maps should be approach and context dependent, typically the following stakeholders will be involved:
 
 - **Affected population in sites.** These need to be consulted before collecting drone-captured imagery to make sure they are informed and consent to the activity in order to minimize risks associated with this approach and prevent any misunderstandings.
 
-- **Humanitarian actors.** These can help inform how many and which sites need to be mapped. Humanitarian actors, especially those on the ground, can also feed into the iteration process of the site maps, to validate information and keep the maps and underlying data up to date. 
+- **Humanitarian actors.** These can help inform which and how many sites need to be mapped. Humanitarian actors, especially those on the ground, will also feed into the iteration process of the site maps, in order to validate geographic information and keep the maps and the underlying data layers up to date. 
 
-- **Authorities.** The authorities are a crucial interlocutor for approvals as well as the use of the maps and handover of expertise and equipment in the case of capacity development for future scenarios.
+- **Authorities.** The authorities are a crucial interlocutor for approvals. In addition, their engagement can promote the use of the site maps in decision making processes. The participation of authorities in the site mapping process will also facilitate the handover and long term management of information, expertise and equipment, or support capacity development initiatives for future scenarios.
 
 - **Legal team.** IOM Legal colleagues will provide any additional guidance on data collection, processing and sharing related to your specific context and are responsible for providing the final approval on the use of drones. 
 

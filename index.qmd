@@ -56,7 +56,7 @@ Site maps can illustrate camp settings in both sudden-onset disasters as well as
 ![Rehabilation of Wau PoC site<br> *Source: IOM*](images/wau1.jpg)
 
 ## Acknowledgments
-This guide was developed by IOM, with considerable, inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the [acknowledgements annex](/annexes/acknowledgements.html).
+This guide was developed by IOM, with considerable inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the [acknowledgements annex](/annexes/acknowledgements.html).
 
 
 ## Feedback
