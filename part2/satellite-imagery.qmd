@@ -11,8 +11,8 @@ For the purpose of site mapping, **satellite imagery sourced using Optical satel
 ![Synthetic Aperature Radar(active) vs Optical(passive) sensors<br> *Source: ESMA Lisbon*](/part2/images/sar-optical.png){.column-page-right width=70% }
 
 ::: {.callout-note}
-## Note on Colour bands
-Satellites produce a range of different visual outputs. These visual outputs differ in their color combinations. Wavelengths detected by the satellites are translated into color bands then can combined to form an Index. This allows further analysis to be conducted. *True-color* images, as produced by Optical satellites and often used for mapping purposes, are a combination of the red, green and blue bands which results in an visual output similar to how we see color with our eyes. Other types of outputs include the Normalized Difference Vegetation Index (NVDI), which can be used to monitor changes in vegetation, or the False Color Infrared combination, which can be used in water detection during the heavy rain seasons or in the event of flooding. 
+# Note on Colour bands
+Satellites produce a range of different visual outputs. These visual outputs differ in their color combinations. Wavelengths detected by the satellites are translated into color bands then can combined to form an Index. This allows further analysis to be conducted. **True-color images**, as produced by Optical satellites and often used for mapping purposes, are a combination of the red, green and blue bands which results in an visual output similar to how we see color with our eyes. Other types of outputs include the **Normalized Difference Vegetation Index** (NVDI), which can be used to monitor changes in vegetation, or the **False Color Infrared** combination, which can be used in water detection during the heavy rain seasons or in the event of flooding. 
 :::
 
 ## Cloud cover
