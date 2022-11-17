@@ -1,19 +1,18 @@
 # Deciding on an approach
 
-![Uses and challenges of drone use <br> *Source: ICRC*](images/droneuseschallenges.png){#fig-droneuseschallenges width=70% fig-align="center"}
-
 There are two approaches to making sites maps presented in this guide. The main differerence between the two is in how aerial imagery is obtained:
 
 1. **Using high-resolution satellite imagery.**
-
 2. **Using drones to capture aerial images of the site.**
+
+![Uses and challenges of drone use <br> *Source: ICRC*](images/droneuseschallenges.png){#fig-droneuseschallenges width=70% fig-align="center"}
 
 Each of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:\
 
 ### Information needs
-It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you only need an image/orthomosaic or a Digital Elevation Model, 3D model, NDVI index etc. as this will affect your flight plan. Think about whether you have any applications outside of site mapping such as drainage analysis, slope analysis, landslide risk analysis, vegetation cover analysis etc. Consider also what area needs to be covered, bearing in mind that larger areas require longer flight times, more storage etc. 
+It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you need only an image/orthomosaic or whether you are look to create a Digital Elevation Model, a 3D model, a NDVI index etc. as this will affect your flight plan. Think about whether there are others applications outside of site mapping that you are in need of, such as drainage analysis, slope analysis, landslide risk analysis or vegetation cover analysis. Consider what area needs to be covered whilst bearing in mind that larger areas require longer flight times, more storage etc. 
 
-You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to the purpose (only the needed data is collected). 
+You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to its purpose (only collect data which is needed). 
 
 ### Conflict and Data Sensitivity
 Due to protection risks, humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This may mean that importation of equipment or flight approvals are not likely to be granted, or that their use in a site risk being perceived as a security threat. [^footnote1]
