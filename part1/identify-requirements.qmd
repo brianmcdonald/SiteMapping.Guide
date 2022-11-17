@@ -18,7 +18,7 @@ Whilst the development of site maps should be approach and context dependent, ty
 
 - **Humanitarian actors.** These can help inform which and how many sites need to be mapped. Humanitarian actors, especially those on the ground, will also feed into the iteration process of the site maps, in order to validate geographic information and keep the maps and the underlying data layers up to date. 
 
-- **Authorities.** The authorities are a crucial interlocutor for approvals. In addition, their engagement can promote the use of the site maps in decision making processes. The participation of authorities in the site mapping process will also facilitate the handover and long term management of information, expertise and equipment, or support capacity development initiatives for future scenarios.
+- **Authorities.** The authorities are a crucial interlocutor for approvals. In addition, their engagement can promote the use of the site maps in decision making processes. The participation of authorities in the site mapping process will also facilitate the handover and long term management of information, expertise and equipment, as well as support capacity development initiatives for future scenarios.
 
 - **Legal team.** IOM Legal colleagues will provide any additional guidance on data collection, processing and sharing related to your specific context and are responsible for providing the final approval on the use of drones. 
 
@@ -26,25 +26,29 @@ Whilst the development of site maps should be approach and context dependent, ty
 Developing site maps typically requires the following:
 
 ### Personnel
-Staff with relevant skills and expertise, as well as support staff such as drivers and procurement support will be needed. Depending on the number of sites and how quickly the site maps are needed, the site mapping team may need to be scaled up. 
+Staff with relevant skills and expertise. Support staff such as drivers and procurement support will also be needed. Depending on the number of sites and how quickly the site maps are needed, the site mapping team may need to be scaled up. 
+
+### Context
+The security, political and regulatory environment play a large role in determining the approach to site mapping in a country but also whether or not the process is feasible at all. Identification of such challenges and potential risks is best done as early as possible to avoid wasting resources or to allow sufficient time to mitigate them.
 
 ### Time
-Developing site maps can be a time-intensive process, requiring prior consultations with various stakeholders, lead-time for procurement of equipment, travel time for site visits, time for collecting and processing the imagery, composing the site maps and collaboratively iterating or updating their content. These are important factors to consider when looking at the time frame of their intended use.
+Developing site maps can be a time-intensive process, requiring prior consultations with various stakeholders, lead-time for procurement of equipment, travel time for site visits, time for collecting and processing the imagery, composing the site maps and collaboratively iterating and updating their content. These are important factors to consider when looking at the time frame of their intended use.
+
+### Funding
+There are a series of finanical costs involved in the development of site maps that need to be taken into account. Annex 4 provides a table with indicative figures for the purpose of costing a site mapping exercise. 
 
 ### Hardware and Software
 Depending on the chosen approach, not all items in the below table will be required. Highlighted are items which are required regardless of the chosen approach:
 
 |Hardware|Software|
 | ---- | ------- |
-|Laptop|QGIS (or other GIS software)|
+|**Laptop**|**QGIS** (or other GIS software)|
 |Drone kit| WedODM |
-|Android Tablet|Avenza maps|
+|Android Tablet|**Avenza maps**|
 
 ### Connectivity
-While connectivity requirements vary depending on the chosen approach, some degree of connectivity should be assumed as needed. In situations of sudden onset disasters, connectivity can be very challenging and quite often can lead to bottlenecks and delays.
+In situations of sudden onset disasters, connectivity can be very challenging and quite often can lead to bottlenecks and delays. While connectivity requirements vary depending on the chosen approach, a minimum degree of connectivity should be assumed for the initial gathering the required geographic information and data layers. 
 
-### Funding
-There are a series of finanical costs involved in the development of site maps that need to be taken into account. Annex 4 provides a table that can provide indicative figures for the purpose of costing a site mapping exercise. 
 
-### Context
-The security, political and regulatory environment play a large role in determining the approach to site mapping in a country but also whether or not the process is feasible at all. Identification of these challenges and risks is best done as early as possible to avoid wasting resources or to allow sufficient time to mitigate them.
+
+
