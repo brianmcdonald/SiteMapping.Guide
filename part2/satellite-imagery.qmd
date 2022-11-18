@@ -1,4 +1,4 @@
-# Using satellite imagery
+# Satellite imagery
 The choice of using satellite imagery, instead of capturing aerial imagery using drones, may be due to the need for rapid mapping turnaround time, lack of direct access to the area of interest or limitations to flying a drone listed in the previous chapter.
 
 This section introduces the different types of satellite imagery, what to consider when choosing imagery most appropriate for your use case and where to source the imagery.

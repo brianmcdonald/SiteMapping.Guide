@@ -1,7 +1,13 @@
-# Using UAV imagery
+# UAV imagery
 After conducting a risk-benefit assessment and consing collect aerial imagery using drones, the following section outlines the steps for engaging with the community, obtaining a drone kit, planning and carrying out the flight and processing the capture images. 
 
 ## Obtaining a drone kit 
+
+::: {.callout-note}
+## Note for IOM staff
+IOM staff can reach out to CCCM Support [globalcccm@iom.int](globalcccm@iom.int) with a brief description of 
+:::
+
 
 ## Pre-flight
 
