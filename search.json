@@ -93,63 +93,63 @@
   {
     "objectID": "part2/satellite-imagery.html#types-of-satellite-imagery",
     "href": "part2/satellite-imagery.html#types-of-satellite-imagery",
-    "title": "3  Using satellite imagery",
+    "title": "3  Satellite imagery",
     "section": "3.1 Types of satellite imagery",
     "text": "3.1 Types of satellite imagery\nThere are different types of satellite imagery. The types of imagery generated from a satellite depends on the kind of image-capturing method (remote sensing technology) it uses: active or passive sensors. Active sensors emit radiation towards the Earth’s surface and collect the reflected radiation. Lidar and Synthetic Aperture Radar (SAR) are both example of active sensors. SAR emits electromagnetic pulses whereas Lidar emits light pulses towards the Earth surface, both measuring the reflection. Passive (or Optical) sensors detect radiation naturally reflected from the Earth’s surface and are dependent on the day-night cycle.\nFor the purpose of site mapping, satellite imagery sourced using Optical satellites is most prevalent and useful (as these typically produce imagery with colour similar to how the human eye preceives color).\n\n\n\nSynthetic Aperature Radar(active) vs Optical(passive) sensors Source: ESMA Lisbon\n\n\n\n\n\n\n\n\nNote on Colour bands\n\n\n\nSatellites produce a range of different visual outputs. These visual outputs differ in their color combinations. Wavelengths detected by the satellites are translated into color bands then can combined to form an Index. This allows further analysis to be conducted. True-color images, as produced by Optical satellites and often used for mapping purposes, are a combination of the red, green and blue bands which results in an visual output similar to how we see color with our eyes. Other types of outputs include the Normalized Difference Vegetation Index (NVDI), which can be used to monitor changes in vegetation, or the False Color Infrared combination, which can be used in water detection during the heavy rain seasons or in the event of flooding."
   },
   {
     "objectID": "part2/satellite-imagery.html#cloud-cover",
     "href": "part2/satellite-imagery.html#cloud-cover",
-    "title": "3  Using satellite imagery",
+    "title": "3  Satellite imagery",
     "section": "3.2 Cloud cover",
     "text": "3.2 Cloud cover\nPassive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage.\n\n\n\nOptical imagery sources are affected by cloud cover Source: Harris Geospatial"
   },
   {
     "objectID": "part2/satellite-imagery.html#spatial-resolution",
     "href": "part2/satellite-imagery.html#spatial-resolution",
-    "title": "3  Using satellite imagery",
+    "title": "3  Satellite imagery",
     "section": "3.3 Spatial resolution",
     "text": "3.3 Spatial resolution\nThe resolution of a satellite image is categorized as follows:\n\nHigh resolution: 30cm-5m/pixel\nMedium resolution: 10-30m/pixel\nLow resolution: over 60m/pixel\n\n\n\n\nComparison of different spatial resolutions Source: X. Yao\n\n\nA 10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail.\nDepending on the user’s needs, different image resolutions can be used:\n\nHigh resolution images are used in scale analysis or monitoring since a smaller area is often covered. The level of detail at such spatial resolution allows for small and individual objects to be identified. High resolution images are ideal for humanitarian aid applications, detailed mapping, urban planning, as well as infrastructure, forestry and agriculture monitoring. However, high-resolution imagery is expensive and as a result, less of it is openly accessible. For the purposes of creating site maps, high resolution imagery is preferable.\nLow to Medium resolution images are useful for understanding the bigger picture, whether that is looking at historical trends or deriving insights from spectral analysis. For example, ESA’s Sentinel and NASA/USGS Landsat data provide historical data at this resolution."
   },
   {
     "objectID": "part2/satellite-imagery.html#imagery-sources",
     "href": "part2/satellite-imagery.html#imagery-sources",
-    "title": "3  Using satellite imagery",
+    "title": "3  Satellite imagery",
     "section": "3.4 Imagery sources",
     "text": "3.4 Imagery sources\nSome free data sources for low to medium resolution imagery include USGS/NASA’s Landsat and ESA’s Sentinel series.\nHigh-resolution imagery can be sourced from UNOSAT. Some satellite image providers also provide imagery for certain select disasters. An example of this is Maxar’s Opend Data Program. OpenAerialMap can also be a useful source, where open licenced aerial imagery is made available for download.\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nHigh-resolution Satellite imagery can be requested from IOM DTM GIS unit dtmgis@iom.int"
   },
   {
     "objectID": "part2/UAV.html#obtaining-a-drone-kit",
     "href": "part2/UAV.html#obtaining-a-drone-kit",
-    "title": "4  Using UAV imagery",
+    "title": "4  UAV imagery",
     "section": "4.1 Obtaining a drone kit",
-    "text": "4.1 Obtaining a drone kit"
+    "text": "4.1 Obtaining a drone kit\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nIOM staff can reach out to CCCM Support globalcccm@iom.int with a brief description of"
   },
   {
     "objectID": "part2/UAV.html#pre-flight",
     "href": "part2/UAV.html#pre-flight",
-    "title": "4  Using UAV imagery",
+    "title": "4  UAV imagery",
     "section": "4.2 Pre-flight",
     "text": "4.2 Pre-flight\nGo through the Humanitarian UAV Network | Operational Check List.\n\n4.2.1 Flight plan, nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Community engagement\n\n\n4.2.4 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.5 Altitude Ground sampling distance"
   },
   {
     "objectID": "part2/UAV.html#flight",
     "href": "part2/UAV.html#flight",
-    "title": "4  Using UAV imagery",
+    "title": "4  UAV imagery",
     "section": "4.3 Flight",
     "text": "4.3 Flight\n…"
   },
   {
     "objectID": "part2/UAV.html#post-flight",
     "href": "part2/UAV.html#post-flight",
-    "title": "4  Using UAV imagery",
+    "title": "4  UAV imagery",
     "section": "4.4 Post-Flight",
     "text": "4.4 Post-Flight\n…"
   },
   {
     "objectID": "part2/UAV.html#post-flight-processing",
     "href": "part2/UAV.html#post-flight-processing",
-    "title": "4  Using UAV imagery",
+    "title": "4  UAV imagery",
     "section": "4.5 Post-Flight processing",
     "text": "4.5 Post-Flight processing\nDrone captured images then need to be stitched together into one image or orthomosaic. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.\n\n4.5.1 Orthomosaics with WebODM\nTo install WedODM manually, follow the steps outlined here.\nCreate a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available"
   },
