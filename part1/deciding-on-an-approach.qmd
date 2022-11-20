@@ -30,6 +30,9 @@ Once your flight area is identified, a risk-benefit assessment should be conduct
 ## Data Security and Responsibility
 The use of drones to capture aerial images for site mapping does not require the collection of personal data. **Individuals must not be identifiable** from captured images. Ensure that the flight settings (altitude, angle etc.) eliminates or reduces as much as possible the likelihood that the captured imagery may directly or indirectly identify an individual. If, by mistake, you collect images in which people can be identified, you should immediately delete them. However, if the image taken must really be used, you can either crop the image or blur the faces of people who could be identified. While collecting the data or shortly thereafter, check whether any of the images captured contains sensitive data and therefore should be deleted or otherwise removed from/made unrecognizable in the image (for example, a group of individuals that could be identified as part of a specific group, image of illegal crops or settlement).
 
+## Community Engagement
+---
+
 ## Regulatory environment
 It is crucial to be aware of and fully understand the laws at both national and local-levels, as well the regulatory procedures and norms related to the use of UAVs, as these can vary significantly between contexts. The regulatory environment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and geographic limitations for UAV flight.
 
