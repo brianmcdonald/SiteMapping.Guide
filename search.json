@@ -77,18 +77,25 @@
     "text": "2.3 Data Security and Responsibility\nThe use of drones to capture aerial images for site mapping does not require the collection of personal data. Individuals must not be identifiable from captured images. Ensure that the flight settings (altitude, angle etc.) eliminates or reduces as much as possible the likelihood that the captured imagery may directly or indirectly identify an individual. If, by mistake, you collect images in which people can be identified, you should immediately delete them. However, if the image taken must really be used, you can either crop the image or blur the faces of people who could be identified. While collecting the data or shortly thereafter, check whether any of the images captured contains sensitive data and therefore should be deleted or otherwise removed from/made unrecognizable in the image (for example, a group of individuals that could be identified as part of a specific group, image of illegal crops or settlement)."
   },
   {
+    "objectID": "part1/deciding-on-an-approach.html#community-engagement",
+    "href": "part1/deciding-on-an-approach.html#community-engagement",
+    "title": "2  Deciding on an approach",
+    "section": "2.4 Community Engagement",
+    "text": "2.4 Community Engagement"
+  },
+  {
     "objectID": "part1/deciding-on-an-approach.html#regulatory-environment",
     "href": "part1/deciding-on-an-approach.html#regulatory-environment",
     "title": "2  Deciding on an approach",
-    "section": "2.4 Regulatory environment",
-    "text": "2.4 Regulatory environment\nIt is crucial to be aware of and fully understand the laws at both national and local-levels, as well the regulatory procedures and norms related to the use of UAVs, as these can vary significantly between contexts. The regulatory environment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and geographic limitations for UAV flight.\nThe Global Drone Regulations Database keeps an updated collection of country-specific regulations. It can be used to better understand the source of legal information, find relevant contact information, operating rules, as well as licensing and approval procedures. 3"
+    "section": "2.5 Regulatory environment",
+    "text": "2.5 Regulatory environment\nIt is crucial to be aware of and fully understand the laws at both national and local-levels, as well the regulatory procedures and norms related to the use of UAVs, as these can vary significantly between contexts. The regulatory environment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and geographic limitations for UAV flight.\nThe Global Drone Regulations Database keeps an updated collection of country-specific regulations. It can be used to better understand the source of legal information, find relevant contact information, operating rules, as well as licensing and approval procedures. 3"
   },
   {
     "objectID": "part1/deciding-on-an-approach.html#organizational-requirements",
     "href": "part1/deciding-on-an-approach.html#organizational-requirements",
     "title": "2  Deciding on an approach",
-    "section": "2.5 Organizational requirements",
-    "text": "2.5 Organizational requirements\nMany organizations have internal rules and guidance governing the use of technologies such as Drones. Donors may also have their own rules around their uses and the use of data resulting from the exercise. During the planning stage, it is important to contact the relevant organisation focal-point to ensure compliance with these rules.\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nDuring the planning phase, it is important that IOM staff reach out to IOM’s Office of Legal Affairs (LEG) leg@iom.int. They will provide legal and compliance guidance, as well as the latest version of the Drone usage checklist and Risk-benefit analysis template."
+    "section": "2.6 Organizational requirements",
+    "text": "2.6 Organizational requirements\nMany organizations have internal rules and guidance governing the use of technologies such as Drones. Donors may also have their own rules around their uses and the use of data resulting from the exercise. During the planning stage, it is important to contact the relevant organisation focal-point to ensure compliance with these rules.\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nDuring the planning phase, it is important that IOM staff reach out to IOM’s Office of Legal Affairs (LEG) leg@iom.int. They will provide legal and compliance guidance, as well as the latest version of the Drone usage checklist and Risk-benefit analysis template."
   },
   {
     "objectID": "part2/satellite-imagery.html#types-of-satellite-imagery",
@@ -123,14 +130,14 @@
     "href": "part2/UAV.html#obtaining-a-drone-kit",
     "title": "4  UAV imagery",
     "section": "4.1 Obtaining a drone kit",
-    "text": "4.1 Obtaining a drone kit\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nIOM staff can reach out to CCCM Support globalcccm@iom.int with a brief description of"
+    "text": "4.1 Obtaining a drone kit\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nOn request, the Global CCCM team in Geneva can coordinate with the support of the site mapping team, the deployment of a drone kit located at IOM HQ. IOM staff can reach out to CCCM Support globalcccm@iom.int with a brief description of the site mapping exercise and the intended use of the site maps, as well as the risk-benefit assessment and approval from IOM’s Office of Legal Affairs (LEG). The dro"
   },
   {
     "objectID": "part2/UAV.html#pre-flight",
     "href": "part2/UAV.html#pre-flight",
     "title": "4  UAV imagery",
     "section": "4.2 Pre-flight",
-    "text": "4.2 Pre-flight\nGo through the Humanitarian UAV Network | Operational Check List.\n\n4.2.1 Flight plan, nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Community engagement\n\n\n4.2.4 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.5 Altitude Ground sampling distance"
+    "text": "4.2 Pre-flight\nGo through the Humanitarian UAV Network | Operational Check List.\n\n4.2.1 Flight plan, nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.4 Altitude Ground sampling distance"
   },
   {
     "objectID": "part2/UAV.html#flight",
