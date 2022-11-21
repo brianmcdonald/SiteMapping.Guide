@@ -3,20 +3,28 @@ project:
   output-dir: docs
   
 comments:
-  hypothesis: true
+  hypothesis: false
 
 execute:
   freeze: auto
+
+website:
+  image: logo.png
+  favicon: logo.png
   
 book:
   title: "Site Mapping Guide"
-  author: "International Organisation for Migration (IOM)"
+  author: "International Organisation for Migration"
   cover-image: cover.png
   image: logo.png
+  favicon: logo.png
   page-navigation: true
   repo-actions: []
   downloads: [pdf, epub]
   license: "CC BY-NC"
+  open-graph: true
+  sidebar:
+      logo: logo.png
   chapters:
     - index.qmd
     - part: "Part 1 - Preparation"
@@ -55,8 +63,9 @@ format:
     toc: true
 
   pdf:
-    documentclass: report
-    classoption: [onecolumn]
+    documentclass: book
+    classoption: [onecolumn, oneside]
     papersize: A4
     number-sections: true
     toc: true
+    lof: true
