@@ -1,8 +1,17 @@
 # Composing site maps
-Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout  is composed (either from scratch or from an existing site map template) with the elements listed below such as the site map, legends, scale bars, text. The layout is then exported to PDF or geoPDF. The layout can be save
+Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template).The layout is then exported to PDF or geoPDF. Styled and raw data layers can can be saved into a Geopackge for a seamless transfer of geographical information between mappers and future mappers.
 
 ## Examples 
-A number of site map examples are available [here](add link).
+Below are some examples of site maps. More examples can be found [here](add link).
+
+::: {#fig-examples layout-ncol=2}
+
+![Source: UNOSAT](/part3/images/UNOSAT_A3_Potrait_Kapise_26Feb2016_v2.png){#fig-unosat}
+
+![Source: REACH Initiative](/part3/images/Bakasi_camp_infrastructure_18052017_REACH.png){#fig-reach}
+
+**Examples of Site maps**
+:::
 
 ##  Working in GIS
 
@@ -20,32 +29,31 @@ Most publicly available geographic information datasets are projected in a world
 ### Layers and elements of a site map
 This guide is accompanied by a site map template which can be loaded into QGIS's Print Composer. Below is a dummy example of a site map produced using this template.
 
+![An example of a dummy site map composed in QGIS using the site map template included in this guide.<br> *Source: IOM*](/part3/images/dummy_site_map.png){.column-page-right width=91% }
+
 :::{.callout-note}
 ## Note
-
 For the purposes of supporting a **standardized approach to the production of static site maps**, and ensuring new **site maps can be compared and used alongside existing maps**, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it's audience.
 :::
 
-![An example of a dummy site map composed in QGIS using the site map template included in this guide.<br> *Source: IOM*](/part3/images/dummy_site_map.png){.column-page-right width=70% }
-
 The following list of layers and elements can be included in the final output:
 
-- **Title and Subtitle** (1)
+- **Title and Subtitle** **(1)**
   - Country 
   - State
   - Site Name
   - Thematic Title
   - Date site map was last updated
   
-- Site map audience/ permission/ sharing restrictions (1.2)
-- Production date and version number of site map (1.3)
-- Agency/ NGO Logos (1.4)
+- Site map audience/ permission/ sharing restrictions **(1.2)**
+- Production date and version number of site map **(1.3)**
+- Agency/ NGO Logos **(1.4)**
 
-- **Inset maps** (2)
+- **Inset maps** **(2)**
   - At Country/ Regional level
   - At Regional/ Area level
   
-- **Notes** (3)
+- **Notes** **(3)**
   - Data sources
   - Satellite Imagery source
   - Imagery Resolution
@@ -54,14 +62,14 @@ The following list of layers and elements can be included in the final output:
   - Agency/ NGO Logo
   - Contact
   - Link to Geodatabase/ corresponding data layers
-  - Disclose limitations regarding accuracy of site map (3.1)
+  - Disclose limitations regarding accuracy of site map **(3.1)**
   
 - **Map** 
-  - Base Map (satellite/ aerial imagery) (4.1)
-  - Scale bar (4.2)
-  - Orientation indicators (4.3)
-  - Legend (4.4)
-  - Camp Infrastructure (4.5) :
+  - Base Map (satellite/ aerial imagery) **(4.1)**
+  - Scale bar **(4.2)**
+  - Orientation indicators **(4.3)**
+  - Legend **(4.4)**
+  - Camp Infrastructure **(4.5)** :
     - Shelters
     - Shelter blocks
     - Zones
