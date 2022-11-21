@@ -230,10 +230,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#altitude-ground-sampling-distance" id="toc-altitude-ground-sampling-distance" class="nav-link" data-scroll-target="#altitude-ground-sampling-distance"><span class="toc-section-number">4.2.4</span>  Altitude Ground sampling distance</a></li>
   </ul></li>
   <li><a href="#post-flight" id="toc-post-flight" class="nav-link" data-scroll-target="#post-flight"><span class="toc-section-number">4.3</span>  Post-Flight</a></li>
-  <li><a href="#post-flight-processing" id="toc-post-flight-processing" class="nav-link" data-scroll-target="#post-flight-processing"><span class="toc-section-number">4.4</span>  Post-Flight processing</a>
-  <ul class="collapse">
-  <li><a href="#orthomosaics-with-webodm" id="toc-orthomosaics-with-webodm" class="nav-link" data-scroll-target="#orthomosaics-with-webodm"><span class="toc-section-number">4.4.1</span>  Orthomosaics with WebODM</a></li>
-  </ul></li>
+  <li><a href="#post-flight-processing-creating-orthomosaics-with-webodm" id="toc-post-flight-processing-creating-orthomosaics-with-webodm" class="nav-link" data-scroll-target="#post-flight-processing-creating-orthomosaics-with-webodm"><span class="toc-section-number">4.4</span>  Post-Flight processing: Creating Orthomosaics with WebODM</a></li>
   </ul>
 </nav>
     </div>
@@ -282,7 +279,7 @@ Note for IOM staff
 </section>
 <section id="pre-flight" class="level2 page-columns page-full" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="pre-flight"><span class="header-section-number">4.2</span> Pre-flight</h2>
-<p>Prior to the flight, consider the following: <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Prior to the flight, consider the following: [^footnote1]</p>
 <ul>
 <li><p><strong>Weather:</strong> Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it’s best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.</p></li>
 <li><p><strong>Stakeholder engagement:</strong> Assuming regulatory processes have already been followed. Its important that the population in the site area of interest is fully informed and understands the plannedactivity, that there is acceptance of the activity and that theres a communication channel in place for the community to voice any complaints or feedback.</p></li>
@@ -331,22 +328,12 @@ Note for IOM staff
 <h2 data-number="4.3" class="anchored" data-anchor-id="post-flight"><span class="header-section-number">4.3</span> Post-Flight</h2>
 <p>…</p>
 </section>
-<section id="post-flight-processing" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="post-flight-processing"><span class="header-section-number">4.4</span> Post-Flight processing</h2>
-<p>Drone captured images then need to be stitched together into one image or <em>orthomosaic</em>. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.</p>
-<section id="orthomosaics-with-webodm" class="level3" data-number="4.4.1">
-<h3 data-number="4.4.1" class="anchored" data-anchor-id="orthomosaics-with-webodm"><span class="header-section-number">4.4.1</span> Orthomosaics with WebODM</h3>
-<p>To install WedODM manually, follow the steps outlined <a href="https://github.com/OpenDroneMap/WebODM/#getting-started">here</a>.</p>
-<p>Create a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available</p>
+<section id="post-flight-processing-creating-orthomosaics-with-webodm" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="post-flight-processing-creating-orthomosaics-with-webodm"><span class="header-section-number">4.4</span> Post-Flight processing: Creating Orthomosaics with WebODM</h2>
+<p>Drone captured images then need to be stitched together into one image or <em>orthomosaic</em>.</p>
+<p>WebODM is a free software that can be used to create orthomosaics from drone captured-imagery. To install WedODM manually, follow the steps outlined <a href="https://github.com/OpenDroneMap/WebODM/#getting-started">here</a>. Once installed, create a new project. Upload the images to create a task. After the task has been successfully completed, the orthomosaic will be ready to download. Select <em>orthophoto.tif</em> in the list of available formats and the single image output will download.</p>
 
 
-</section>
-</section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>A more comprehensive checklist can be found on the Humanitarian UAV Networks <a href="https://docs.google.com/document/d/1av3GvsAQOxttCXKAgYCBf8tpv8lU72P1u4voAQrhTNw/edit">Operational Check List</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
 </section>
 
 </main> <!-- /main -->
