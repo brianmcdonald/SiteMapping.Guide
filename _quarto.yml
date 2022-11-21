@@ -55,7 +55,8 @@ format:
     toc: true
 
   pdf:
-    documentclass: scrreprt
+    documentclass: report
+    classoption: [onecolumn]
     papersize: A4
     number-sections: true
     toc: true
