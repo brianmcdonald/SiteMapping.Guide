@@ -13,11 +13,17 @@ IOM staff can reach out to CCCM Support [globalcccm@iom.int](globalcccm@iom.int)
 ## Pre-flight
 Prior to the flight, consider the following: [^footnote 1]
 
-- **Weather:** Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight.
+- **Weather:** Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it's best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.
 
-- **Stakeholder engagement:** 
+- **Stakeholder engagement:** Assuming regulatory processes have already been followed. Its important that the population in the site area of interest is fully informed and understands the plannedactivity, that there is acceptance of the activity and that theres a communication channel in place for the community to voice any complaints or feedback.
 
-### Flight plan, nadir vs oblique images
+- **Hardware checks:** Make sure that all batteries are charged and that all required equiments is functioning.
+
+- **Pre-identify takeoff and landing sites:** A suitable area will be free of obstructions such as trees or overhead wires and away from move foot or road traffic.
+
+- **Create a flight plan:** This includes the planned route, with altitude, overlap and takeoff/landing areas pre-programmed.
+
+### Nadir vs oblique images
 
 ![An example of an *oblique* angle image of Bakassi Camp, northeastern Nigeria<br> *Source: IOM*](/part2/images/bakassi.jpg){.column-page-right width=70% }
 
