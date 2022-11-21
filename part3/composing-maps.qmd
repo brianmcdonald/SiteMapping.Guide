@@ -14,9 +14,7 @@ Below are some examples of site maps. More examples can be found [here](add link
 :::
 
 ##  Working in GIS
-
-### Loading data layers and veryfying projections
-To prepare the site map, [load the data layers](https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer) into a GIS workspace. QGIS can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:
+GIS software can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:
 
 |Data Layer Example|File Type|
 | ----- | ----- |
@@ -24,7 +22,10 @@ To prepare the site map, [load the data layers](https://docs.qgis.org/2.8/en/doc
 |Location of healthcare facilities or service providers|Vector file|
 |Population per block|Delimited Text file|
 
-Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Therefore, all layers need to be checked and [projected](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems) where needed, according to the [Project  CRS](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems) set to the area of your site location. You can use the [epsg.io](https://epsg.io/) database of coordinate systems to know the coordinate system you should be using for you context. 
+### Loading data layers and veryfying projections
+To prepare the site map, [load the data layers](https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer) into a GIS workspace, such as QGIS. 
+
+Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Ensure that the [Project  CRS](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems) is set to the area of your site location.  You can use the [epsg.io](https://epsg.io/) database of coordinate systems to know the coordinate system you should be using for you context. All loaded data layers need to be checked and [projected](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems) where needed, according to the project CRS.
 
 ### Layers and elements of a site map
 This guide is accompanied by a site map template which can be loaded into QGIS's Print Composer. Below is a dummy example of a site map produced using this template.
