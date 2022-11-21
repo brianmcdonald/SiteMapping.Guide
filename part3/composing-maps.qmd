@@ -26,39 +26,42 @@ This guide is accompanied by a site map template which can be loaded into QGIS's
 For the purposes of supporting a **standardized approach to the production of static site maps**, and ensuring new **site maps can be compared and used alongside existing maps**, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it's audience.
 :::
 
+![An example of a dummy site map composed in QGIS using the site map template included in this guide.<br> *Source: IOM*](/part3/images/dummy_site_map.png){.column-page-right width=70% }
 
 The following list of layers and elements can be included in the final output:
 
-- **Title and Subtitle**
+- **Title and Subtitle** (1)
   - Country 
   - State
   - Site Name
   - Thematic Title
   - Date site map was last updated
-- Site map audience/ permission/ sharing restrictions 
+  
+- Site map audience/ permission/ sharing restrictions (1.2)
+- Production date and version number of site map (1.3)
+- Agency/ NGO Logos (1.4)
 
-- Production date and version number of site map
-- Agency/ NGO Logos
-
-- **Inset maps**
+- **Inset maps** (2)
   - At Country/ Regional level
   - At Regional/ Area level
-- **Notes**
+  
+- **Notes** (3)
   - Data sources
   - Satellite Imagery source
   - Imagery Resolution
   - Coordinate system
   - Site GPS coordinate points
-  - IOM CCCM Logo (or other)
+  - Agency/ NGO Logo
   - Contact
   - Link to Geodatabase/ corresponding data layers
-  - Disclose limitations regarding accuracy of site map
-- **Map**
-  - Base Map (satellite/ aerial imagery)
-  - Scale bar
-  - Orientation indicators
-  - Legend
-  - Camp Infrastructure:
+  - Disclose limitations regarding accuracy of site map (3.1)
+  
+- **Map** 
+  - Base Map (satellite/ aerial imagery) (4.1)
+  - Scale bar (4.2)
+  - Orientation indicators (4.3)
+  - Legend (4.4)
+  - Camp Infrastructure (4.5) :
     - Shelters
     - Shelter blocks
     - Zones
