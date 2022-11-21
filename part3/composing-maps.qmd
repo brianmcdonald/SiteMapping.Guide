@@ -1,7 +1,7 @@
 # Composing site maps
 Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template).The layout is then exported to PDF or geoPDF. Styled and raw data layers can can be saved into a Geopackge for a seamless transfer of geographical information between mappers and future mappers.
 
-## Examples 
+## Examples of site maps
 Below are some examples of site maps. More examples can be found [here](add link).
 
 ::: {#fig-examples layout-ncol=2}
