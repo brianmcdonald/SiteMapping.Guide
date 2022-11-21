@@ -130,7 +130,7 @@
     "href": "part2/UAV.html#obtaining-a-drone-kit",
     "title": "4  UAV imagery",
     "section": "4.1 Obtaining a drone kit",
-    "text": "4.1 Obtaining a drone kit\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nOn request, the Global CCCM team in Geneva can coordinate with the support of the site mapping team, the deployment of a drone kit located at IOM HQ. IOM staff can reach out to CCCM Support globalcccm@iom.int with a brief description of the site mapping exercise and the intended use of the site maps, as well as the risk-benefit assessment and approval from IOM’s Office of Legal Affairs (LEG). The dro"
+    "text": "4.1 Obtaining a drone kit\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nOn request, the Global CCCM team in Geneva can coordinate, with the support of the site mapping team, the deployment of a drone kit located at IOM HQ. IOM staff can reach out to CCCM Support globalcccm@iom.int with a brief description of the site mapping exercise and the intended use of the site maps, as well as the risk-benefit assessment and approval from IOM LEG colleagues. If and when available, the drone kit will then be sent with staff deployments or shipped to the requesting mission."
   },
   {
     "objectID": "part2/UAV.html#pre-flight",
@@ -163,16 +163,16 @@
   {
     "objectID": "part3/tracing.html#manual-tracing",
     "href": "part3/tracing.html#manual-tracing",
-    "title": "5  Tracing and labelling",
+    "title": "5  Tracing and labeling",
     "section": "5.1 Manual tracing",
-    "text": "5.1 Manual tracing\nManual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free here. Once the software download is complete, georeference the aerial imagery into a new workspace. Create a new vector layer and toggle edit to trace the required features. Untoggle edit to save your edits."
+    "text": "5.1 Manual tracing\nManual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free here. Once the software download is complete, georeference the aerial imagery into a new workspace. Create a new vector layer and toggle edit to trace the required features and save the data layer."
   },
   {
     "objectID": "part3/tracing.html#automatic-tracing",
     "href": "part3/tracing.html#automatic-tracing",
-    "title": "5  Tracing and labelling",
+    "title": "5  Tracing and labeling",
     "section": "5.2 Automatic tracing",
-    "text": "5.2 Automatic tracing\nHere are some open source tools which can assist you in creating a workflow for automatic shelter detection: - Create a training data set from aerial imagery with Groundwork.azavea. Upload orthophoto to Groundwork, label features and export training data in .json format. - Extract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from here. Further guidance on how to install the Mapflow QGIS plugin is available here. - Analyse and conduct image segmentation on aerial or satellite imagery using the UP42 platform."
+    "text": "5.2 Automatic tracing\nBelow are some open source tools which can assist you in creating a workflow for automatic shelter detection:\n\nCreate a training data set from aerial imagery with Groundwork.azavea. Upload orthophoto to Groundwork, label features and export training data in .json format.\nExtract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from here. Further guidance on how to install the Mapflow QGIS plugin is available here.\nAnalyse and conduct image segmentation on aerial or satellite imagery using the UP42 platform."
   },
   {
     "objectID": "part3/composing-maps.html#examples",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Site Mapping Guide - 5&nbsp; Tracing and labelling</title>
+<title>Site Mapping Guide - 5&nbsp; Tracing and labeling</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,8 +63,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Site Mapping Guide - 5&nbsp; Tracing and labelling">
-<meta property="og:description" content="Once the aerial imagery has been obtained, a series of post-processing options are involved to extract geographic information from the imagery.">
+<meta property="og:title" content="Site Mapping Guide - 5&nbsp; Tracing and labeling">
+<meta property="og:description" content="Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery.">
 <meta property="og:site-name" content="Site Mapping Guide">
 </head>
 
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labelling</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../part3/tracing.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labelling</span></a>
+  <a href="../part3/tracing.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -231,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labelling</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></h1>
 </div>
 
 
@@ -252,12 +252,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Once the aerial imagery has been obtained, a series of post-processing options are involved to extract geographic information from the imagery. The site features to be extracted from the aerial imagery will depend on the needs, audience and objective of the site map. For instance, the site mapper may look to map the location and configuration of shelters . Post-processing of the image therefore will include generating a new data layer of shelter outlines.</p>
-<p>The site mapper can either <strong>manually</strong> or <strong>automatically</strong> trace and label these features. In order to determine which options to use, let’s look at the advantages and disadvantages of both.</p>
+<p>Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery.The site mapper can either <strong>manually</strong> or <strong>automatically</strong> trace and label these features.</p>
+<p>The site features to be extracted from the aerial imagery will depend on the needs, audience and objective of the site map. For instance, the site mapper may look to map the location and configuration of shelters. Post-processing of the image will therefore consist of generating a new data layer of shelter outlines. In order for the site mapper to determine which options to use, let’s look at the advantages and disadvantages of both.</p>
+<p>It is important to be aware of the advantages and the disadvantages of choosing whether to manually or automatically trace and label site features in order to determine which option is most suited. The table below presents a summary of both.</p>
 <table class="table">
 <colgroup>
-<col style="width: 36%">
-<col style="width: 63%">
+<col style="width: 46%">
+<col style="width: 53%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -267,23 +268,40 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Advantages</strong> <br><br> Tracing and labeling manually requires only basic GIS skills. <br><br> Can be done offline in contexts with limited connectivity. <br><br> Allows for medium to high accuracy tracing of shelters and buildings with irregular or non-rectangular geometry.</td>
-<td><br><br> High number of shelters and buildings can be traced and labelled in a small amount of time, relative to manual tracing.</td>
+<td><strong>Advantages</strong> <br><br> Extracting geographic information by manually tracing and labeling requires only basic GIS skills. <br><br> It can be done offline in contexts with limited connectivity. <br><br> Allows for medium to high accuracy of traced shelters and buildings that have irregular or non-rectangular geometry.</td>
+<td><br><br> A high number of shelters and buildings can be traced and labelled in a small amount of time, relative to manual tracing.</td>
 </tr>
 <tr class="even">
 <td><strong>Disadvantages</strong> <br><br> Time intensive, relative to automatic tracing.</td>
-<td><br><br> Some tools may require basic to advanced understanding of machine learning principle. This is required with most open-source tools. <br><br> Most low-code tools are not open source or free and may incur additional costs <br><br> Depending on how much training data is available, the type and accuracy of the tool used,(amongst other factors), there may be errors or inaccuracies in the outlines and labels generated.</td>
+<td><br><br> Most open-source tools require some minimum understanding of machine learning principles. <br><br> Most low-code tools are not open-source and may incur additional costs <br><br> Depending on 1) how much data is available to train the machine learning model, 2) the type and accuracy of the tool used (amongst other factors), there may be errors or inaccuracies in the outlines and labels generated requiring the site mapper to manually verifying and edit outputs.</td>
 </tr>
 </tbody>
 </table>
-<p>Note: If there is high cloud or tree coverage, some features may not be visible in the aerial imagery and thus will not be detected by the site mapper or the machine learning model. Therefore, it is crucial to validate the generated outlines and labels with inputs from colleagues in the field.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If there is high cloud or tree coverage, some features may not be visible in the aerial imagery and thus will not be visible to the site mapper or detected by the machine learning model. Therefore, it is crucial to validate all extracted geographic information by consulting with and seeking inputs from stakeholders and colleagues in the field.</p>
+</div>
+</div>
 <section id="manual-tracing" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="manual-tracing"><span class="header-section-number">5.1</span> Manual tracing</h2>
-<p>Manual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free <a href="https://www.qgis.org/en/site/forusers/download.html">here</a>. Once the software download is complete, <a href="https://www.qgistutorials.com/en/docs/3/advanced_georeferencing.html">georeference</a> the aerial imagery into a new workspace. Create a <a href="https://docs.qgis.org/3.22/en/docs/training_manual/create_vector_data/create_new_vector.html#:~:text=Open%20QGIS%20and%20create%20a,to%20define%20a%20new%20layer.">new vector layer</a> and <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">toggle edit</a> to trace the required features. Untoggle edit to save your edits.</p>
+<p>Manual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded for free <a href="https://www.qgis.org/en/site/forusers/download.html">here</a>. Once the software download is complete, <a href="https://www.qgistutorials.com/en/docs/3/advanced_georeferencing.html">georeference</a> the aerial imagery into a new workspace. Create a <a href="https://docs.qgis.org/3.22/en/docs/training_manual/create_vector_data/create_new_vector.html#:~:text=Open%20QGIS%20and%20create%20a,to%20define%20a%20new%20layer.">new vector layer</a> and <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">toggle edit</a> to trace the required features and save the data layer.</p>
 </section>
 <section id="automatic-tracing" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="automatic-tracing"><span class="header-section-number">5.2</span> Automatic tracing</h2>
-<p>Here are some open source tools which can assist you in creating a workflow for automatic shelter detection: - Create a training data set from aerial imagery with <a href="https://groundwork.azavea.com/">Groundwork.azavea</a>. Upload orthophoto to Groundwork, label features and export training data in .json format. - Extract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from <a href="https://plugins.qgis.org/plugins/mapflow/">here</a>. Further guidance on how to install the Mapflow QGIS plugin is available <a href="https://docs.mapflow.ai/api/qgis_mapflow#user-interface">here</a>. - Analyse and conduct image segmentation on aerial or satellite imagery using the <a href="https://docs.up42.com/">UP42 platform</a>.</p>
+<p>Below are some open source tools which can assist you in creating a workflow for automatic shelter detection:</p>
+<ul>
+<li><p>Create a training data set from aerial imagery with <a href="https://groundwork.azavea.com/">Groundwork.azavea</a>. Upload orthophoto to Groundwork, label features and export training data in .json format.</p></li>
+<li><p>Extract shelter outlines from aerial imagery using Mapflow’s built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from <a href="https://plugins.qgis.org/plugins/mapflow/">here</a>. Further guidance on how to install the Mapflow QGIS plugin is available <a href="https://docs.mapflow.ai/api/qgis_mapflow#user-interface">here</a>.</p></li>
+<li><p>Analyse and conduct image segmentation on aerial or satellite imagery using the <a href="https://docs.up42.com/">UP42 platform</a>.</p></li>
+</ul>
 
 
 </section>
