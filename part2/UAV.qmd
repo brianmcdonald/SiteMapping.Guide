@@ -12,6 +12,7 @@ IOM staff can reach out to CCCM Support [globalcccm@iom.int](globalcccm@iom.int)
 
 ## Pre-flight
 Prior to the flight, consider the following: [^footnote 1]
+
 - **Weather:** Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight.
 
 - **Stakeholder engagement:** 
