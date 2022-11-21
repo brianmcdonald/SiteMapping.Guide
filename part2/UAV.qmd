@@ -39,14 +39,8 @@ A minimum of 16-31 images are needed to create an orthophoto from drone captured
 ## Post-Flight
 ... 
 
-## Post-Flight processing
+## Post-Flight processing: Creating Orthomosaics with WebODM
 
 Drone captured images then need to be stitched together into one image or _orthomosaic_. 
-Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic. 
 
-### Orthomosaics with WebODM
-To install WedODM manually, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). 
-
-Create a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available 
-
-
+WebODM is a free software that can be used to create orthomosaics from drone captured-imagery. To install WedODM manually, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). Once installed, create a new project. Upload the images to create a task. After the task has been successfully completed, the orthomosaic will be ready to download. Select *orthophoto.tif* in the list of available formats and the single image output will download. 
