@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples"><span class="toc-section-number">6.1</span>  Examples</a></li>
+  <li><a href="#examples-of-site-maps" id="toc-examples-of-site-maps" class="nav-link active" data-scroll-target="#examples-of-site-maps"><span class="toc-section-number">6.1</span>  Examples of site maps</a></li>
   <li><a href="#working-in-gis" id="toc-working-in-gis" class="nav-link" data-scroll-target="#working-in-gis"><span class="toc-section-number">6.2</span>  Working in GIS</a>
   <ul class="collapse">
   <li><a href="#loading-data-layers-and-veryfying-projections" id="toc-loading-data-layers-and-veryfying-projections" class="nav-link" data-scroll-target="#loading-data-layers-and-veryfying-projections"><span class="toc-section-number">6.2.1</span>  Loading data layers and veryfying projections</a></li>
@@ -260,8 +260,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template).The layout is then exported to PDF or geoPDF. Styled and raw data layers can can be saved into a Geopackge for a seamless transfer of geographical information between mappers and future mappers.</p>
-<section id="examples" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="examples"><span class="header-section-number">6.1</span> Examples</h2>
+<section id="examples-of-site-maps" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="examples-of-site-maps"><span class="header-section-number">6.1</span> Examples of site maps</h2>
 <p>Below are some examples of site maps. More examples can be found <a href="add link">here</a>.</p>
 <div id="fig-examples" class="quarto-layout-panel">
 <figure class="figure">
@@ -289,9 +289,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="working-in-gis" class="level2 page-columns page-full" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="working-in-gis"><span class="header-section-number">6.2</span> Working in GIS</h2>
-<section id="loading-data-layers-and-veryfying-projections" class="level3" data-number="6.2.1">
-<h3 data-number="6.2.1" class="anchored" data-anchor-id="loading-data-layers-and-veryfying-projections"><span class="header-section-number">6.2.1</span> Loading data layers and veryfying projections</h3>
-<p>To prepare the site map, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">load the data layers</a> into a GIS workspace. QGIS can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:</p>
+<p>GIS software can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -314,7 +312,10 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Therefore, all layers need to be checked and <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems">projected</a> where needed, according to the <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems">Project CRS</a> set to the area of your site location. You can use the <a href="https://epsg.io/">epsg.io</a> database of coordinate systems to know the coordinate system you should be using for you context.</p>
+<section id="loading-data-layers-and-veryfying-projections" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="loading-data-layers-and-veryfying-projections"><span class="header-section-number">6.2.1</span> Loading data layers and veryfying projections</h3>
+<p>To prepare the site map, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">load the data layers</a> into a GIS workspace, such as QGIS.</p>
+<p>Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Ensure that the <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems">Project CRS</a> is set to the area of your site location. You can use the <a href="https://epsg.io/">epsg.io</a> database of coordinate systems to know the coordinate system you should be using for you context. All loaded data layers need to be checked and <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems">projected</a> where needed, according to the project CRS.</p>
 </section>
 <section id="layers-and-elements-of-a-site-map" class="level3 page-columns page-full" data-number="6.2.2">
 <h3 data-number="6.2.2" class="anchored" data-anchor-id="layers-and-elements-of-a-site-map"><span class="header-section-number">6.2.2</span> Layers and elements of a site map</h3>
