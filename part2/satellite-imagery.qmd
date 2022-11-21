@@ -19,7 +19,7 @@ Satellites produce a range of different visual outputs. These visual outputs dif
 
 Passive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage. 
 
-![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png){.column-page-right width=70% }
+![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png)
 
 ## Spatial resolution
 The resolution of a satellite image is categorized as follows:
