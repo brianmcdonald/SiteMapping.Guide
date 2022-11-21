@@ -137,28 +137,21 @@
     "href": "part2/UAV.html#pre-flight",
     "title": "4  UAV imagery",
     "section": "4.2 Pre-flight",
-    "text": "4.2 Pre-flight\nPrior to the flight, consider the following: [^footnote 1]\n\nWeather: Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it’s best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.\nStakeholder engagement: Assuming regulatory processes have already been followed. Its important that the population in the site area of interest is fully informed and understands the plannedactivity, that there is acceptance of the activity and that theres a communication channel in place for the community to voice any complaints or feedback.\nHardware checks: Make sure that all batteries are charged and that all required equiments is functioning.\nPre-identify takeoff and landing sites: A suitable area will be free of obstructions such as trees or overhead wires and away from move foot or road traffic.\nCreate a flight plan: This includes the planned route, with altitude, overlap and takeoff/landing areas pre-programmed.\n\n\n4.2.1 Nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.4 Altitude Ground sampling distance"
-  },
-  {
-    "objectID": "part2/UAV.html#flight",
-    "href": "part2/UAV.html#flight",
-    "title": "4  UAV imagery",
-    "section": "4.3 Flight",
-    "text": "4.3 Flight\n…"
+    "text": "4.2 Pre-flight\nPrior to the flight, consider the following: 1\n\nWeather: Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it’s best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.\nStakeholder engagement: Assuming regulatory processes have already been followed. Its important that the population in the site area of interest is fully informed and understands the plannedactivity, that there is acceptance of the activity and that theres a communication channel in place for the community to voice any complaints or feedback.\nHardware checks: Make sure that all batteries are charged and that all required equiments is functioning.\nPre-identify takeoff and landing sites: A suitable area will be free of obstructions such as trees or overhead wires and away from move foot or road traffic.\nCreate a flight plan: This includes the planned route, with altitude, overlap and takeoff/landing areas pre-programmed.\n\n\n4.2.1 Nadir vs oblique images\n\n\n\nAn example of an oblique angle image of Bakassi Camp, northeastern Nigeria Source: IOM\n\n\n\n\n\nAn example of a nadir angle image of Wau PoC, in South Sudan Source: IOM\n\n\n\n\n4.2.2 Ground control points\n\n\n\nAn example Ground Control Point Source: Pix4d\n\n\n\n\n4.2.3 Path and image overlap\nA minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.\n\nMinimum number of images captured: 16-32\nMinimum image overlap: 70-72%\nMinimum image overlap for 3D: 83%\n\n\n\n4.2.4 Altitude Ground sampling distance"
   },
   {
     "objectID": "part2/UAV.html#post-flight",
     "href": "part2/UAV.html#post-flight",
     "title": "4  UAV imagery",
-    "section": "4.4 Post-Flight",
-    "text": "4.4 Post-Flight\n…"
+    "section": "4.3 Post-Flight",
+    "text": "4.3 Post-Flight\n…"
   },
   {
     "objectID": "part2/UAV.html#post-flight-processing",
     "href": "part2/UAV.html#post-flight-processing",
     "title": "4  UAV imagery",
-    "section": "4.5 Post-Flight processing",
-    "text": "4.5 Post-Flight processing\nDrone captured images then need to be stitched together into one image or orthomosaic. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.\n\n4.5.1 Orthomosaics with WebODM\nTo install WedODM manually, follow the steps outlined here.\nCreate a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available\n[^footnote 1]: A more comprehensive checklist can be found on the Humanitarian UAV Network | Operational Check List."
+    "section": "4.4 Post-Flight processing",
+    "text": "4.4 Post-Flight processing\nDrone captured images then need to be stitched together into one image or orthomosaic. Here we recommend using WedODM and take you through software installation, creating a new project, uploading the images, creating a task, and downloading the orthomosaic.\n\n4.4.1 Orthomosaics with WebODM\nTo install WedODM manually, follow the steps outlined here.\nCreate a new project, upload drone captured images to create a task and download the orthomosaic. After the task ahs been successfully processed, select orthophoto.tif in the list of available"
   },
   {
     "objectID": "part3/tracing.html#manual-tracing",
