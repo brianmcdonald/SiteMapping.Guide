@@ -47,5 +47,5 @@ High-resolution imagery can be sourced from [UNOSAT](https://smcs.unosat.org/hom
 
 ::: {.callout-note}
 ## Note for IOM staff
-High-resolution Satellite imagery can be requested from IOM DTM GIS unit [dtmgis@iom.int](dtmgis@iom.int)
+For IOM staff, subject to availability, high-resolution Satellite imagery can be requested from IOM DTM GIS unit [dtmgis@iom.int](dtmgis@iom.int)
 :::
