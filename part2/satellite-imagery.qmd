@@ -8,9 +8,9 @@ There are different types of satellite imagery. The types of imagery generated f
 
 For the purpose of site mapping, **satellite imagery sourced using Optical satellites is most prevalent and useful** (as these typically produce imagery with colour similar to how the human eye preceives color).
 
-![Synthetic Aperature Radar(active) vs Optical(passive) sensors<br> *Source: ESMA Lisbon*](/part2/images/sar-optical.png){.column-page-right width=70% }
+[![Synthetic Aperature Radar(active) vs Optical(passive) sensors<br> *Source: ESMA Lisbon*](/part2/images/sar-optical.png){.column-page-right width=70% }](/part2/images/sar-optical.png)
 
-::: {.callout-note}
+::: {.callout-warning}
 # Note on Colour bands
 Satellites produce a range of different visual outputs. These visual outputs differ in their color combinations. Wavelengths detected by the satellites are translated into color bands then can combined to form an Index. This allows further analysis to be conducted. **True-color images**, as produced by Optical satellites and often used for mapping purposes, are a combination of the red, green and blue bands which results in an visual output similar to how we see color with our eyes. Other types of outputs include the **Normalized Difference Vegetation Index** (NVDI), which can be used to monitor changes in vegetation, or the **False Color Infrared** combination, which can be used in water detection during the heavy rain seasons or in the event of flooding. 
 :::
@@ -19,7 +19,7 @@ Satellites produce a range of different visual outputs. These visual outputs dif
 
 Passive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage, posing a challenge to rapid response to hazards such as cyclones or floding.
 
-![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png)
+[![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png)](/part2/images/cloud.png)
 
 ## Spatial resolution
 The resolution of a satellite image is categorized as follows:
@@ -28,7 +28,7 @@ The resolution of a satellite image is categorized as follows:
 - Medium resolution: 10-30m/pixel
 - Low resolution: over 60m/pixel
 
-![Comparison of different spatial resolutions<br> *Source: X. Yao*](/part2/images/spatial-resolution.jpg){.column-page-right width=70% }
+[![Comparison of different spatial resolutions<br> *Source: X. Yao*](/part2/images/spatial-resolution.jpg){.column-page-right width=70% }](/part2/images/spatial-resolution.jpg)
 
 A 10m resolution means that each pixel represents a 10m x 10m area on the ground.The smaller the spatial resolution, the higher the level of detail. 
 
