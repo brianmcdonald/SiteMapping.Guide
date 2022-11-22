@@ -40,6 +40,13 @@ This guide is for any Camp Coordination Camp Management, Shelter, or assessment 
 
 While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. 
 
+While the guidance is relevant for all humanitarian staff, section that are specifc to IOM can be found in blue boxes like the following:
+
+::: {.callout-note}
+## Note for IOM staff
+Sections in the guidance that are specific to IOM staff will apear in boxes like this.
+:::
+
 ## When and how can site maps be used
 Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities: 
 

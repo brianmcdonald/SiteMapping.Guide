@@ -17,7 +17,7 @@ Satellites produce a range of different visual outputs. These visual outputs dif
 
 ## Cloud cover
 
-Passive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage. 
+Passive satellites are not able to capture through clouds and therefore can be limited when observing certain areas with dense cloud coverage, posing a challenge to rapid response to hazards such as cyclones or floding.
 
 ![Optical imagery sources are affected by cloud cover<br> *Source: Harris Geospatial*](/part2/images/cloud.png)
 
@@ -43,7 +43,7 @@ Depending on the user's needs, different image resolutions can be used:
 
 Some free data sources for low to medium resolution imagery include USGS/NASA's [Landsat](https://earthexplorer.usgs.gov/) and [ESA's Sentinel series](https://apps.sentinel-hub.com/eo-browser/). 
 
-High-resolution imagery can be sourced from [UNOSAT](https://smcs.unosat.org/home). Some satellite image providers also provide imagery for certain select disasters. An example of this is [Maxar's Opend Data Program](https://www.maxar.com/open-data). [OpenAerialMap](https://openaerialmap.org/) can also be a useful source, where open licenced aerial imagery is made available for download.
+High-resolution imagery can be sourced from [UNOSAT](https://smcs.unosat.org/home). Some satellite image providers also provide imagery for certain select disasters. An example of this is [Maxar's Open Data Program](https://www.maxar.com/open-data). [OpenAerialMap](https://openaerialmap.org/) can also be a useful source, where open licenced aerial imagery is made available for download.
 
 ::: {.callout-note}
 ## Note for IOM staff

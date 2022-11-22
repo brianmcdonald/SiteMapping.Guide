@@ -3,6 +3,11 @@
 A glossary of terms used throughout this guide:
 
 ```{glossary}
+DSM
+: Digital Surface Model. A modelling of a an area that include foliage and structures.
+
+DTM
+:  Digital Terrrain Model. Similar to DSM but excluding foliagge and other structures. Also Displacement Tracking Matrix, an IOM initiative that gathers data on mobility, vulnerability and needs.
 
 Drone
 : Common term for unmanned or remotely-piloted aircraft.
