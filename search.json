@@ -196,11 +196,11 @@
     "text": "7.2 Generating, reading and annotating geoPDFs\nIn the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information.\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
   },
   {
-    "objectID": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
-    "href": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
+    "objectID": "part3/collaboration.html#gathering-feedback-and-map-iterations.",
+    "href": "part3/collaboration.html#gathering-feedback-and-map-iterations.",
     "title": "7  Collaboration",
-    "section": "7.3 Gathering feedback and map iteration.",
-    "text": "7.3 Gathering feedback and map iteration.\n… - site walks - annotate maps"
+    "section": "7.3 Gathering feedback and map iterations.",
+    "text": "7.3 Gathering feedback and map iterations.\nThrough Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.\nThe site maps"
   },
   {
     "objectID": "annexes/acknowledgements.html",
