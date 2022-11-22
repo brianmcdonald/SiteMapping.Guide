@@ -9,7 +9,7 @@ Static PDF site maps are the main output of this workflow. However, it is also i
 
 ## Information and knowledge management
 These are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:
-
+ 
 1. Verify and validate the information, 
 2. Feedback and suggest modifications,
 3. Update the data when changes occur on the ground. 
