@@ -28,6 +28,3 @@ GeoPDFs can be imported into [Avenza maps](https://www.avenzamaps.com/mobile-map
 
 ## Gathering feedback and map iterations.
 Through Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.  
-
-The site maps 
-
