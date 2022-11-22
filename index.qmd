@@ -40,7 +40,14 @@ This guide is for any Camp Coordination Camp Management, Shelter, or assessment 
 
 While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. 
 
-## When and how can site maps be used
+While the guidance is relevant for all humanitarian staff, section that are specifc to IOM can be found in blue boxes like the following:
+
+::: {.callout-note}
+## Note for IOM staff
+Sections in the guidance that are specific to IOM staff will apear in boxes like this.
+:::
+
+## When and how to use them
 Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities: 
 
 - **Site planning** during sudden-onset emergencies or protracted crises.
@@ -53,7 +60,7 @@ Site maps can illustrate camp settings in both sudden-onset disasters as well as
 
 - GBV/ Protection **Safety Audits** conducted through direct observation, key informant interviews, focus group discussions.
 
-![Rehabilation of Wau PoC site<br> *Source: IOM*](images/wau1.jpg)
+[![Rehabilation of Wau PoC site<br> *Source: IOM*](images/wau1.jpg)](images/wau1.jpg)
 
 ## Acknowledgments
 This guide was developed by IOM, with considerable inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the [acknowledgements annex](/annexes/acknowledgements.html).
