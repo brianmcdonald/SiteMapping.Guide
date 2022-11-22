@@ -227,8 +227,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#loading-data-layers-and-veryfying-projections" id="toc-loading-data-layers-and-veryfying-projections" class="nav-link" data-scroll-target="#loading-data-layers-and-veryfying-projections"><span class="toc-section-number">6.2.1</span>  Loading data layers and veryfying projections</a></li>
   <li><a href="#layers-and-elements-of-a-site-map" id="toc-layers-and-elements-of-a-site-map" class="nav-link" data-scroll-target="#layers-and-elements-of-a-site-map"><span class="toc-section-number">6.2.2</span>  Layers and elements of a site map</a></li>
   <li><a href="#visualizing-data-layers" id="toc-visualizing-data-layers" class="nav-link" data-scroll-target="#visualizing-data-layers"><span class="toc-section-number">6.2.3</span>  Visualizing data layers</a></li>
-  <li><a href="#print-layouts-and-using-templates" id="toc-print-layouts-and-using-templates" class="nav-link" data-scroll-target="#print-layouts-and-using-templates"><span class="toc-section-number">6.2.4</span>  Print Layouts and Using Templates</a></li>
-  <li><a href="#saving-the-data-layers-and-styles-into-a-geopackage" id="toc-saving-the-data-layers-and-styles-into-a-geopackage" class="nav-link" data-scroll-target="#saving-the-data-layers-and-styles-into-a-geopackage"><span class="toc-section-number">6.2.5</span>  Saving the data layers and styles into a Geopackage</a></li>
+  <li><a href="#adding-fields-and-editing-attributes" id="toc-adding-fields-and-editing-attributes" class="nav-link" data-scroll-target="#adding-fields-and-editing-attributes"><span class="toc-section-number">6.2.4</span>  Adding fields and editing attributes</a></li>
+  <li><a href="#print-layouts-and-using-templates" id="toc-print-layouts-and-using-templates" class="nav-link" data-scroll-target="#print-layouts-and-using-templates"><span class="toc-section-number">6.2.5</span>  Print Layouts and Using Templates</a></li>
+  <li><a href="#saving-the-data-layers-and-styles-into-a-geopackage" id="toc-saving-the-data-layers-and-styles-into-a-geopackage" class="nav-link" data-scroll-target="#saving-the-data-layers-and-styles-into-a-geopackage"><span class="toc-section-number">6.2.6</span>  Saving the data layers and styles into a Geopackage</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -426,6 +427,11 @@ Note
 <section id="visualizing-data-layers" class="level3" data-number="6.2.3">
 <h3 data-number="6.2.3" class="anchored" data-anchor-id="visualizing-data-layers"><span class="header-section-number">6.2.3</span> Visualizing data layers</h3>
 <p>Once the files are opened in QGIS, they will appear as layers. These layers can be duplicated in order to <a href="https://docs.qgis.org/3.22/en/docs/user_manual/style_library/symbol_selector.html#the-symbol-selector">show different visualisations</a> of the same file.</p>
+</section>
+<section id="adding-fields-and-editing-attributes" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="adding-fields-and-editing-attributes"><span class="header-section-number">6.2.4</span> Adding fields and editing attributes</h3>
+<p>Shapefiles (ESRI Shapefile format) are the most common type of vector file. This file format dataset consists of several files. Of these different files, there are two which you should be familiar with for the purposes of this site mapping exercise. First, the .shp file, which contains the geometries of the features in the layer and secondly, the .dbf file, which contains the feature <strong>attributes</strong>.</p>
+<p>The attribute table interface allows you to view and [edit the attribute data] (https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/attribute_table.html#editing-attribute-values) as well as <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/attribute_table.html#interacting-with-features-in-an-attribute-table">interact with features</a> in a layer (by selecting or filtering features for example). Fields are columns of attribute values and these can be added, deleted and edited through this interface.</p>
 <div class="callout-warning callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -436,17 +442,17 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Any saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features to a layer but do not want to edit the original source file, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">save the layer as a separate file</a> <strong>before</strong> making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder.</p>
+<p>Any saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features or attribute values to a layer but do not want to edit the original source file, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">save the layer as a separate file</a> <strong>before</strong> making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder.</p>
 </div>
 </div>
 </section>
-<section id="print-layouts-and-using-templates" class="level3" data-number="6.2.4">
-<h3 data-number="6.2.4" class="anchored" data-anchor-id="print-layouts-and-using-templates"><span class="header-section-number">6.2.4</span> Print Layouts and Using Templates</h3>
-<p>With QGIS’s layout composer, you can <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager">create layouts</a> or use existing layout templates. The template file can be downloaded <a href="add link">here</a>. One the layout is complete, <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html">save and export the print layout</a> as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings">export as vectors</a>), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting ’Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to <em>Section 7: Collaboration</em> for more on GeoPDFs)</p>
+<section id="print-layouts-and-using-templates" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="print-layouts-and-using-templates"><span class="header-section-number">6.2.5</span> Print Layouts and Using Templates</h3>
+<p>With QGIS’s layout composer, you can <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager">create layouts</a> or use existing layout templates. The template file can be downloaded <a href="add link">here</a>. Once the layout is complete, <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html">save and export the print layout</a> as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings">export as vectors</a>), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting ’Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to <a href="https://sitemapping.guide/part3/collaboration.html">Section 7: Collaboration</a> for why you should export your site map alsp as a GeoPDFs)</p>
 </section>
-<section id="saving-the-data-layers-and-styles-into-a-geopackage" class="level3" data-number="6.2.5">
-<h3 data-number="6.2.5" class="anchored" data-anchor-id="saving-the-data-layers-and-styles-into-a-geopackage"><span class="header-section-number">6.2.5</span> Saving the data layers and styles into a Geopackage</h3>
-<p>Data layers are saved on your local computer. To facilitate sharing geographic information, data layers can be compressed into a <strong>Geopackage</strong>. The QGIS project and all the data used in the project can be saved using the <a href="https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers">Package Layers tool</a> and easily shared and stored as such for future use.</p>
+<section id="saving-the-data-layers-and-styles-into-a-geopackage" class="level3" data-number="6.2.6">
+<h3 data-number="6.2.6" class="anchored" data-anchor-id="saving-the-data-layers-and-styles-into-a-geopackage"><span class="header-section-number">6.2.6</span> Saving the data layers and styles into a Geopackage</h3>
+<p>Data layers are saved on your local computer. To facilitate sharing geographic information, data layers can be compressed into a <a href="https://docs.qgis.org/3.22/en/docs/user_manual/managing_data_source/supported_data.html?highlight=fields%20attributes#geopackage"><strong>Geopackage</strong></a>. The QGIS project and all the data used in the project can be saved using the <a href="https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers">Package Layers tool</a> and easily shared and stored as such for future use.</p>
 
 
 </section>
