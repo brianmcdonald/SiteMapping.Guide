@@ -289,6 +289,7 @@ Note for IOM staff
 </ul>
 <section id="nadir-vs-oblique-images" class="level3 page-columns page-full" data-number="4.2.1">
 <h3 data-number="4.2.1" class="anchored" data-anchor-id="nadir-vs-oblique-images"><span class="header-section-number">4.2.1</span> Nadir vs oblique images</h3>
+<p>The image captured when a drones camera faces directly down is called a <em>nadir</em> image. For creating an orthomosaic of a site, nadir images are preferred to oblique images which are more suited to tasks such as 3D modelling.</p>
 <div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
 <figure class="figure page-columns page-full">
 <p class="page-columns page-full"><img src="../part2/images/bakassi.jpg" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
@@ -304,6 +305,8 @@ Note for IOM staff
 </section>
 <section id="ground-control-points" class="level3 page-columns page-full" data-number="4.2.2">
 <h3 data-number="4.2.2" class="anchored" data-anchor-id="ground-control-points"><span class="header-section-number">4.2.2</span> Ground control points</h3>
+<p>Ground control points are marks created on the site as reference points to match specific points on the image to specific coordinates within the site. They provide a great degree of accuracy for the image that relying on the GPS of the drone by itself.</p>
+<p>Use a minimum of 3 GCPs and capture the coordinates of each GCP centrepoint with a Phone or handheld GPS for an accuracy level of 1-3 metres. For accuracy of 1cm a specialised <a href="https://emlid.com/gcps-for-drone-mapping/">Real-time kinematic positioning (RTK)</a> kit is required.</p>
 <div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
 <figure class="figure page-columns page-full">
 <p class="page-columns page-full"><img src="../part2/images/gcp.jpg" class="column-page-right img-fluid figure-img" style="width:50.0%"></p>
@@ -323,6 +326,12 @@ Note for IOM staff
 <section id="flight-altitude" class="level3" data-number="4.2.4">
 <h3 data-number="4.2.4" class="anchored" data-anchor-id="flight-altitude"><span class="header-section-number">4.2.4</span> Flight altitude</h3>
 <p>Ground Sampling Distance (GSD) referes to geographic area represeted by one pixel of an image. It reflects the resolution of the image, with flight heigh and image sensor resolution being the two biggest determining factors. For site mapping a GSD of 2.5cm2 - 1cm2 is the range most suitable. Most flight planning software automatically calculate the GSD based on an entered flight altitude. The flight altitude should also consider potential flight obstructions such as trees or overhead powerlines, noise and also privacy as having a flight altitude and GSD that is too low could result in the unintented consequence of capturing information that could be personally identifiable.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../part2/images/gsd.png"><img src="../part2/images/gsd.png" class="img-fluid figure-img" style="width:50.0%"></a></p>
+<p></p><figcaption class="figure-caption">GSD is the amount of actual ground captured by the distance between the center point of two adjacent pixels.<br> <em>Source: wintra.com</em></figcaption><p></p>
+</figure>
+</div>
 </section>
 </section>
 <section id="post-flight" class="level2" data-number="4.3">
