@@ -23,10 +23,10 @@ Manual tracing can be done in GIS or AutoDesk software. QGIS can be downloaded f
 
 ## Automatic tracing
 
-Below are some open source tools which can assist you in creating a workflow for automatic shelter detection: 
+Below are some tools which can assist you in creating a workflow for automatic shelter detection: 
 
-- Create a training data set from aerial imagery with [Groundwork.azavea](https://groundwork.azavea.com/). Upload orthophoto to Groundwork, label features and export training data in .json format. 
+- Create a training data set from aerial imagery with [Groundwork.azavea](https://groundwork.azavea.com/). When signing up with Groundwork, up to 10 campaigns (projects) can be created free of charge when creating an account. Upload orthomosaic image to Groundwork, label features and export the training data in .json format. 
 
-- Extract shelter outlines from aerial imagery using Mapflow's built in deep learning and semantic segmentation models. Mapflow can be used as a plugin in QGIS and can be downloaded from [here](https://plugins.qgis.org/plugins/mapflow/). Further guidance on how to install the Mapflow QGIS plugin is available [here](https://docs.mapflow.ai/api/qgis_mapflow#user-interface). 
+- Extract shelter outlines from aerial imagery using [Mapflow.ai](https://mapflow.ai/)'s built in deep learning and semantic segmentation models. After signing up, create a new project. Select your images and 
 
-- Analyse and conduct image segmentation on aerial or satellite imagery using the [UP42 platform](https://docs.up42.com/).
+Mapflow can also be used as a plugin in QGIS and can be downloaded from [here](https://plugins.qgis.org/plugins/mapflow/). Further guidance on how to install the Mapflow QGIS plugin is available [here](https://docs.mapflow.ai/api/qgis_mapflow#user-interface). 
