@@ -1,33 +1,30 @@
 # Collaboration
-Throughout the development cycle of site maps, involving the stakeholders identified earlier in this guide is key to producing high quality, user-centered site maps. 
+Throughout the development cycle of site maps, the contributions and participation of the different stakeholders identified earlier in this guide, is key to producing high quality, updated site maps. 
+Static PDF site maps are the main output of this workflow. However, it is also important to recognise that other products are created in the process of making these maps, such as:
 
-The main outputs of this workflow is the static PDF site map. However, in the process of making these - it is important to recognise the following products are also created: 
+ - Aerial/ Satellite imagery of sites in which CCCM, shelter or other humanitarian activities are being carried out,
+ - The geopackage which contains geographic information and data layers of the site infrastructure,
+ - GeoPDFs,
+ - Site map template
 
- - Aerial/ Satellite imagery of sites in which CCCM, shelter or other humanitarian activities are being carried out. 
- - Geodatabase containing data layers of shelters and other camp infrastructure
- - Site map Templates
- - GeoPDFs and PDF 
-
-These are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground to:
+## Information and knowledge management
+These are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:
 
 1. Verify and validate the information, 
-2. Feedback and suggest modifications
+2. Feedback and suggest modifications,
 3. Update the data when changes occur on the ground. 
 
 Therefore, the manner in which this data is stored, presented and shared is crucial to both allow for and promote the use of site maps. 
 
-- *Insert Reference to camp lifecycle*
+:::{.callout-note}
+## Note
+IOM and partner agency/ NGO staff can and are encouraged to share these data products with the CCCM Global Cluster so there is continuity in the management of site data. The CCCM Global cluster can play a role in facilitating the storage, dissemination and use of site data whilst ensuring it is done so responsibly. 
+:::
 
-## Information and knowledge management
-Strategy of site information management 
-- save and share data with the CCCM cluster so their is longer term management of site data 
-the CCCM cluster can play a role in facilitating this 
-
-## Generating geoPDFs
+## Generating, reading and annotating geoPDFs
 In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information. 
 
-## Reading and annotating geoPDFs
-GeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
+GeoPDFs can be imported into [Avenza maps](https://www.avenzamaps.com/mobile-maps?campaignid=10221828697&adgroupid=102940455500&adid=453328850375&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAxTp38Kmz11Ou-eCXzYSF_EkQpvBq3PvAo3sxuIS88hZMkaglVMWSAaAtEFEALw_wcB). The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
 
 ## Gathering feedback and map iteration.
 ...
