@@ -186,28 +186,21 @@
     "href": "part3/collaboration.html#information-and-knowledge-management",
     "title": "7  Collaboration",
     "section": "7.1 Information and knowledge management",
-    "text": "7.1 Information and knowledge management\nStrategy of site information management - save and share data with the CCCM cluster so their is longer term management of site data the CCCM cluster can play a role in facilitating this"
+    "text": "7.1 Information and knowledge management\nThese are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:\n\nVerify and validate the information,\nFeedback and suggest modifications,\nUpdate the data when changes occur on the ground.\n\nTherefore, the manner in which this data is stored, presented and shared is crucial to both allow for and promote the use of site maps.\n\n\n\n\n\n\nNote\n\n\n\nIOM and partner agency/ NGO staff can and are encouraged to share these data products with the CCCM Global Cluster so there is continuity in the management of site data. The CCCM Global cluster can play a role in facilitating the storage, dissemination and use of site data whilst ensuring it is done so responsibly."
   },
   {
-    "objectID": "part3/collaboration.html#generating-geopdfs",
-    "href": "part3/collaboration.html#generating-geopdfs",
+    "objectID": "part3/collaboration.html#generating-reading-and-annotating-geopdfs",
+    "href": "part3/collaboration.html#generating-reading-and-annotating-geopdfs",
     "title": "7  Collaboration",
-    "section": "7.2 Generating geoPDFs",
-    "text": "7.2 Generating geoPDFs\nIn the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information."
-  },
-  {
-    "objectID": "part3/collaboration.html#reading-and-annotating-geopdfs",
-    "href": "part3/collaboration.html#reading-and-annotating-geopdfs",
-    "title": "7  Collaboration",
-    "section": "7.3 Reading and annotating geoPDFs",
-    "text": "7.3 Reading and annotating geoPDFs\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
+    "section": "7.2 Generating, reading and annotating geoPDFs",
+    "text": "7.2 Generating, reading and annotating geoPDFs\nIn the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information.\nGeoPDFs can be imported into Avenza maps. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features."
   },
   {
     "objectID": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "href": "part3/collaboration.html#gathering-feedback-and-map-iteration.",
     "title": "7  Collaboration",
-    "section": "7.4 Gathering feedback and map iteration.",
-    "text": "7.4 Gathering feedback and map iteration.\n… - site walks - annotate maps"
+    "section": "7.3 Gathering feedback and map iteration.",
+    "text": "7.3 Gathering feedback and map iteration.\n… - site walks - annotate maps"
   },
   {
     "objectID": "annexes/acknowledgements.html",
