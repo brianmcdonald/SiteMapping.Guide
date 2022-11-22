@@ -26,7 +26,8 @@ In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDF
 
 GeoPDFs can be imported into [Avenza maps](https://www.avenzamaps.com/mobile-maps?campaignid=10221828697&adgroupid=102940455500&adid=453328850375&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAxTp38Kmz11Ou-eCXzYSF_EkQpvBq3PvAo3sxuIS88hZMkaglVMWSAaAtEFEALw_wcB). The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
 
-## Gathering feedback and map iteration.
-...
-- site walks
-- annotate maps 
+## Gathering feedback and map iterations.
+Through Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.  
+
+The site maps 
+
