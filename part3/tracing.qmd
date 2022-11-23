@@ -27,6 +27,11 @@ Below are some tools which can assist you in creating a workflow for automatic s
 
 - Create a training data set from aerial imagery with [Groundwork.azavea](https://groundwork.azavea.com/). When signing up with Groundwork, up to 10 campaigns (projects) can be created free of charge when creating an account. Upload orthomosaic image to Groundwork, label features and export the training data in .json format. 
 
-- Extract shelter outlines from aerial imagery using [Mapflow.ai](https://mapflow.ai/)'s built in deep learning and semantic segmentation models. After signing up, create a new project. Select your images and 
+- Extract shelter outlines from aerial imagery using [Mapflow.ai](https://mapflow.ai/)'s built in deep learning and semantic segmentation models. After signing up, create a new project. 
+
+::: {.callout-warning}
+## Tiff vs GeoTiff
+In order to use your orthomosaic in Mapflow.ai, you may need to [georeference your image](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_raster/georeferencer.html) in QGIS beforehand and export it as a GeoTiff with either web mercator, UTM or lat-lon coordinate systems. 
+:::
 
 Mapflow can also be used as a plugin in QGIS and can be downloaded from [here](https://plugins.qgis.org/plugins/mapflow/). Further guidance on how to install the Mapflow QGIS plugin is available [here](https://docs.mapflow.ai/api/qgis_mapflow#user-interface). 

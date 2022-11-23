@@ -41,7 +41,7 @@ A minimum of 16-31 images are needed to create an orthophoto from drone captured
 - Minimum image overlap for 3D: 83%
 
 ### Flight altitude
-Ground Sampling Distance (GSD) referes to geographic area represeted by one pixel of an image. It reflects the resolution of the image, with flight heigh and image sensor resolution being the two biggest determining factors. For site mapping a GSD of 2.5cm2 - 1cm2 is the range most suitable. Most flight planning software automatically calculate the GSD based on an entered flight altitude. The flight altitude should also consider potential flight obstructions such as trees or overhead powerlines, noise and also privacy as having a flight altitude and GSD that is too low could result in the unintented consequence of capturing information that could be personally identifiable.
+Ground Sampling Distance (GSD) refers to geographic area represented by one pixel of an image. It reflects the resolution of the image, with flight height and image sensor resolution being the two biggest determining factors. For site mapping a GSD of 2.5cm2 - 1cm2 is the range most suitable. Most flight planning software automatically calculate the GSD based on an entered flight altitude. The flight altitude should also consider potential flight obstructions such as trees or overhead power lines, noise and also privacy as having a flight altitude and GSD that is too low could result in the unintended consequence of capturing information that could be personally identifiable.
 
 ## Post-Flight
 Following the flight, make sure to check the imagery quality and completeness, safely storge the equipment and ensure the data captured is securely stored.
@@ -50,7 +50,8 @@ Following the flight, make sure to check the imagery quality and completeness, s
 
 Drone captured images then need to be stitched together into one image or *orthomosaic*. 
 
-WebODM is a free software that can be used to create orthomosaics from drone captured-imagery. To install WedODM manually, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). Once installed, create a new project. Upload the images to create a task. After the task has been successfully completed, the orthomosaic will be ready to download. Select *orthophoto.tif* in the list of available formats and the single image output will download. 
+WebODM is a free software that can be used to create orthomosaics from drone captured-imagery. To install WedODM manually, follow the steps outlined [here](https://github.com/OpenDroneMap/WebODM/#getting-started). Once installed, create a new 
+project.Upload the images to create a task. After the task has been successfully completed, the orthomosaic will be ready to download. Select *orthophoto.tif* in the list of available formats and the single image output will download. 
 
 In addition to creating orthomosaics, WebODM can also produce Digital Surface Models or 3D models of the site.
 
