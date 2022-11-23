@@ -11,7 +11,7 @@ IOM staff can reach out to CCCM Support [globalcccm@iom.int](globalcccm@iom.int)
 :::
 
 ## Pre-flight
-Prior to the flight, consider the following: [^footnote1]
+Prior to the flight, consider the following: [^footnote4]
 
 - **Weather:** Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it's best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.
 
@@ -25,11 +25,17 @@ Prior to the flight, consider the following: [^footnote1]
 
 ### Nadir vs oblique images
 
+The image captured when a drones camera faces directly down is called a *nadir* image. For creating an orthomosaic of a site, nadir images are preferred to oblique images which are more suited to tasks such as 3D modelling. 
+
 ![An example of an *oblique* angle image of Bakassi Camp, northeastern Nigeria<br> *Source: IOM*](/part2/images/bakassi.jpg){.column-page-right width=70% }
 
 ![An example of a *nadir* angle image of Wau PoC, in South Sudan<br> *Source: IOM*](/part2/images/wau2.jpg){.column-page-right width=70% }
 
 ### Ground control points
+
+Ground control points are marks created on the site as reference points to match specific points on the image to specific coordinates within the site. They provide a great degree of accuracy for the image that relying on the GPS of the drone by itself. 
+
+Use a minimum of 3 GCPs and capture the coordinates of each GCP centrepoint with a  Phone or handheld GPS for an accuracy level of 1-3 metres. For accuracy of 1cm a specialised [Real-time kinematic positioning (RTK)](https://emlid.com/gcps-for-drone-mapping/) kit is required.
 
 ![An example Ground Control Point<br> *Source: Pix4d*](/part2/images/gcp.jpg){.column-page-right width=50% }
 
@@ -43,6 +49,8 @@ A minimum of 16-31 images are needed to create an orthophoto from drone captured
 ### Flight altitude
 Ground Sampling Distance (GSD) refers to geographic area represented by one pixel of an image. It reflects the resolution of the image, with flight height and image sensor resolution being the two biggest determining factors. For site mapping a GSD of 2.5cm2 - 1cm2 is the range most suitable. Most flight planning software automatically calculate the GSD based on an entered flight altitude. The flight altitude should also consider potential flight obstructions such as trees or overhead power lines, noise and also privacy as having a flight altitude and GSD that is too low could result in the unintended consequence of capturing information that could be personally identifiable.
 
+[![GSD is the amount of actual ground captured by the distance between the center point of two adjacent pixels.<br> *Source: wintra.com*](/part2/images/gsd.png){width=50%}](/part2/images/gsd.png)
+
 ## Post-Flight
 Following the flight, make sure to check the imagery quality and completeness, safely storge the equipment and ensure the data captured is securely stored.
 
@@ -55,4 +63,4 @@ project.Upload the images to create a task. After the task has been successfully
 
 In addition to creating orthomosaics, WebODM can also produce Digital Surface Models or 3D models of the site.
 
-[^footnote1]: A comprehensive checklist was created by the [Humanitarian UAV Network](https://docs.google.com/document/d/1av3GvsAQOxttCXKAgYCBf8tpv8lU72P1u4voAQrhTNw/edit)]
+[^footnote4]: A comprehensive checklist was created by the [Humanitarian UAV Network](https://docs.google.com/document/d/1av3GvsAQOxttCXKAgYCBf8tpv8lU72P1u4voAQrhTNw/edit)]
