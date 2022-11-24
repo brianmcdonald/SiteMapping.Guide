@@ -2,20 +2,20 @@
 
 There are two approaches to making sites maps presented in this guide. The main differerence between the two is in how aerial imagery is obtained:
 
-1. **Using high-resolution satellite imagery.**
-2. **Using drones to capture aerial images of the site.**
+1. Using high-resolution satellite imagery.
+2. Using drones to capture aerial images of the site.
 
 [![Uses and challenges of drone use <br> *Source: ICRC*](images/droneuseschallenges.png){#fig-droneuseschallenges width=50% fig-align="center"}](images/droneuseschallenges.png)
 
 Each of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:\
 
-## Information needs
+## Information Needs
 It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you need only an image/orthomosaic or whether you are look to create a Digital Elevation Model, a 3D model, a NDVI index etc. as this will affect your flight plan. Think about whether there are others applications outside of site mapping that you are in need of, such as drainage analysis, slope analysis, landslide risk analysis or vegetation cover analysis. Consider what area needs to be covered whilst bearing in mind that larger areas require longer flight times, more storage etc. 
 
 You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to its purpose (only collect data which is needed). 
 
 ## Conflict and Data Sensitivity
-Due to protection risks, the humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This means that the importation of drone equipment and/ or the request for flight approvals will likely be denied, or that their use in a site risk being perceived as a security threat. [^footnote1]
+Due to protection risks, the humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This means that the importation of drone equipment and/ or the request for flight approvals will likely be denied, or that their use in a site risk being perceived as a security threat. [^footnote]
 
 There are **key considerations to take into account when collecting, processing and sharing any type of data**. These considerations determine the degree of sensitivity applied throughout the data life cycle and include:
 
@@ -33,12 +33,12 @@ The use of drones to capture aerial images for site mapping does not require the
 ## Community Engagement
 Creating Site Maps requires buy-in from the community in and around the sites area of interest, in which they are informed of the planned activity, understand how its planned to be used and why its needed and to be able to accept or reject the activity or provide inputs into how the activity is conducted or how its outputs are used.
 
-## Regulatory environment
+## Regulatory Environment
 It is crucial to be aware of and fully understand the laws at both national and local-levels, as well the regulatory procedures and norms related to the use of UAVs, as these can vary significantly between contexts. The regulatory environment can refer to import procedures and restrictions; limitations on size and types on drones; pilot qualification requirements; and geographic limitations for UAV flight.
 
 The [Global Drone Regulations Database](https://droneregulations.info/) keeps an updated collection of country-specific regulations. It can be used to better understand the source of legal information, find relevant contact information, operating rules, as well as licensing and approval procedures. [^footnote3]
 
-## Organizational requirements
+## Organizational Requirements
 
 Many organizations have internal rules and guidance governing the use of technologies such as Drones. Donors may also have their own rules around their uses and the use of data resulting from the exercise. During the planning stage, it is important to contact the relevant organisation focal-point to ensure compliance with these rules.
 
@@ -46,6 +46,20 @@ Many organizations have internal rules and guidance governing the use of technol
 ## Note for IOM staff
 During the planning phase, it is important that IOM staff reach out to IOM's Office of Legal Affairs  (LEG) [leg@iom.int](leg@iom.int). They will provide legal and compliance guidance, as well as the latest version of the *Drone usage checklist* and *Risk-benefit analysis template*.
 :::
+
+## Decision Matrix
+
+| *Scenario* | *Satellite Imagery* | *UAV imagery* |
+|------------|------------------------------|------------------------|
+|A site map is needed in the fastest time possible|✔|❌|
+|The site is in a conflict affected area|✔|❌|
+|The location of the site is inaccessible|✔|❌|
+|There is persistent cloud-cover over the site|❌|✔|
+|Very detailed imagery is required|❌|✔|
+|A DSM or 3D model is required|❌|✔|
+
+
+
 
 
 [^footnote1]: Chapter 7 of [ICRCs Handbook on data protection in humanitarian action](https://www.icrc.org/en/data-protection-humanitarian-action-handbook)  examines the use of drones and remote sensing. 

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Site Mapping Guide - 4&nbsp; UAV imagery</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../part3/tracing.html" rel="next">
+<link href="../part2/satellite-imagery.html" rel="prev">
+<link href="../logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<meta property="og:title" content="Site Mapping Guide - 4&nbsp; UAV imagery">
+<meta property="og:description" content="Once you have understood what is required to collect aerial imagery using drones, the site mapping exercise and the use of drones has been discussed with the various affected stakeholders, a…">
+<meta property="og:site-name" content="Site Mapping Guide">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UAV imagery</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Site Mapping Guide</a> 
+        <div class="sidebar-tools-main">
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="../Site-Mapping-Guide.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="../Site-Mapping-Guide.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Part 1 - Preparation</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part1/identify-requirements.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Identifying requirements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part1/deciding-on-an-approach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Deciding on an approach</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Part 2 - Obtaining imagery</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part2/satellite-imagery.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Satellite imagery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part2/UAV.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UAV imagery</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Part 3 - Developing Maps</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/tracing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/composing-maps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Composing site maps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/collaboration.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Collaboration</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Annexes</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/acknowledgements.html" class="sidebar-item-text sidebar-link">Acknowledgements</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/references.html" class="sidebar-item-text sidebar-link">Further reading</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#obtaining-a-drone-kit" id="toc-obtaining-a-drone-kit" class="nav-link active" data-scroll-target="#obtaining-a-drone-kit"><span class="toc-section-number">4.1</span>  Obtaining a drone kit</a></li>
+  <li><a href="#pre-flight" id="toc-pre-flight" class="nav-link" data-scroll-target="#pre-flight"><span class="toc-section-number">4.2</span>  Pre-flight</a>
+  <ul class="collapse">
+  <li><a href="#nadir-vs-oblique-images" id="toc-nadir-vs-oblique-images" class="nav-link" data-scroll-target="#nadir-vs-oblique-images"><span class="toc-section-number">4.2.1</span>  Nadir vs oblique images</a></li>
+  <li><a href="#ground-control-points" id="toc-ground-control-points" class="nav-link" data-scroll-target="#ground-control-points"><span class="toc-section-number">4.2.2</span>  Ground control points</a></li>
+  <li><a href="#path-and-image-overlap" id="toc-path-and-image-overlap" class="nav-link" data-scroll-target="#path-and-image-overlap"><span class="toc-section-number">4.2.3</span>  Path and image overlap</a></li>
+  <li><a href="#flight-altitude" id="toc-flight-altitude" class="nav-link" data-scroll-target="#flight-altitude"><span class="toc-section-number">4.2.4</span>  Flight altitude</a></li>
+  </ul></li>
+  <li><a href="#post-flight" id="toc-post-flight" class="nav-link" data-scroll-target="#post-flight"><span class="toc-section-number">4.3</span>  Post-Flight</a></li>
+  <li><a href="#post-flight-processing-creating-orthomosaic" id="toc-post-flight-processing-creating-orthomosaic" class="nav-link" data-scroll-target="#post-flight-processing-creating-orthomosaic"><span class="toc-section-number">4.4</span>  Post-Flight processing: Creating Orthomosaic</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UAV imagery</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">November 24, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>Once you have understood what is required to collect aerial imagery using drones, the site mapping exercise and the use of drones has been discussed with the various affected stakeholders, a risk-benefit assessment has been conducted and approvals and permissions has been received from relevant actors, you are ready to start planning the flight.</p>
+<section id="obtaining-a-drone-kit" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="obtaining-a-drone-kit"><span class="header-section-number">4.1</span> Obtaining a drone kit</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note for IOM staff
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>On request, the Global CCCM team in Geneva can coordinate, with the support of the site mapping team, the deployment of a drone kit located at IOM HQ. IOM staff can reach out to CCCM Support <a href="globalcccm@iom.int">globalcccm@iom.int</a> with a brief description of the site mapping exercise and the intended use of the site maps, as well as the risk-benefit assessment and approval from IOM LEG colleagues. If and when available, the drone kit will then be sent with staff deployments or shipped to the requesting mission.</p>
+</div>
+</div>
+</section>
+<section id="pre-flight" class="level2 page-columns page-full" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="pre-flight"><span class="header-section-number">4.2</span> Pre-flight</h2>
+<p>Prior to the flight, consider the following: <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<ul>
+<li><p><strong>Weather:</strong> Most drones are not waterproof and therefor it is important to check precipitation forecasts in the flight area of interest. Wind speed also has an adverse effect on drone flight. Both type and size influence the susceptibility of drones to wind. Smaller drones, such as the DJI Mavic Mini for instance, have a windspeed operating ceiling of approximately 18km/h. Clouds, if above the flight altitude can have a positive affect as they act as a giant soft-box scattering sunlight, but if they are rolling may cause inconsistencies with light exposure. If possible, it’s best to fly around the middle of the day, when the sun is overhead, to limit shadows in the imagery.</p></li>
+<li><p><strong>Stakeholder engagement:</strong> Assuming regulatory processes have already been followed. Its important that the population in the site area of interest is fully informed and understands the plannedactivity, that there is acceptance of the activity and that theres a communication channel in place for the community to voice any complaints or feedback.</p></li>
+<li><p><strong>Hardware checks:</strong> Make sure that all batteries are charged and that all required equiments is functioning.</p></li>
+<li><p><strong>Pre-identify takeoff and landing sites:</strong> A suitable area will be free of obstructions such as trees or overhead wires and away from move foot or road traffic.</p></li>
+<li><p><strong>Create a flight plan:</strong> This includes the planned route, with altitude, overlap and takeoff/landing areas pre-programmed.</p></li>
+</ul>
+<section id="nadir-vs-oblique-images" class="level3 page-columns page-full" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="nadir-vs-oblique-images"><span class="header-section-number">4.2.1</span> Nadir vs oblique images</h3>
+<p>The image captured when a drones camera faces directly down is called a <em>nadir</em> image. For creating an orthomosaic of a site, nadir images are preferred to oblique images which are more suited to tasks such as 3D modelling.</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="..\part2/images/bakassi.jpg" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">An example of an <em>oblique</em> angle image of Bakassi Camp, northeastern Nigeria<br> <em>Source: IOM</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="..\part2/images/wau2.jpg" class="column-page-right img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">An example of a <em>nadir</em> angle image of Wau PoC, in South Sudan<br> <em>Source: IOM</em></figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="ground-control-points" class="level3 page-columns page-full" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="ground-control-points"><span class="header-section-number">4.2.2</span> Ground control points</h3>
+<p>Ground control points are marks created on the site as reference points to match specific points on the image to specific coordinates within the site. They provide a great degree of accuracy for the image that relying on the GPS of the drone by itself.</p>
+<p>Use a minimum of 3 GCPs and capture the coordinates of each GCP centrepoint with a Phone or handheld GPS for an accuracy level of 1-3 metres. For accuracy of 1cm a specialised <a href="https://emlid.com/gcps-for-drone-mapping/">Real-time kinematic positioning (RTK)</a> kit is required.</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="..\part2/images/gcp.jpg" class="column-page-right img-fluid figure-img" style="width:50.0%"></p>
+<p></p><figcaption class="figure-caption">An example Ground Control Point<br> <em>Source: Pix4d</em></figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="path-and-image-overlap" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="path-and-image-overlap"><span class="header-section-number">4.2.3</span> Path and image overlap</h3>
+<p>A minimum of 16-31 images are needed to create an orthophoto from drone captured imagery with WebODM. Images should averlap by 70-72%.</p>
+<ul>
+<li>Minimum number of images captured: 16-32</li>
+<li>Minimum image overlap: 70-72%</li>
+<li>Minimum image overlap for 3D: 83%</li>
+</ul>
+</section>
+<section id="flight-altitude" class="level3" data-number="4.2.4">
+<h3 data-number="4.2.4" class="anchored" data-anchor-id="flight-altitude"><span class="header-section-number">4.2.4</span> Flight altitude</h3>
+<p>Ground Sampling Distance (GSD) referes to geographic area represeted by one pixel of an image. It reflects the resolution of the image, with flight heigh and image sensor resolution being the two biggest determining factors. For site mapping a GSD of 2.5cm2 - 1cm2 is the range most suitable. Most flight planning software automatically calculate the GSD based on an entered flight altitude. The flight altitude should also consider potential flight obstructions such as trees or overhead powerlines, noise and also privacy as having a flight altitude and GSD that is too low could result in the unintented consequence of capturing information that could be personally identifiable.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../part2/images/gsd.png"><img src="..\part2/images/gsd.png" class="img-fluid figure-img" style="width:50.0%"></a></p>
+<p></p><figcaption class="figure-caption">GSD is the amount of actual ground captured by the distance between the center point of two adjacent pixels.<br> <em>Source: wintra.com</em></figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="post-flight" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="post-flight"><span class="header-section-number">4.3</span> Post-Flight</h2>
+<p>Following the flight, make sure to check the imagery quality and completeness, safely storge the equipment and ensure the data captured is securely stored.</p>
+</section>
+<section id="post-flight-processing-creating-orthomosaic" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="post-flight-processing-creating-orthomosaic"><span class="header-section-number">4.4</span> Post-Flight processing: Creating Orthomosaic</h2>
+<p>Drone captured images then need to be stitched together into one image or <em>orthomosaic</em>.</p>
+<p>WebODM is a free software that can be used to create orthomosaics from drone captured-imagery. To install WedODM manually, follow the steps outlined <a href="https://github.com/OpenDroneMap/WebODM/#getting-started">here</a>. Once installed, create a new project. Upload the images to create a task. After the task has been successfully completed, the orthomosaic will be ready to download. Select <em>orthophoto.tif</em> in the list of available formats and the single image output will download.</p>
+<p>In addition to creating orthomosaics, WebODM can also produce Digital Surface Models or 3D models of the site.</p>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>A comprehensive checklist was created by the <a href="https://docs.google.com/document/d/1av3GvsAQOxttCXKAgYCBf8tpv8lU72P1u4voAQrhTNw/edit">Humanitarian UAV Network</a>]<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../part2/satellite-imagery.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Satellite imagery</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../part3/tracing.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Site Mapping Guide - 6&nbsp; Composing site maps</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../part3/collaboration.html" rel="next">
+<link href="../part3/tracing.html" rel="prev">
+<link href="../logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<meta property="og:title" content="Site Mapping Guide - 6&nbsp; Composing site maps">
+<meta property="og:description" content="Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others.">
+<meta property="og:site-name" content="Site Mapping Guide">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Composing site maps</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Site Mapping Guide</a> 
+        <div class="sidebar-tools-main">
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="../Site-Mapping-Guide.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="../Site-Mapping-Guide.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Part 1 - Preparation</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part1/identify-requirements.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Identifying requirements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part1/deciding-on-an-approach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Deciding on an approach</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Part 2 - Obtaining imagery</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part2/satellite-imagery.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Satellite imagery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part2/UAV.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UAV imagery</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Part 3 - Developing Maps</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/tracing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/composing-maps.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Composing site maps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../part3/collaboration.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Collaboration</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Annexes</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/acknowledgements.html" class="sidebar-item-text sidebar-link">Acknowledgements</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../annexes/references.html" class="sidebar-item-text sidebar-link">Further reading</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#examples-of-site-maps" id="toc-examples-of-site-maps" class="nav-link active" data-scroll-target="#examples-of-site-maps"><span class="toc-section-number">6.1</span>  Examples of site maps</a></li>
+  <li><a href="#working-in-gis" id="toc-working-in-gis" class="nav-link" data-scroll-target="#working-in-gis"><span class="toc-section-number">6.2</span>  Working in GIS</a>
+  <ul class="collapse">
+  <li><a href="#loading-data-layers-and-veryfying-projections" id="toc-loading-data-layers-and-veryfying-projections" class="nav-link" data-scroll-target="#loading-data-layers-and-veryfying-projections"><span class="toc-section-number">6.2.1</span>  Loading data layers and veryfying projections</a></li>
+  <li><a href="#layers-and-elements-of-a-site-map" id="toc-layers-and-elements-of-a-site-map" class="nav-link" data-scroll-target="#layers-and-elements-of-a-site-map"><span class="toc-section-number">6.2.2</span>  Layers and elements of a site map</a></li>
+  <li><a href="#visualizing-data-layers" id="toc-visualizing-data-layers" class="nav-link" data-scroll-target="#visualizing-data-layers"><span class="toc-section-number">6.2.3</span>  Visualizing data layers</a></li>
+  <li><a href="#adding-fields-and-editing-attributes" id="toc-adding-fields-and-editing-attributes" class="nav-link" data-scroll-target="#adding-fields-and-editing-attributes"><span class="toc-section-number">6.2.4</span>  Adding fields and editing attributes</a></li>
+  <li><a href="#print-layouts-and-using-templates" id="toc-print-layouts-and-using-templates" class="nav-link" data-scroll-target="#print-layouts-and-using-templates"><span class="toc-section-number">6.2.5</span>  Print Layouts and Using Templates</a></li>
+  <li><a href="#saving-the-data-layers-and-styles-into-a-geopackage" id="toc-saving-the-data-layers-and-styles-into-a-geopackage" class="nav-link" data-scroll-target="#saving-the-data-layers-and-styles-into-a-geopackage"><span class="toc-section-number">6.2.6</span>  Saving the data layers and styles into a Geopackage</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Composing site maps</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">November 24, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template).The layout is then exported to PDF or geoPDF. Styled and raw data layers can can be saved into a Geopackge for a seamless transfer of geographical information between mappers and future mappers.</p>
+<section id="examples-of-site-maps" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="examples-of-site-maps"><span class="header-section-number">6.1</span> Examples of site maps</h2>
+<p>Below are some examples of site maps. More examples can be found <a href="add link">here</a>.</p>
+<div id="fig-examples" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-unosat" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="..\part3/images/UNOSAT_A3_Potrait_Kapise_26Feb2016_v2.png" class="img-fluid figure-img" data-ref-parent="fig-examples"></p>
+<p></p><figcaption class="figure-caption">(a) Source: UNOSAT</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-reach" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="..\part3/images/Bakasi_camp_infrastructure_18052017_REACH.png" class="img-fluid figure-img" data-ref-parent="fig-examples"></p>
+<p></p><figcaption class="figure-caption">(b) Source: REACH Initiative</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;6.1: <strong>Examples of Site maps</strong></figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="working-in-gis" class="level2 page-columns page-full" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="working-in-gis"><span class="header-section-number">6.2</span> Working in GIS</h2>
+<p>GIS software can open different file types: Vector files (which use points, line segments and polygon objects to identify geographic information), Raster files/images (which use cells/ pixels to represent geographic information), and Delimited text files (such as .csv file types). For example:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Data Layer Example</th>
+<th>File Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aerial Imagery</td>
+<td>Raster file</td>
+</tr>
+<tr class="even">
+<td>Location of healthcare facilities or service providers</td>
+<td>Vector file</td>
+</tr>
+<tr class="odd">
+<td>Population per block</td>
+<td>Delimited Text file</td>
+</tr>
+</tbody>
+</table>
+<section id="loading-data-layers-and-veryfying-projections" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="loading-data-layers-and-veryfying-projections"><span class="header-section-number">6.2.1</span> Loading data layers and veryfying projections</h3>
+<p>To prepare the site map, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">load the data layers</a> into a GIS workspace, such as QGIS.</p>
+<p>Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Ensure that the <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems">Project CRS</a> is set to the area of your site location. You can use the <a href="https://epsg.io/">epsg.io</a> database of coordinate systems to know the coordinate system you should be using for you context. All loaded data layers need to be checked and <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems">projected</a> where needed, according to the project CRS.</p>
+</section>
+<section id="layers-and-elements-of-a-site-map" class="level3 page-columns page-full" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="layers-and-elements-of-a-site-map"><span class="header-section-number">6.2.2</span> Layers and elements of a site map</h3>
+<p>This guide is accompanied by a site map template which can be loaded into QGIS’s Print Composer. Below is a dummy example of a site map produced using this template.</p>
+<div class="quarto-figure quarto-figure-center column-page-right page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="..\part3/images/dummy_site_map.png" class="column-page-right img-fluid figure-img" style="width:91.0%"></p>
+<p></p><figcaption class="figure-caption">An example of a dummy site map composed in QGIS using the site map template included in this guide.<br> <em>Source: IOM</em></figcaption><p></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For the purposes of supporting a <strong>standardized approach to the production of static site maps</strong>, and ensuring new <strong>site maps can be compared and used alongside existing maps</strong>, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it’s audience.</p>
+</div>
+</div>
+<p>The following list of layers and elements can be included in the final output:</p>
+<ul>
+<li><p><strong>Title and Subtitle</strong> <strong>(1)</strong></p>
+<ul>
+<li>Country</li>
+<li>State</li>
+<li>Site Name</li>
+<li>Thematic Title</li>
+<li>Date site map was last updated</li>
+</ul></li>
+<li><p>Site map audience/ permission/ sharing restrictions <strong>(1.2)</strong></p></li>
+<li><p>Production date and version number of site map <strong>(1.3)</strong></p></li>
+<li><p>Agency/ NGO Logos <strong>(1.4)</strong></p></li>
+<li><p><strong>Inset maps</strong> <strong>(2)</strong></p>
+<ul>
+<li>At Country/ Regional level</li>
+<li>At Regional/ Area level</li>
+</ul></li>
+<li><p><strong>Notes</strong> <strong>(3)</strong></p>
+<ul>
+<li>Data sources</li>
+<li>Satellite Imagery source</li>
+<li>Imagery Resolution</li>
+<li>Coordinate system</li>
+<li>Site GPS coordinate points</li>
+<li>Agency/ NGO Logo</li>
+<li>Contact</li>
+<li>Link to Geodatabase/ corresponding data layers</li>
+<li>Disclose limitations regarding accuracy of site map <strong>(3.1)</strong></li>
+</ul></li>
+<li><p><strong>Map</strong></p>
+<ul>
+<li>Base Map (satellite/ aerial imagery) <strong>(4.1)</strong></li>
+<li>Scale bar <strong>(4.2)</strong></li>
+<li>Orientation indicators <strong>(4.3)</strong></li>
+<li>Legend <strong>(4.4)</strong></li>
+<li>Camp Infrastructure <strong>(4.5)</strong> :
+<ul>
+<li>Shelters</li>
+<li>Shelter blocks</li>
+<li>Zones</li>
+<li>WASH facilities</li>
+<li>Water points</li>
+<li>Education facilities</li>
+<li>Health Facilities</li>
+<li>Distribution points (Food/ NFI)</li>
+<li>Markets(s)</li>
+<li>Information desks</li>
+<li>CFM desks</li>
+<li>Other camp facilities</li>
+<li>Movement network (Roads, pathways)</li>
+<li>Community areas/ centre</li>
+<li>Religious buildings/ spaces</li>
+<li>Site Entrance(s)</li>
+<li>Site boundary</li>
+<li>Security facilities or guard points</li>
+<li>Fences/ Camp Boundaries</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Environment</strong></p>
+<ul>
+<li>Host community</li>
+<li>Green belt</li>
+<li>Trees/ Vegetation</li>
+<li>Agricultural land</li>
+</ul></li>
+<li><p><strong>Optional additional labels</strong>:</p>
+<ul>
+<li>Functioning/ non-functioning facilities</li>
+<li>Male/ female latrines</li>
+<li>Unusable area</li>
+<li>Summary information/ figures
+<ul>
+<li>Site population (households and individuals)</li>
+<li>Site area</li>
+<li>Total no. of shelters</li>
+<li>Shelter type and size</li>
+<li>Quantity of sanitation blocks/ latrines/ showers</li>
+<li>Type of water supply</li>
+<li>Total no. of water points</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="visualizing-data-layers" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="visualizing-data-layers"><span class="header-section-number">6.2.3</span> Visualizing data layers</h3>
+<p>Once the files are opened in QGIS, they will appear as layers. These layers can be duplicated in order to <a href="https://docs.qgis.org/3.22/en/docs/user_manual/style_library/symbol_selector.html#the-symbol-selector">show different visualisations</a> of the same file.</p>
+</section>
+<section id="adding-fields-and-editing-attributes" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="adding-fields-and-editing-attributes"><span class="header-section-number">6.2.4</span> Adding fields and editing attributes</h3>
+<p>Shapefiles (ESRI Shapefile format) are the most common type of vector file. This file format dataset consists of several files. Of these different files, there are two which you should be familiar with for the purposes of this site mapping exercise. First, the .shp file, which contains the geometries of the features in the layer and secondly, the .dbf file, which contains the feature <strong>attributes</strong>.</p>
+<p>The attribute table interface allows you to view and [edit the attribute data] (https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/attribute_table.html#editing-attribute-values) as well as <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/attribute_table.html#interacting-with-features-in-an-attribute-table">interact with features</a> in a layer (by selecting or filtering features for example). Fields are columns of attribute values and these can be added, deleted and edited through this interface.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Any saved changes made to a data layer in QGIS will also change the source file. If you wish to edit/ delete or add features or attribute values to a layer but do not want to edit the original source file, <a href="https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#digitizing-an-existing-layer">save the layer as a separate file</a> <strong>before</strong> making your edits. Additionally, removing a layer will remove it from the work space but will not delete it from your source folder.</p>
+</div>
+</div>
+</section>
+<section id="print-layouts-and-using-templates" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="print-layouts-and-using-templates"><span class="header-section-number">6.2.5</span> Print Layouts and Using Templates</h3>
+<p>With QGIS’s layout composer, you can <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager">create layouts</a> or use existing layout templates. The template file can be downloaded <a href="add link">here</a>. Once the layout is complete, <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html">save and export the print layout</a> as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select <a href="https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings">export as vectors</a>), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting ’Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to <a href="https://sitemapping.guide/part3/collaboration.html">Section 7: Collaboration</a> for why you should export your site map alsp as a GeoPDFs)</p>
+</section>
+<section id="saving-the-data-layers-and-styles-into-a-geopackage" class="level3" data-number="6.2.6">
+<h3 data-number="6.2.6" class="anchored" data-anchor-id="saving-the-data-layers-and-styles-into-a-geopackage"><span class="header-section-number">6.2.6</span> Saving the data layers and styles into a Geopackage</h3>
+<p>Data layers are saved on your local computer. To facilitate sharing geographic information, data layers can be compressed into a <a href="https://docs.qgis.org/3.22/en/docs/user_manual/managing_data_source/supported_data.html?highlight=fields%20attributes#geopackage"><strong>Geopackage</strong></a>. The QGIS project and all the data used in the project can be saved using the <a href="https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers">Package Layers tool</a> and easily shared and stored as such for future use.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../part3/tracing.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Tracing and labeling</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../part3/collaboration.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Collaboration</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
