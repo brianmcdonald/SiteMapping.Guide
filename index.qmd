@@ -12,12 +12,6 @@ The aim of this guidance is fourfold:
 
 4. Encourage the creation of **consistent site map products**, in terms of visuals, quality and process that are affected population-centric and that adhere to data responsibility and safeguarding standards.
 
-:::{.callout-warning}
-## Warning
-
-This guidance is in draft-stage, much of the content is missing and its structure may be subject to change.
-:::
-
 The Site Mapping Guide provides a full step-by-step workflow to develop site maps. It also outlines key considerations and data protection risks associated with the management of drone captured imagery, as well as the responsible dissemination of related information products produced in the process. 
 
 This guide presents two different approaches to developing site maps. The first approach uses existing satellite imagery and the second uses drones to capture aerial imagery of sites when and where satellite imagery is not available or not suitable. 

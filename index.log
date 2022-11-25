@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.5)  24 NOV 2022 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.5)  24 NOV 2022 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,8 +710,7 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@sidenote=\count354
 \@sidenotes@marginfigurebox=\box89
 \@sidenotes@margintablebox=\box90
-)
-No file index.aux.
+) (./index.aux)
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
@@ -980,9 +979,6 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
 )
 Package hyperref Info: Link coloring OFF on input line 188.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen296
@@ -1027,20 +1023,36 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-]
-No file index.toc.
-\tf@toc=\write4
-\openout4 = `index.toc'.
-
+] (./index.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 2.
 [1
 
 ]
-Package marginnote Info: Using workaround for absolute page number on input line 198.
-No file index.lof.
+Package marginnote Info: Using workaround for absolute page number on input line 31.
+)
+\tf@toc=\write4
+\openout4 = `index.toc'.
+
+[2] (./index.lof)
 \tf@lof=\write5
 \openout5 = `index.lof'.
 
-[2
+[3
 
 ] (c:/Users/bmcdonald/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
@@ -1050,7 +1062,9 @@ File: ./images/workflow.png Graphic file (type bmp)
 [1
 
 
-] [2]
+]
+Package marginnote Info: Using workaround for absolute page number on input line 279.
+[2]
 File: ./images/wau1.jpg Graphic file (type bmp)
 <./images/wau1.jpg>
 [3] [4] [5
@@ -1059,18 +1073,15 @@ File: ./images/wau1.jpg Graphic file (type bmp)
 Chapter 1.
 [6
 
-] [7]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 506.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Fon
+] [7] [8]
+Chapter 2.
+File: part1/images/droneuseschallenges.png Graphic file (type bmp)
+<part1/images/droneuseschallenges.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--563
+
+ []
+
+[9
+
+] [10

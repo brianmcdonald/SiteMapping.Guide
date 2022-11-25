@@ -8,6 +8,9 @@ comments:
 execute:
   freeze: auto
 
+website:
+  google-analytics: "G-1VKZ523FKH"
+
 book:
   title: "Site Mapping Guide"
   author: "International Organisation for Migration"
