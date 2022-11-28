@@ -98,11 +98,18 @@
     "text": "2.6 Organizational Requirements\nMany organizations have internal rules and guidance governing the use of technologies such as Drones. Donors may also have their own rules around their uses and the use of data resulting from the exercise. During the planning stage, it is important to contact the relevant organisation focal-point to ensure compliance with these rules.\n\n\n\n\n\n\nNote for IOM staff\n\n\n\nDuring the planning phase, it is important that IOM staff reach out to IOM’s Office of Legal Affairs (LEG) leg@iom.int. They will provide legal and compliance guidance, as well as the latest version of the Drone usage checklist and Risk-benefit analysis template."
   },
   {
+    "objectID": "part1/deciding-on-an-approach.html#level-of-accuracy",
+    "href": "part1/deciding-on-an-approach.html#level-of-accuracy",
+    "title": "2  Deciding on an approach",
+    "section": "2.7 Level of Accuracy",
+    "text": "2.7 Level of Accuracy\nIn emergency contexts where drones or high resolution satellite imagery is not be available, producing site maps with a high level of accuracy can be very challenging. Depending on the intended use of the site map, other approaches exist to map out a site with lower accuracy. For example, maps of the site can be hand drawn onto large surfaces by either experienced site planners or members of the affected population. Whilst these maps may lack accurate spatial and geographic information, they can still be used for coordination purposes or as tools for focus group discussions. In both cases, the maps produced can carry significant value in informing assessments or supporting evidence based decision making and programming. However, low accuracy maps should not be used to conduct risk analysis such as flooding or fire hazard, and cannot be used for activities such as site planning."
+  },
+  {
     "objectID": "part1/deciding-on-an-approach.html#decision-matrix",
     "href": "part1/deciding-on-an-approach.html#decision-matrix",
     "title": "2  Deciding on an approach",
-    "section": "2.7 Decision Matrix",
-    "text": "2.7 Decision Matrix\n\n\n\nScenario\nSatellite Imagery\nUAV imagery\n\n\n\n\nA site map is needed in the fastest time possible\n✔\n❌\n\n\nThe site is in a conflict affected area\n✔\n❌\n\n\nThe location of the site is inaccessible\n✔\n❌\n\n\nThere is persistent cloud-cover over the site\n❌\n✔\n\n\nVery detailed imagery is required\n❌\n✔\n\n\nA DSM or 3D model is required\n❌\n✔"
+    "section": "2.8 Decision Matrix",
+    "text": "2.8 Decision Matrix\n\n\n\nScenario\nSatellite Imagery\nUAV imagery\n\n\n\n\nA site map is needed in the fastest time possible\n✔\n❌\n\n\nThe site is in a conflict affected area\n✔\n❌\n\n\nThe location of the site is inaccessible\n✔\n❌\n\n\nThere is persistent cloud-cover over the site\n❌\n✔\n\n\nVery detailed imagery is required\n❌\n✔\n\n\nA DSM or 3D model is required\n❌\n✔"
   },
   {
     "objectID": "part2/satellite-imagery.html#types-of-satellite-imagery",
