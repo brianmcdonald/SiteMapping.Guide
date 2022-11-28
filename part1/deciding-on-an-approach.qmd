@@ -47,6 +47,11 @@ Many organizations have internal rules and guidance governing the use of technol
 During the planning phase, it is important that IOM staff reach out to IOM's Office of Legal Affairs  (LEG) [leg@iom.int](leg@iom.int). They will provide legal and compliance guidance, as well as the latest version of the *Drone usage checklist* and *Risk-benefit analysis template*.
 :::
 
+## Level of Accuracy
+
+In emergency contexts where drones or high resolution satellite imagery is not be available, producing site maps with a high level of accuracy can be very challenging. Depending on the intended use of the site map, other approaches exist to map out a site with lower accuracy. For example, maps of the site can be hand drawn onto large surfaces by either experienced site planners or members of the affected population. Whilst these maps may lack accurate spatial and geographic information, they can still be used for coordination purposes or as tools for focus group discussions. In both cases, the maps produced can carry significant value in informing assessments or supporting evidence based decision making and programming. However, low accuracy maps should not be used to conduct risk analysis such as flooding or fire hazard, and cannot be used for activities such as site planning.
+
+
 ## Decision Matrix
 
 | *Scenario* | *Satellite Imagery* | *UAV imagery* |
@@ -57,8 +62,6 @@ During the planning phase, it is important that IOM staff reach out to IOM's Off
 |There is persistent cloud-cover over the site|❌|✔|
 |Very detailed imagery is required|❌|✔|
 |A DSM or 3D model is required|❌|✔|
-
-
 
 
 
