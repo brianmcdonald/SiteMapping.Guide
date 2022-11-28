@@ -99,6 +99,8 @@ The following list of layers and elements can be included in the final output:
     - Functioning/ non-functioning facilities
     - Male/ female latrines
     - Unusable area
+    - Agency responsibility for each section of the site
+    - Shelter numbers/ Addressing
     - Summary information/ figures
       - Site population (households and individuals)
       - Site area
