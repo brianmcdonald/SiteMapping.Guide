@@ -41,8 +41,8 @@ While the guidance is relevant for all humanitarian staff, section that are spec
 Sections in the guidance that are specific to IOM staff will appear in boxes like this.
 :::
 
-## When and how to use them
-Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. They can be used to support the following activities: 
+## When and how to use site maps
+Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. Site maps are relevant throughout the camp lifecycle and support the set-up, care and maintenance, closure and post-closure or recovery stages of a camp by being used to support the following activities: 
 
 - **Site planning** during sudden-onset emergencies or protracted crises.
 
