@@ -1,14 +1,16 @@
 # Collaboration
 Throughout the development cycle of site maps, the contributions and participation of the different stakeholders identified earlier in this guide, is key to producing high quality, updated site maps. 
-Static PDF site maps are the main output of this workflow. However, it is also important to recognise that other products are created in the process of making these maps, such as:
+Static PDF site maps are the main output of this workflow. However, it is also important to recognise that other products are created in the process of making site maps, such as:
 
  - Aerial/ Satellite imagery of sites in which CCCM, shelter or other humanitarian activities are being carried out,
- - The geopackage which contains geographic information and data layers of the site infrastructure,
+ - Spatial database of the site environement and its infrastructure,
  - GeoPDFs,
  - Site map template
 
 ## Information and knowledge management
-These are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:
+These are valuable information products which can be used by colleagues and other humanitarian actors to inform conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. 
+
+More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:
  
 1. Verify and validate the information, 
 2. Feedback and suggest modifications,
@@ -20,6 +22,24 @@ Therefore, the manner in which this data is stored, presented and shared is cruc
 ## Note
 IOM and partner agency/ NGO staff can and are encouraged to share these data products with the CCCM Global Cluster so there is continuity in the management of site data. The CCCM Global cluster can play a role in facilitating the storage, dissemination and use of site data whilst ensuring it is done so responsibly. 
 :::
+
+## Interoperability of GIS and CAD data
+GIS and CAD interoperability is key to developing sustainable site data lifecycles. Whilst both can be used to create spatial data layers and produce maps, each software has distinct uses and advantages. These are summarised in the table below:
+
+| CAD | GIS |
+|-------|--------|
+|Design and Drafting tool|Data gathering, display and analysis tool|
+|Allows for survey-level precision|Allows for attributes/ information to describe features|
+|Produce construction documentation and plans|Conduct data analysis and display data/ produce thematic maps|
+
+Whilst this guide accompanies site mappers through the process of creating maps using GIS software, some mappers may have a preference for CAD software or some exisiting site data may be in CAD format. CAD files and data can be used to generate data layers in GIS systems however this depends on the CAD files conforming to the following standards:
+- the data must be cleaned and free from drafting errors
+- each layer must contain only one type of geometry
+- the dataset comes with metadata (information about a database typically in a XML or HTML doc: list of layers, coordinate system, scaling factors etc)
+- the file does not contain 'extra' uneccessary layers
+- the data must be either in real-world units or if the scaling factor is provided in the metadata
+
+Similarly, data in GIS or the dataset generated in the proccess of analysing and compiling the data into site maps can be exported into CAD for site planning purpose. 
 
 ## Generating, reading and annotating geoPDFs
 In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information. 

@@ -7,14 +7,27 @@ There are two approaches to making sites maps presented in this guide. The main 
 
 [![Uses and challenges of drone use <br> *Source: ICRC*](images/droneuseschallenges.png){#fig-droneuseschallenges width=50% fig-align="center"}](images/droneuseschallenges.png)
 
-Each of these approaches have pros and cons and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:\
+Each of these approaches have advantages and disadvantages and it is important to evaluate each approach against the following criteria before assessing which approach to take in your context:\
+
+## Decision Matrix
+
+| *Scenario* | *Satellite Imagery* | *UAV imagery* |
+|------------|------------------------------|------------------------|
+|A site map is needed in the fastest time possible|✔|✔|
+
+|Very detailed imagery is required|❌|✔|
+|The site is in a conflict affected area|✔|❌|
+|There is persistent cloud-cover over the site|❌|✔|
+|The location of the site is inaccessible|✔|❌|
+|Need to build DM or 3D model|✔|✔|
+|Need to conduct further analysis and thematic hazard maps (Vegetation cover analysis, Fire hazard/ extent, Flood hazard/ extent  ) |✔|❌|
 
 ## Information Needs
-It is important to be clear on what images you want to collect and for which specific purpose. Consider whether you need only an image/orthomosaic or whether you are look to create a Digital Elevation Model, a 3D model, a NDVI index etc. as this will affect your flight plan. Think about whether there are others applications outside of site mapping that you are in need of, such as drainage analysis, slope analysis, landslide risk analysis or vegetation cover analysis. Consider what area needs to be covered whilst bearing in mind that larger areas require longer flight times, more storage etc. 
+Before flying a drone or acquiring satellite imagery, it is important to be clear on what images you want to collect and for what specific purpose. Consider whether you need only an image or whether you are look to create a Digital Elevation Model, a 3D model, a NDVI index etc. as this will affect your choice in approach. Think about whether there are others applications outside of site mapping that you are in need of, such as drainage analysis, slope analysis, landslide risk analysis or vegetation cover analysis. If so, satellite imagery is a better suited imagery source that UAV imagery. 
 
-Depending on the purpose and audience of the map, it is important to capture the site's surroundings in order to situate it within its wider context. You should not map only within the boundaries of the site and where possible, you should try to include neighbouring host community settlements, transport linkages and other key infrastructure facilities, potential hazards or environental vulnerabilities in the area.
+Consider what area needs to be covered whilst bearing in mind that larger areas require longer flight times, more storage etc. You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to its purpose (only collect data which is needed).
 
-You should not be flying the drone above as many areas as possible to collect as many images as possible and then decide what to do with them. The data collection must be adequate, relevant and not excessive in relation to its purpose (only collect data which is needed). 
+However, depending on the purpose and audience of the map, it is important to capture the site's surroundings in order to situate it within its wider context. You should not map only within the boundaries of the site. Where possible include neighbouring host community settlements, transport linkages and other key infrastructure facilities, potential hazards or environental vulnerabilities in the area.
 
 ## Conflict and Data Sensitivity
 Due to protection risks, the humanitarian use of drones in conflict settings is strongly discouraged. The term "dual-use technology" is commonly used to describe a technology with both civilian and military applications. With the rise of the use of drones for military use, there is a risk that the use of drones for humanitarian purposes in sites may be perceived as a security threat by the site population or cause trauma due to an association of drones with their military uses. In conflict settings armed actors or authorities are likely to perceive the flying of drones as both a security and informational risk. This means that the importation of drone equipment and/ or the request for flight approvals will likely be denied, or that their use in a site risk being perceived as a security threat. [^footnote]
@@ -59,16 +72,7 @@ Whilst there are some issues and limitations to translating and integrating hand
 
 If neither of the above options are available and depending on the intended use of the site map and the level of accuracy required for that activity, maps of the site can be hand drawn onto large surfaces by either experienced site planners or members of the affected population and digitized at a later stage when needed.
 
-## Decision Matrix
 
-| *Scenario* | *Satellite Imagery* | *UAV imagery* |
-|------------|------------------------------|------------------------|
-|A site map is needed in the fastest time possible|✔|❌|
-|The site is in a conflict affected area|✔|❌|
-|The location of the site is inaccessible|✔|❌|
-|There is persistent cloud-cover over the site|❌|✔|
-|Very detailed imagery is required|❌|✔|
-|A DSM or 3D model is required|❌|✔|
 
 
 
@@ -77,5 +81,3 @@ If neither of the above options are available and depending on the intended use 
 [^footnote2]: [IOM Data Protection Manual](https://publications.iom.int/books/iom-data-protection-manual)
 
 [^footnote3]: [DroneRegulations.info](https://droneregualtions.info) launched by the UAVatiors network in 2014, is a database of national-level UAV regulations
-
-[^footnote4]:
