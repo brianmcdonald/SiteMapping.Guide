@@ -231,9 +231,10 @@ gtag('config', 'G-1VKZ523FKH', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#information-and-knowledge-management" id="toc-information-and-knowledge-management" class="nav-link active" data-scroll-target="#information-and-knowledge-management"><span class="toc-section-number">7.1</span>  Information and knowledge management</a></li>
-  <li><a href="#generating-reading-and-annotating-geopdfs" id="toc-generating-reading-and-annotating-geopdfs" class="nav-link" data-scroll-target="#generating-reading-and-annotating-geopdfs"><span class="toc-section-number">7.2</span>  Generating, reading and annotating geoPDFs</a></li>
-  <li><a href="#gathering-feedback-and-map-iterations" id="toc-gathering-feedback-and-map-iterations" class="nav-link" data-scroll-target="#gathering-feedback-and-map-iterations"><span class="toc-section-number">7.3</span>  Gathering feedback and map iterations</a></li>
-  <li><a href="#using-site-maps-in-practice" id="toc-using-site-maps-in-practice" class="nav-link" data-scroll-target="#using-site-maps-in-practice"><span class="toc-section-number">7.4</span>  Using Site maps in Practice</a></li>
+  <li><a href="#interoperability-of-gis-and-cad-data" id="toc-interoperability-of-gis-and-cad-data" class="nav-link" data-scroll-target="#interoperability-of-gis-and-cad-data"><span class="toc-section-number">7.2</span>  Interoperability of GIS and CAD data</a></li>
+  <li><a href="#generating-reading-and-annotating-geopdfs" id="toc-generating-reading-and-annotating-geopdfs" class="nav-link" data-scroll-target="#generating-reading-and-annotating-geopdfs"><span class="toc-section-number">7.3</span>  Generating, reading and annotating geoPDFs</a></li>
+  <li><a href="#gathering-feedback-and-map-iterations" id="toc-gathering-feedback-and-map-iterations" class="nav-link" data-scroll-target="#gathering-feedback-and-map-iterations"><span class="toc-section-number">7.4</span>  Gathering feedback and map iterations</a></li>
+  <li><a href="#using-site-maps-in-practice" id="toc-using-site-maps-in-practice" class="nav-link" data-scroll-target="#using-site-maps-in-practice"><span class="toc-section-number">7.5</span>  Using Site maps in Practice</a></li>
   </ul>
 </nav>
     </div>
@@ -254,7 +255,7 @@ gtag('config', 'G-1VKZ523FKH', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 16, 2023</p>
+      <p class="date-modified">January 20, 2023</p>
     </div>
   </div>
     
@@ -263,16 +264,17 @@ gtag('config', 'G-1VKZ523FKH', { 'anonymize_ip': true});
 
 </header>
 
-<p>Throughout the development cycle of site maps, the contributions and participation of the different stakeholders identified earlier in this guide, is key to producing high quality, updated site maps. Static PDF site maps are the main output of this workflow. However, it is also important to recognise that other products are created in the process of making these maps, such as:</p>
+<p>Throughout the development cycle of site maps, the contributions and participation of the different stakeholders identified earlier in this guide, is key to producing high quality, updated site maps. Static PDF site maps are the main output of this workflow. However, it is also important to recognise that other products are created in the process of making site maps, such as:</p>
 <ul>
 <li>Aerial/ Satellite imagery of sites in which CCCM, shelter or other humanitarian activities are being carried out,</li>
-<li>The geopackage which contains geographic information and data layers of the site infrastructure,</li>
+<li>Spatial database of the site environement and its infrastructure,</li>
 <li>GeoPDFs,</li>
 <li>Site map template</li>
 </ul>
 <section id="information-and-knowledge-management" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="information-and-knowledge-management"><span class="header-section-number">7.1</span> Information and knowledge management</h2>
-<p>These are valuable information products which can be used by colleagues and other humanitarian actors to conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making. More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:</p>
+<p>These are valuable information products which can be used by colleagues and other humanitarian actors to inform conduct thematic analysis as well as serve as an evidence base for advocacy, planning and decision making.</p>
+<p>More importantly, these products are tools to collaborate with stakeholders and actors on the ground that in turn can:</p>
 <ol type="1">
 <li>Verify and validate the information,</li>
 <li>Feedback and suggest modifications,</li>
@@ -293,17 +295,49 @@ Note
 </div>
 </div>
 </section>
-<section id="generating-reading-and-annotating-geopdfs" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="generating-reading-and-annotating-geopdfs"><span class="header-section-number">7.2</span> Generating, reading and annotating geoPDFs</h2>
+<section id="interoperability-of-gis-and-cad-data" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="interoperability-of-gis-and-cad-data"><span class="header-section-number">7.2</span> Interoperability of GIS and CAD data</h2>
+<p>GIS and CAD interoperability is key to developing sustainable site data lifecycles. Whilst both can be used to create spatial data layers and produce maps, each software has distinct uses and advantages. These are summarised in the table below:</p>
+<table class="table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>CAD</th>
+<th>GIS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Design and Drafting tool</td>
+<td>Data gathering, display and analysis tool</td>
+</tr>
+<tr class="even">
+<td>Allows for survey-level precision</td>
+<td>Allows for attributes/ information to describe features</td>
+</tr>
+<tr class="odd">
+<td>Produce construction documentation and plans</td>
+<td>Conduct data analysis and display data/ produce thematic maps</td>
+</tr>
+</tbody>
+</table>
+<p>Whilst this guide accompanies site mappers through the process of creating maps using GIS software, some mappers may have a preference for CAD software or some exisiting site data may be in CAD format. CAD files and data can be used to generate data layers in GIS systems however this depends on the CAD files conforming to the following standards: - the data must be cleaned and free from drafting errors - each layer must contain only one type of geometry - the dataset comes with metadata (information about a database typically in a XML or HTML doc: list of layers, coordinate system, scaling factors etc) - the file does not contain ‘extra’ uneccessary layers - the data must be either in real-world units or if the scaling factor is provided in the metadata</p>
+<p>Similarly, data in GIS or the dataset generated in the proccess of analysing and compiling the data into site maps can be exported into CAD for site planning purpose.</p>
+</section>
+<section id="generating-reading-and-annotating-geopdfs" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="generating-reading-and-annotating-geopdfs"><span class="header-section-number">7.3</span> Generating, reading and annotating geoPDFs</h2>
 <p>In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information.</p>
 <p>GeoPDFs can be imported into <a href="https://www.avenzamaps.com/mobile-maps?campaignid=10221828697&amp;adgroupid=102940455500&amp;adid=453328850375&amp;gclid=Cj0KCQiAg_KbBhDLARIsANx7wAxTp38Kmz11Ou-eCXzYSF_EkQpvBq3PvAo3sxuIS88hZMkaglVMWSAaAtEFEALw_wcB">Avenza maps</a>. The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features.</p>
 </section>
-<section id="gathering-feedback-and-map-iterations" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="gathering-feedback-and-map-iterations"><span class="header-section-number">7.3</span> Gathering feedback and map iterations</h2>
+<section id="gathering-feedback-and-map-iterations" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="gathering-feedback-and-map-iterations"><span class="header-section-number">7.4</span> Gathering feedback and map iterations</h2>
 <p>Through Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.</p>
 </section>
-<section id="using-site-maps-in-practice" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="using-site-maps-in-practice"><span class="header-section-number">7.4</span> Using Site maps in Practice</h2>
+<section id="using-site-maps-in-practice" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="using-site-maps-in-practice"><span class="header-section-number">7.5</span> Using Site maps in Practice</h2>
 <p>Site maps can provide a spatial perspective on issues and risks within sites. They can be used as inputs to safety audits, identification of risk factors and support coordinated planning and coordination of response activities.</p>
 
 
