@@ -14,7 +14,7 @@ Online courses are available to accompany first-time drone users such as displac
 
 ::: {.callout-note}
 ## Note for IOM staff
-IOM staff planning on using the CCCM deployable drone kit should complete the following online course and present confirmation of completion upon requesting the kit.  
+IOM staff planning on using the CCCM deployable drone kit should register and complete the following online course and present certification upon requesting the kit. Whilst you may not plan to operate the drone in Switzerland or the EU, the certificate will show an understanding of how to operate drones and depending on the requirements of the intended country of flight, certification issued by an ICAO member state is required. Switzerland is a member state (The full list of member states can be found [here](https://www.icao.int/about-icao/pages/member-states.aspx)). 
 :::
 
 ## Pre-flight

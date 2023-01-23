@@ -34,7 +34,7 @@ This guide is accompanied by a site map template which can be loaded into QGIS's
 
 :::{.callout-note}
 ## Note
-For the purposes of supporting a **standardized approach to the production of static site maps**, and ensuring new **site maps can be compared and used alongside existing maps**, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and it's audience.
+For the purposes of supporting a **standardized approach to the production of static site maps**, and ensuring new **site maps can be compared and used alongside existing maps**, the template provided in this Site Mapping Guide is one approach to laying out a site map, however this can and should be adapted based on the context and its audience.
 :::
 
 The following list of layers and elements can be included in the final output:

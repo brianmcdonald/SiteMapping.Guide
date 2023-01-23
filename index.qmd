@@ -26,13 +26,13 @@ While no strict definition of a site map exists, this guidance considers site ma
 :::{.callout-note}
 ## Note
 
-Infographics or maps, which focus on needs or activity/output-level indicators are, for the purpose of this document, considered as Site Profiles rather than Site Maps and are beyond the scope of this guide.
+Infographics or maps that present the needs or activity/output-level indicators are, for the purpose of this document, considered as Site Profiles rather than Site Maps and are beyond the scope of this guide.
 :::
 
 ## Audience
-This guide is for any Camp Coordination Camp Management, Shelter, or assessment actor, working in humanitarian contexts, requiring site maps to do site planning, camp coordination or risk analysis and working at either agency or inter-agency level. 
+This guide is for any Camp Coordination Camp Management, Shelter, WASH or assessment actor, working in humanitarian contexts, requiring site maps to do site planning, camp coordination or risk analysis and working at either agency or inter-agency level. 
 
-While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. Learning materials and training resources for first-time GIS users can be found [here](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html). 
+While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from digitising, creating and visualising spatial data to exporting and disseminating standardized site maps. Learning materials and training resources for first-time GIS users can be found [here](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html). 
 
 While the guidance is relevant for all humanitarian staff, sections that are specifc to IOM can be found in blue boxes like the following:
 
@@ -42,11 +42,11 @@ Sections in the guidance that are specific to IOM staff will appear in boxes lik
 :::
 
 ## When and how to use site maps
-Site maps can illustrate camp settings in both sudden-onset disasters as well as protracted emergencies. Site maps are relevant throughout the camp lifecycle and support the set-up, care and maintenance, closure and post-closure or recovery stages of a camp by being used to support the following activities: 
+Site maps can illustrate camp and camp-like settings in both sudden-onset disasters as well as protracted emergencies. Site maps are relevant throughout the camp lifecycle and support the set-up, care and maintenance, closure and post-closure or recovery stages of a site by being used to support the following activities: 
 
 - **Site planning** during sudden-onset emergencies or protracted crises.
 
-- **Site improvements** - using site maps to plan improvements to infrastructure and site layout for disability and inclusion, GBV and fire hazard risk mitigation.
+- **Site improvements** where site maps can be used to design and plan improvements to site infrastructure and layout for disability and inclusion, GBV and fire hazard risk mitigation.
 
 - **Site-level camp coordination** amongst service providers and ensuring coordination in the establishment of essential site infrastructure and camp services.
 

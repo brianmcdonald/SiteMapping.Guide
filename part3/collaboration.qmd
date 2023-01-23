@@ -43,12 +43,12 @@ Whilst this guide accompanies site mappers through the process of creating maps 
 
 Similarly, data in GIS or the dataset generated in the proccess of analysing and compiling the data into site maps can be exported into CAD for site planning purpose. 
 
-## Generating, reading and annotating geoPDFs or GPS Exchange format files
+## Generating, reading and annotating geoPDFs, GPS Exchange Format or KMZ files.
 In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information. 
 
 GeoPDFs can be imported into [Avenza maps](https://www.avenzamaps.com/mobile-maps?campaignid=10221828697&adgroupid=102940455500&adid=453328850375&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAxTp38Kmz11Ou-eCXzYSF_EkQpvBq3PvAo3sxuIS88hZMkaglVMWSAaAtEFEALw_wcB). The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
 
-GIS maps can also be used by some GPS devices. The data can be annotated directly in the device however this depends on the device. Export the data layers from GIS as a GPX file for upload into the device.
+GIS maps can also be used by some GPS devices. The data can be annotated directly in the device however this depends on the device. Using the QGIS plugin "GarminCustomMap" the map canvas can be exported to a .kmz file to use the map as a background map in the device. The list of compatable GPS devices for this is available [here](https://plugins.qgis.org/plugins/GarminCustomMap/). Another option is to export individual layers in GPZ format to upload into the GPS device.
 
 ## Gathering feedback and map iterations
 Through Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.  
