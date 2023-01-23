@@ -30,21 +30,25 @@ GIS and CAD interoperability is key to developing sustainable site data lifecycl
 |-------|--------|
 |Design and Drafting tool|Data gathering, display and analysis tool|
 |Allows for survey-level precision|Allows for attributes/ information to describe features|
-|Produce construction documentation and plans|Conduct data analysis and display data/ produce thematic maps|
+|Produce construction documentation and plans|Conduct data analysis and display data/ produce thematic maps (terrain analysis, generate point clouds; <br><br> Install plugins to integrate satellite imagery directly into GIS site mapping project space; <br><br> Install other plugins such as water supply simulation tools (Epanet) or flooding analysis tools (for example RiverGIS for HEC-RAS)|
 
 Whilst this guide accompanies site mappers through the process of creating maps using GIS software, some mappers may have a preference for CAD software or some exisiting site data may be in CAD format. CAD files and data can be used to generate data layers in GIS systems however this depends on the CAD files conforming to the following standards:
-- the data must be cleaned and free from drafting errors
-- each layer must contain only one type of geometry
-- the dataset comes with metadata (information about a database typically in a XML or HTML doc: list of layers, coordinate system, scaling factors etc)
-- the file does not contain 'extra' uneccessary layers
-- the data must be either in real-world units or if the scaling factor is provided in the metadata
+1. The data must be cleaned and free from drafting errors;
+2. Each layer must contain only one type of geometry;
+3. The file does not contain 'extra' uneccessary layers;
+3. The data should be exported from CAD as a DWG or DXF file;
+4. The data should have a defined coordinate system so that it can be properly positioned in GIS; 
+4. The dataset comes with metadata (information about a database typically in a XML or HTML doc: list of layers, coordinate system, scaling factors etc);
+5. The data must be either in real-world units or if the scaling factor is provided in the metadata.
 
 Similarly, data in GIS or the dataset generated in the proccess of analysing and compiling the data into site maps can be exported into CAD for site planning purpose. 
 
-## Generating, reading and annotating geoPDFs
+## Generating, reading and annotating geoPDFs or GPS Exchange format files
 In the previous section, we looked at exporting print layouts as GeoPDFs. GeoPDFs are PDFs with embedded georeferenced location information. 
 
 GeoPDFs can be imported into [Avenza maps](https://www.avenzamaps.com/mobile-maps?campaignid=10221828697&adgroupid=102940455500&adid=453328850375&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAxTp38Kmz11Ou-eCXzYSF_EkQpvBq3PvAo3sxuIS88hZMkaglVMWSAaAtEFEALw_wcB). The app uses the built in GPS in a tablet or smartphone to locate users when out of range of a network or internet connection. Users can mark points of interest, attach photos with exact location, and add annotations to existing features. 
+
+GIS maps can also be used by some GPS devices. The data can be annotated directly in the device however this depends on the device. Export the data layers from GIS as a GPX file for upload into the device.
 
 ## Gathering feedback and map iterations
 Through Focus group discussions and site walks, the site maps can be annotated by different stakeholders to mark for example, errors in the map, changes in the layout of the site, the location of new or closed services etc. The site map can either be project or printed in large formats or imported in Avenza map to be used during site walks in order to determine the precise location of different features.  

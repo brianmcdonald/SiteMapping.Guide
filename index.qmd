@@ -32,7 +32,7 @@ Infographics or maps, which focus on needs or activity/output-level indicators a
 ## Audience
 This guide is for any Camp Coordination Camp Management, Shelter, or assessment actor, working in humanitarian contexts, requiring site maps to do site planning, camp coordination or risk analysis and working at either agency or inter-agency level. 
 
-While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. Learning materials and training resources for first-time GIS users can be found [here](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html).
+While some prior knowledge of GIS software is beneficial for those who plan to use this guide, it is not a prerequisite. We hope that the steps documented in the below chapters are sufficient in detail and clarity for first-time users and will accompany new and experienced site mappers through the process of making site maps, from creating and visualising spatial data to exporting and disseminating standardized site maps. Learning materials and training resources for first-time GIS users can be found [here](https://www.qgis.org/en/site/forusers/trainingmaterial/index.html). 
 
 While the guidance is relevant for all humanitarian staff, sections that are specifc to IOM can be found in blue boxes like the following:
 
