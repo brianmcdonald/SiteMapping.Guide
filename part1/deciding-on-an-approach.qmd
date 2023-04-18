@@ -14,7 +14,6 @@ Each of these approaches have advantages and disadvantages and it is important t
 | *Scenario* | *Satellite Imagery* | *UAV imagery* |
 |------------|------------------------------|------------------------|
 |A site map is needed in the fastest time possible|✔|✔|
-
 |Very detailed imagery is required|❌|✔|
 |The site is in a conflict affected area|✔|❌|
 |There is persistent cloud-cover over the site|❌|✔|
