@@ -60,7 +60,7 @@
     "href": "part1/deciding-on-an-approach.html#decision-matrix",
     "title": "2  Deciding on an approach",
     "section": "2.1 Decision Matrix",
-    "text": "2.1 Decision Matrix\n\n\n\nScenario\nSatellite Imagery\nUAV imagery\n\n\n\n\nA site map is needed in the fastest time possible\n✔\n✔\n\n\n\n|Very detailed imagery is required|❌|✔| |The site is in a conflict affected area|✔|❌| |There is persistent cloud-cover over the site|❌|✔| |The location of the site is inaccessible|✔|❌| |Need to build DM or 3D model|✔|✔| |Need to conduct further analysis and thematic hazard maps (Vegetation cover analysis, Fire hazard/ extent, Flood hazard/ extent ) |✔|❌|"
+    "text": "2.1 Decision Matrix\n\n\n\n\n\n\n\n\nScenario\nSatellite Imagery\nUAV imagery\n\n\n\n\nA site map is needed in the fastest time possible\n✔\n✔\n\n\nVery detailed imagery is required\n❌\n✔\n\n\nThe site is in a conflict affected area\n✔\n❌\n\n\nThere is persistent cloud-cover over the site\n❌\n✔\n\n\nThe location of the site is inaccessible\n✔\n❌\n\n\nNeed to build DM or 3D model\n✔\n✔\n\n\nNeed to conduct further analysis and thematic hazard maps (Vegetation cover analysis, Fire hazard/ extent, Flood hazard/ extent )\n✔\n❌"
   },
   {
     "objectID": "part1/deciding-on-an-approach.html#information-needs",
