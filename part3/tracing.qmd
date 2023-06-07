@@ -1,6 +1,6 @@
 # Tracing and labeling
 
-Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery. The site mapper can either **manually** or **automatically** trace and label these features.The site features to be extracted from the aerial imagery will depend on the needs, objective and audience of the site map. 
+Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery. The site mapper can either **manually** or **automatically** trace and label site features. The site features that will be extracted from the aerial imagery will depend on the specific needs for, objectives and audience of the site map. 
 
 For instance, the site mapper may look to map the location and configuration of shelters in a site. Post-processing of the image will consist of generating a new data layer of shelter outlines.
 
@@ -27,11 +27,11 @@ Below are some tools which can assist you in creating a workflow for automatic s
 
 - Create a training data set from aerial imagery with [Groundwork.azavea](https://groundwork.azavea.com/). When signing up with Groundwork, up to 10 campaigns (projects) can be created free of charge when creating an account. Upload orthomosaic image to Groundwork, label features and export the training data in .json format. 
 
-- Extract shelter outlines from aerial imagery using [Mapflow.ai](https://mapflow.ai/)'s built in deep learning and semantic segmentation models. After signing up, create a new project. 
+- Extract shelter outlines from aerial imagery using [Mapflow.ai](https://mapflow.ai/)'s built in deep learning and semantic segmentation models. After signing up, create a new project. Mapflow can also be used as a plugin in QGIS and can be downloaded from [here](https://plugins.qgis.org/plugins/mapflow/). Further guidance on how to install the Mapflow QGIS plugin is available [here](https://docs.mapflow.ai/api/qgis_mapflow#user-interface). 
 
 ::: {.callout-warning}
 ## Tiff vs GeoTiff
-In order to use your orthomosaic in Mapflow.ai, you may need to [georeference your image](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_raster/georeferencer.html) in QGIS beforehand and export it as a GeoTiff with either web mercator, UTM or lat-lon coordinate systems. 
+In order to use your orthomosaic in Mapflow.ai, you may need to [georeference your image](https://docs.qgis.org/3.28/en/docs/user_manual/working_with_raster/georeferencer.html) in QGIS beforehand and export it as a GeoTiff with either web mercator, UTM or lat-lon coordinate systems. 
 :::
 
-Mapflow can also be used as a plugin in QGIS and can be downloaded from [here](https://plugins.qgis.org/plugins/mapflow/). Further guidance on how to install the Mapflow QGIS plugin is available [here](https://docs.mapflow.ai/api/qgis_mapflow#user-interface). 
+- Segment GeoTIFF files using Segment Anything Model and save segmentation results in vector format with [SamGeo's Automatic Mask Generator notebook](https://colab.research.google.com/github/opengeos/segment-geospatial/blob/main/docs/examples/automatic_mask_generator.ipynb). This video tutorial takes you through how to use this notebook [here](https://www.youtube.com/watch?v=YHA_-QMB8_U&ab_channel=QiushengWu). 
