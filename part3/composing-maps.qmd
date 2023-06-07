@@ -2,7 +2,7 @@
 Site maps are composed of layers of geographic information/ data. These data layers are loaded and manipulated in a Geographical Information System (GIS) such as QGIS, ArcGIS and others. After layers are correctly projected onto their corresponded geographic location and different visualization settings are applied, a layout is composed (either from scratch or from an existing site map template).The layout is then exported to PDF or geoPDF. Styled and raw data layers can can be saved into a Geopackge for a seamless transfer of geographical information between mappers and future mappers.
 
 ## Examples of site maps
-Below are some examples of site maps. More examples can be found [here](add link).
+Below are some examples of site maps. More examples can be found [here](https://iomint.sharepoint.com/:f:/s/GlobalCCCM/EnCSXoi4w45FgeRl9rZYWMQBJe5HAFRvIyAwWVY3dmUuog?e=VdTyPL).
 
 ::: {#fig-examples layout-ncol=2}
 
@@ -28,7 +28,7 @@ To prepare the site map, [load the data layers](https://docs.qgis.org/2.8/en/doc
 Most publicly available geographic information datasets are projected in a world Coordinate Reference System (CRS) (WGS 84). When loading a layer projected in a whole world CRS, the layer will look slightly distorted in the workspace. Ensure that the [Project  CRS](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#project-coordinate-reference-systems) is set to the area of your site location.  You can use the [epsg.io](https://epsg.io/) database of coordinate systems to know the coordinate system you should be using for you context. All loaded data layers need to be checked and [projected](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html#layer-coordinate-reference-systems) where needed, according to the project CRS.
 
 ### Layers and elements of a site map
-This guide is accompanied by a site map template which can be loaded into QGIS's Print Composer. Below is a dummy example of a site map produced using this template.
+This guide is accompanied by a site map template which can be loaded into QGIS's Print Composer. Below is a dummy example of a site map produced using [this template](.
 
 ![An example of a dummy site map composed in QGIS using the site map template included in this guide.<br> *Source: IOM*](/part3/images/dummy_site_map.png){.column-page-right width=91% }
 
@@ -126,7 +126,7 @@ Any saved changes made to a data layer in QGIS will also change the source file.
 :::
 
 ### Print Layouts and Using Templates
-With QGIS's layout composer, you can [create layouts](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager) or use existing layout templates. The template file can be downloaded [here](add link). Once the layout is complete, [save and export the print layout](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html) as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select [export as vectors](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings)), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting 'Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to [Section 7: Collaboration](https://sitemapping.guide/part3/collaboration.html) for why you should export your site map alsp as a GeoPDFs)
+With QGIS's layout composer, you can [create layouts](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#the-layout-manager) or use existing layout templates. The template file can be downloaded [here](https://iomint.sharepoint.com/:u:/r/sites/GlobalCCCM/Shared%20Documents/02%20Global%20Projects/DP.2367%20PRM%20GBV%20Phase%20VII/06%20Project%20Implementation/Site%20Mapping%20Toolkit/Site%20Map%20Layout%20Template.qpt?csf=1&web=1&e=74wKDC). Once the layout is complete, [save and export the print layout](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/create_output.html) as an image, an svg (for future editing in other software such as Adobe Illustrator or InkScape, select [export as vectors](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/overview_composer.html#layout-export-settings)), or as a PDF. If saving as a PDF, consider saving the layout as a GeoPDF by selecting 'Create Geospatial PDF (GeoPDF) in the export PDF settings (refer to [Section 7: Collaboration](https://sitemapping.guide/part3/collaboration.html) for why you should export your site map alsp as a GeoPDFs)
 
 ### Saving the data layers and styles into a Geopackage
 Data layers are saved on your local computer. To facilitate sharing geographic information, data layers can be compressed into a [**Geopackage**](https://docs.qgis.org/3.22/en/docs/user_manual/managing_data_source/supported_data.html?highlight=fields%20attributes#geopackage). The QGIS project and all the data used in the project can be saved using the [Package Layers tool](https://www.cadlinecommunity.co.uk/hc/en-us/articles/4403555255697-QGIS-Package-Layers) and easily shared and stored as such for future use. 
