@@ -285,7 +285,7 @@ gtag('config', 'G-1VKZ523FKH', { 'anonymize_ip': true});
 
 </header>
 
-<p>Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery. The site mapper can either <strong>manually</strong> or <strong>automatically</strong> trace and label these features.The site features to be extracted from the aerial imagery will depend on the needs, objective and audience of the site map.</p>
+<p>Once the aerial imagery has been obtained, two primary post-processing approaches are involved to extract the geographic information of different site features from the imagery. The site mapper can either <strong>manually</strong> or <strong>automatically</strong> trace and label site features. The site features that will be extracted from the aerial imagery will depend on the specific needs for, objectives and audience of the site map.</p>
 <p>For instance, the site mapper may look to map the location and configuration of shelters in a site. Post-processing of the image will consist of generating a new data layer of shelter outlines.</p>
 <p>It is important to be aware of the advantages and the disadvantages of choosing whether to manually or automatically trace and label site features in order to determine which option is most suited. The table below presents a summary of both.</p>
 <table class="table">
@@ -332,7 +332,7 @@ Note
 <p>Below are some tools which can assist you in creating a workflow for automatic shelter detection:</p>
 <ul>
 <li><p>Create a training data set from aerial imagery with <a href="https://groundwork.azavea.com/">Groundwork.azavea</a>. When signing up with Groundwork, up to 10 campaigns (projects) can be created free of charge when creating an account. Upload orthomosaic image to Groundwork, label features and export the training data in .json format.</p></li>
-<li><p>Extract shelter outlines from aerial imagery using <a href="https://mapflow.ai/">Mapflow.ai</a>’s built in deep learning and semantic segmentation models. After signing up, create a new project.</p></li>
+<li><p>Extract shelter outlines from aerial imagery using <a href="https://mapflow.ai/">Mapflow.ai</a>’s built in deep learning and semantic segmentation models. After signing up, create a new project. Mapflow can also be used as a plugin in QGIS and can be downloaded from <a href="https://plugins.qgis.org/plugins/mapflow/">here</a>. Further guidance on how to install the Mapflow QGIS plugin is available <a href="https://docs.mapflow.ai/api/qgis_mapflow#user-interface">here</a>.</p></li>
 </ul>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -344,10 +344,12 @@ Tiff vs GeoTiff
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>In order to use your orthomosaic in Mapflow.ai, you may need to <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_raster/georeferencer.html">georeference your image</a> in QGIS beforehand and export it as a GeoTiff with either web mercator, UTM or lat-lon coordinate systems.</p>
+<p>In order to use your orthomosaic in Mapflow.ai, you may need to <a href="https://docs.qgis.org/3.28/en/docs/user_manual/working_with_raster/georeferencer.html">georeference your image</a> in QGIS beforehand and export it as a GeoTiff with either web mercator, UTM or lat-lon coordinate systems.</p>
 </div>
 </div>
-<p>Mapflow can also be used as a plugin in QGIS and can be downloaded from <a href="https://plugins.qgis.org/plugins/mapflow/">here</a>. Further guidance on how to install the Mapflow QGIS plugin is available <a href="https://docs.mapflow.ai/api/qgis_mapflow#user-interface">here</a>.</p>
+<ul>
+<li>Segment GeoTIFF files using Segment Anything Model and save segmentation results in vector format with <a href="https://colab.research.google.com/github/opengeos/segment-geospatial/blob/main/docs/examples/automatic_mask_generator.ipynb">SamGeo’s Automatic Mask Generator notebook</a>. This video tutorial takes you through how to use this notebook <a href="https://www.youtube.com/watch?v=YHA_-QMB8_U&amp;ab_channel=QiushengWu">here</a>.</li>
+</ul>
 
 
 </section>
