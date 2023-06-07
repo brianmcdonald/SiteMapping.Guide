@@ -57,7 +57,7 @@ Site maps can illustrate camp and camp-like settings in both sudden-onset disast
 [![Rehabilation of Wau PoC site<br> *Source: IOM*](images/wau1.jpg)](images/wau1.jpg)
 
 ## Acknowledgments
-This guide was developed by IOM, with considerable inputs, support and feedback by many experts in fields such as site planning, GIS, CCCM and GBV. Financial support for this guide was generously provided by United States Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. A full list of names of those who contributed or support to this guide can be found in the [acknowledgements annex](/annexes/acknowledgements.html).
+This guide was developed by International Organisation for Migration in 2022 and 2023, with considerable inputs, support and feedback from experts in fields such as site planning, GIS, CCCM, GBV and WASH. Financial support for this guide was generously provided by the United States Department of State's Bureau of Population, Refugees, and Migration (BPRM) through the Safe From the Start Initiative. This guide was compiled by Brian Mc Donald and Manon Jones from IOM HQ Global CCCM with feedback and inputs from  Wan Sophonpanich, Amina Saoudi, Patricia Ocana, Amalia Torres, Jennifer Kvernmo, Louise Mary O Shea, Agnes Kwoba Olusese, Agnes Tillinac, Andrea Cippa (SDC), Jim Kennedy, Jessica Mamo (IOM), Joseph Ashmore (IOM), and Baudoin Luce (IOM).
 
 ## Feedback
 Many of the approaches and software/hardware tools are quickly evolving and improving. As such, we consider this guide to be a living document. If you have any suggestions on how we can improve this guide, please reach out to majones@iom.int and bmcdonald@iom.int.
